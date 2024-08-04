@@ -9,11 +9,11 @@ public class InfixToPostfix {
         System.out.println(infixPostfix("(a+b)*d-(a*b)/f"));
         String x2 ="a";
         
-        System.out.println(x2.equals(x2));
+        System.out.println(false);
 	}
 	
 	public static String infixPostfix(String str) {
-		String ans = new String();
+		StringBuilder ans = new StringBuilder();
 		
 		Stack<Character> st = new Stack<>();
 		
@@ -21,22 +21,22 @@ public class InfixToPostfix {
 			char x=str.charAt(i);
 //			System.out.println(st);
 			if((x>='a' && x<='z')){
-				
-				ans+=x;
+
+				ans.append(x);
 			}
 			else if(x=='(') {
 				st.push(x);
 			}
             else if(x==')') {
 				while(st.peek()!='(') {
-					ans+=st.pop();
+					ans.append(st.pop());
 				}
 				st.pop();
 			}
             else{
             	
             	 while( !st.isEmpty() && st.peek()!='(' && checkPriority(x)<=checkPriority(st.peek())) {
-            			ans+=st.pop();
+            			ans.append(st.pop());
             		}
             		st.push(x);
             	}
@@ -46,34 +46,27 @@ public class InfixToPostfix {
 		}
 		System.out.println(st);
 		while(!st.isEmpty()) {
-		ans+=st.pop();
+		ans.append(st.pop());
 	}
-		return ans;
+		return ans.toString();
 		
 	}
 
 	private static int checkPriority(Character k) {
 		// TODO Auto-generated method stub
-		switch(k){
-        case '+':
-        
-        case '-':
-        return 1;
-        case '*':
-       
-        case '/':
-        return 2;
-        case '^':
-        return 3;
-
-    }
+        return switch (k) {
+            case '+', '-' -> 1;
+            case '*', '/' -> 2;
+            case '^' -> 3;
+            default ->
 //		if(k == '^')
 //            return 3;
 //        else if(k == '/' || k == '*')
 //            return 2;
 //        return 1;
-		return 0;
-		
-	}
+                    0;
+        };
+
+    }
 
 }

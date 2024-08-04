@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class HandsOn1_Book {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		Class.forName("oracle.jdbc.driver.OracleDriver");//type of  driver and database name
-		Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","mayuri","mayuri");
+//		.Class.forName("oracle.jdbc.driver.OracleDriver");//type of  driver and database name
+		Connection con=DriverManager.getConnection("jdbc:postgresql://localhost/demo","postgres","Rup#1904");
 		
 		Scanner s= new Scanner(System.in);
 			

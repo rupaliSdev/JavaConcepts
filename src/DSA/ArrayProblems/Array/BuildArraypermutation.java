@@ -12,8 +12,15 @@ public class BuildArraypermutation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+        int[] arr ={0,2,1,5,3,4};
+        arr=buildArrayMyWay(arr);
+
+        for (int i=0;i<arr.length;i++){
+            System.out.print(arr[i]);
+        }
+
 	}
-	public int[] buildArray(int[] nums) {
+	public static int[] buildArray(int[] nums) {
         //int[] arr = new int[nums.length];
         int n = nums.length;
         for(int i = 0;i<n;i++){
@@ -21,6 +28,25 @@ public class BuildArraypermutation {
         }
         for(int i = 0;i<n;i++){
            nums[i]  = nums[i]/n;
+        }
+        return nums;
+    }
+
+    public static int[] buildArrayMyWay(int[] nums) {
+        //int[] arr = new int[nums.length];
+        int n = nums.length;
+        for(int i = 0;i<n;i++){
+
+            int x=(n *( nums[nums[i]] %n ) );
+            nums[i]  =  x
+                    + nums[i];
+        }
+        for(int i = 0;i<n;i++){
+            nums[i]  = nums[i]/n;
+        }
+
+        for (int i=0;i<nums.length;i++){
+            System.out.print(nums[i]);
         }
         return nums;
     }

@@ -1,15 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/Annotations/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/reflection/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/reflection/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/CyclicSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/prefixSum/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountsubArrayequalK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcepts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/hashset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/BuildArraypermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/BuildArraypermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/stack/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/stack/InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC_Demo/jdbc/HandsOn1_Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC_Demo/jdbc/HandsOn1_Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/demoJdbc/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/demoJdbc/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/demoJdbc/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/demoJdbc/student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rupaliSdev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/170215/JavaConcepts.git&quot;,
+    &quot;accountId&quot;: &quot;fb071b10-ef67-4b77-8b1b-3224882f4c30&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.11/Contents/Home/lib/src.zip!/java.base/java/lang/SafeVarargs.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dwxyuHSEIYXco7f3K0EBK9wPpi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,20 +70,158 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuildArraypermutation.executor": "Debug",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.CountSubArrayDivisibleByK.executor": "Debug",
+    "Application.CountsubArrayequalK.executor": "Debug",
+    "Application.CyclicSort.executor": "Run",
+    "Application.HandsOn1_Book.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
+    "Application.JavaOracleUpdate.executor": "Run",
+    "Application.SpiralProblems.executor": "Run",
+    "Application.demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rupalisahu/Documents/GitHub/JavaConcepts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Basic.Enum.Example" />
+  <component name="RunManager" selected="Application.HandsOn1_Book">
+    <configuration name="BuildArraypermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.BuildArraypermutation" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.Basic.Enum.*" />
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSubArrayDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountSubArrayDivisibleByK" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountsubArrayequalK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountsubArrayequalK" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountsubArrayequalK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountsubArrayequalK" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.CyclicSort" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.CyclicSort" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandsOn1_Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC_Demo.jdbc.HandsOn1_Book" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC_Demo.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaOracleUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC_Demo.jdbc.JavaOracleUpdate" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC_Demo.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.reflection.demo" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.reflection.demo" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -41,9 +231,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.HandsOn1_Book" />
+        <item itemvalue="Application.JavaOracleUpdate" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.CountsubArrayequalK" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +256,33 @@
       <option name="presentableId" value="Default" />
       <updated>1710933201630</updated>
       <workItem from="1710933202658" duration="1000" />
+      <workItem from="1710957659743" duration="1401000" />
+      <workItem from="1711299020844" duration="222000" />
+      <workItem from="1713231989403" duration="2860000" />
+      <workItem from="1713727781241" duration="627000" />
+      <workItem from="1714505226057" duration="1006000" />
+      <workItem from="1715185064571" duration="1856000" />
+      <workItem from="1715369696778" duration="688000" />
+      <workItem from="1715411013523" duration="2137000" />
+      <workItem from="1715498990677" duration="1103000" />
+      <workItem from="1715701556179" duration="73000" />
+      <workItem from="1716059007049" duration="3821000" />
+      <workItem from="1716241907017" duration="535000" />
+      <workItem from="1716405884925" duration="695000" />
+      <workItem from="1716490741038" duration="3325000" />
+      <workItem from="1718571427899" duration="1872000" />
+      <workItem from="1718641882434" duration="4076000" />
+      <workItem from="1718736264900" duration="3836000" />
+      <workItem from="1718743839923" duration="791000" />
+      <workItem from="1718894435959" duration="1293000" />
+      <workItem from="1719029313418" duration="8799000" />
+      <workItem from="1720467537569" duration="2585000" />
+      <workItem from="1720470141779" duration="982000" />
+      <workItem from="1720595815313" duration="5441000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

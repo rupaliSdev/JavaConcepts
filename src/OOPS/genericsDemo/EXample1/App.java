@@ -22,6 +22,8 @@ public class App {
         while(it.hasNext()){
             System.out.println(it.next());
         }
+        //raw without any type argument
+        GenericClass gn=new GenericClass<>("rupali");
 
 
 

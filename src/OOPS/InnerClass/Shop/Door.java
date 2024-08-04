@@ -15,6 +15,7 @@ public class Door {
             System.out.println("Welcome ,our shop is open ");
         }
     }
+    //member inner class: class defined inside a class
     class Lock{
         private boolean lock ;
 

@@ -11,11 +11,12 @@ public class Student implements Cloneable {
         this.age=age;
         this.address = address;
     }
-
+  //shallow copy constructor
     public Student(Student st) {
 
         this.name= st.name;
-        this.address=st.address;
+        //deep copy
+        this.address=new Address(st.address.street,st.address.city);
         this.age=st.age;
     }
 

@@ -10,9 +10,11 @@ public class client {
         t1.start();
         t2.start();
 
-        t1.join();
-        System.out.println(c.val);
         t2.join();
+        t1.join();
+
+
+        Thread.sleep(1000);
         System.out.println(c.val);
 
     }

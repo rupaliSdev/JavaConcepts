@@ -11,6 +11,9 @@ public class App {
         lst.add(4);
         d.printElementList(lst);
         System.out.println("***********");
+        d.display(lst);
+        System.out.println("***********");
+
         List<String> lst1 = new ArrayList<String>();
         lst1.add("rupali");
         lst1.add("Aanchal");
@@ -22,6 +25,7 @@ public class App {
         System.out.println("***********");
         String[] str=new String[]{"rupali","sahu"};
         d.printElementArray(str);
+
     }
 }
 
@@ -45,5 +49,9 @@ class Data{
         for(E e:arrayData){
             System.out.println(e);
         }
+    }
+
+    public <T> void display(List<T> data){
+        System.out.println(data);
     }
 }

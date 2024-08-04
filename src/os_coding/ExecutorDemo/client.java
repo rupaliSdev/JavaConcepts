@@ -15,8 +15,7 @@ public class client {
         System.out.println("hello");
         for(int i=1;i<=100;i++){
             PrintTheNumber ptn = new PrintTheNumber(i);
-//            Thread t = new Thread(ptn);
-//            t.start();
+
             if(i==5 || i==10 || i==25){
                 System.out.println("hello");
             }
@@ -24,8 +23,9 @@ public class client {
             exservice.execute(ptn);
             count++;
         }
-        System.out.println(count);
-        //exservice.shutdown();
+
+       // exservice.shutdown();
+        //System.out.println(count);
 
 
     }

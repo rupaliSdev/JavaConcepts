@@ -1,7 +1,7 @@
 package OOPS.InnerClass.LocalInnerClass;
 
 public class Door {
-
+// local inner class: class defined inside a method or a block
     public boolean isLocked(String key){
 
         class Lock{

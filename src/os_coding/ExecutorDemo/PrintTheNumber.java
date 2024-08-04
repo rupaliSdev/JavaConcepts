@@ -1,13 +1,14 @@
 package os_coding.ExecutorDemo;
-//import java.lang.Runnable;
 
-public class PrintTheNumber implements Runnable{
-    int numberToprint;
-    PrintTheNumber(int num){
-        this.numberToprint=num;
-    }
-    public void run(){
-           System.out.println(numberToprint+" thread"+Thread.currentThread().getName());
+public class PrintTheNumber implements  Runnable {
+    int numberToPrint;
+
+    public PrintTheNumber(int numberToPrint) {
+        this.numberToPrint = numberToPrint;
     }
 
+    @Override
+    public void run() {
+        System.out.println("the no to be printed is "+numberToPrint + " at thread "+Thread.currentThread().getName());
+    }
 }

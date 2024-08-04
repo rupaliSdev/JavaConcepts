@@ -12,6 +12,11 @@ public class Demo {
 		lst.add(new Employee("rupali",90,70000));
 		lst.add(new Employee("Nidhi",40,50000));
 		lst.add(new Employee("Poorva",50,40000));
+
+		Collections.sort(lst, (a,b)->{
+			return a.getName().compareTo(b.getName());
+		});
+
 		
 		Collections.sort(lst,new Comparator<Employee>() {
 		public int compare(Employee a,Employee b) {

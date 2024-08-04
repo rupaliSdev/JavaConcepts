@@ -23,6 +23,10 @@ public class map {
 		for(Entry<String,Integer>entry :map.entrySet()) {
 			System.out.println(entry.getValue() +" "+ entry.getKey());
 		}
+
+		for(Entry<String,Integer> entry:map.entrySet()){
+
+		}
 		
 		System.out.println(map.toString());
 

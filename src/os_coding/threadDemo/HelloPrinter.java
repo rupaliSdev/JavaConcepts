@@ -3,7 +3,7 @@ import java.lang.*;
 public class HelloPrinter implements Runnable{
     @Override
     public void run() {
-        System.out.println("hello thread ---"+ Thread.currentThread().getName());
+        System.out.println(" hello thread ---"+ Thread.currentThread().getName());
         doSomething();
     }
 

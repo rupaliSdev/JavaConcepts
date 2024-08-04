@@ -3,11 +3,11 @@ package OOPS.polymorphism.Overriding;
 public class App {
     public static void main(String[] args) {
          superClass sc= new subClass(2,4);
-         subClass sc1= new subClass(2,4);
+        // subClass sc1= new subClass(2,4);
          sc.showData();
-         sc1.showData();
-         sc.hello();
-         sc1.hello();
+         //sc1.showData();
+         //sc.hello();
+         //sc1.hello();
 
     }
 }
@@ -20,7 +20,7 @@ class superClass {
         System.out.println("hey it's super class");
         this.a = 2 * a;
         this.b = 2 * b;
-        System.out.println("variables are" + this.a + " " + this.b);
+        System.out.println("variables are " + this.a + " " + this.b);
     }
 
     public void showData() {
@@ -42,7 +42,7 @@ class subClass extends superClass {
         System.out.println("hey it's subclass");
         this.a = a;
         this.b = b;
-        System.out.println("variables are" + a + " " + b);
+        System.out.println("variables are " + a + " " + b);
     }
 
     public void showData() {

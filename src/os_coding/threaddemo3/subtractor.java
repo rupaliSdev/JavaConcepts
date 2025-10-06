@@ -7,8 +7,10 @@ public class subtractor implements Runnable{
     }
     @Override
     public void run() {
+
         for(int i=1;i<10000;i++){
             c.val-=1;
         }
+        System.out.println("subtractor");
     }
 }

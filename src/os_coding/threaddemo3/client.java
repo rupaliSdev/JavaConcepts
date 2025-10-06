@@ -13,9 +13,8 @@ public class client {
         t2.join();
         t1.join();
 
-
-        Thread.sleep(1000);
-        System.out.println(c.val);
+        //Thread.sleep(1000);
+        System.out.println("hello");
 
     }
 }

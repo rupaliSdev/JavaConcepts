@@ -74,6 +74,34 @@ public class basics {
 		
 	}
 
+	private static lnode deleteKthPositionfromTheLast(lnode r1, int k) {
+		// TODO Auto-generated method stub
+		lnode slow=r1,fast = r1;
+		if(k<0) {
+			return r1;
+		}
+
+		for(int i=1;i<k && fast!=null ;i++) {
+             fast=fast.next;
+		}
+
+		if(fast==null)
+		{
+            return r1.next;
+		}
+		while (fast!=null){
+			fast=fast.next;
+			slow= slow.next;
+		}
+
+		slow.next = slow.next.next;
+
+		return  r1;
+
+	}
+
+
+
 	private static lnode insertKthPosition(lnode r1, int k, int x) {
 		// TODO Auto-generated method stub
 		lnode curr=r1;

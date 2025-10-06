@@ -2,6 +2,7 @@ package Basics.reflection;
 
 public class Eagle {
 
+
     private Eagle(){
 
     }
@@ -14,5 +15,21 @@ public class Eagle {
 
     private void eat(){
         System.out.println("eat");
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public boolean isCanSwim() {
+        return canSwim;
+    }
+
+    public void setCanSwim(boolean canSwim) {
+        this.canSwim = canSwim;
     }
 }

@@ -28,6 +28,7 @@ public class InvertBinaryTree {
         A.right = node;
         return A;
     }
+
 	public static int height(TreeNode A) {
 		if(A==null) {
 			return 0;
@@ -40,6 +41,7 @@ public class InvertBinaryTree {
 		}
 		return 1+(NoOfNodes(A.left)+NoOfNodes(A.right));
 	}
+
 	public static boolean findNode(TreeNode A,int x) {
 		if (A==null){
 			return false;

@@ -59,4 +59,11 @@ public class BasicProblems {
 		return false;
 	}
 
+	static boolean areMirror(TreeNode t1 ,TreeNode t2){
+		if(t1==null && t2==null) return  true;
+		if(t1==null || t2==null) return false;
+
+		return t1.val==t2.val && areMirror(t1.left,t1.right) && areMirror(t1.right, t2.left);
+	}
+
 }

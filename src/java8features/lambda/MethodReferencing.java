@@ -10,5 +10,7 @@ public class MethodReferencing {
         String[] lst= {"John","Rupali","Anchal"};
        // Class:: method we want to point
         Arrays.sort(lst,String::compareToIgnoreCase);
+
+
     }
 }

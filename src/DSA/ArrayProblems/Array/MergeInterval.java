@@ -4,10 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class MergeInterval {
 
@@ -35,6 +32,7 @@ public class MergeInterval {
 
 		Arrays.sort(intervals,(a, b)-> Integer.compare(a[0],b[0]));
 
+
 		List<int[]> res= new ArrayList<>();
 		int[] prev=intervals[0];
 
@@ -51,4 +49,22 @@ public class MergeInterval {
 
 		return res.toArray(new int[res.size()][2]);
 	}
+
+
+
+	public ArrayList<Interval> insert(ArrayList<Interval>vals, Interval newInterval) {
+
+		ArrayList<Interval> result = new ArrayList<>();
+
+		Collections.sort(result,(a, b)-> a.start- b.start);
+
+		return result;
+	}
+
+	public class Interval {
+       int start;
+	   int end;
+      Interval() { start = 0; end = 0; }
+      Interval(int s, int e) { start = s; end = e; }
+ }
 }

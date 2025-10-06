@@ -283,21 +283,26 @@ This reference is then stored in the variable.
 Thus, in Java, all class objects must be dynamically allocated.
 
 Box mybox; // declare reference to object
+
 mybox = new Box(); // allocate a Box object
+
 The first line declares mybox as a reference to an object of type Box. At this point, mybox does not yet refer to an
 actual object. The next line allocates an object and assigns a reference to it to mybox. After the second line executes,
 you can use mybox as if it were a Box object. But in reality, mybox simply holds, in essence, the memory address of the
 actual Box object.
+
 The key to Java’s safety is that you cannot manipulate references as you can actual pointers.
 Thus, you cannot cause an object reference to point to an arbitrary memory location or manipulate it like an integer.
 
 A Closer Look at new:
+
 classname class-var = new classname ( );
+
 Here, class-var is a variable of the class type being created. The classname is the name of the class that is being
 instantiated. The class name followed by parentheses specifies the constructor for the class. A constructor defines
 what occurs when an object of a class is created.
 
-You might be wondering why you do not need to use new for such things as integers or characters.
+#### You might be wondering why you do not need to use new for such things as integers or characters.
 The answer is that Java’s primitive types are not implemented as objects.
 Rather, they are implemented as “normal” variables.
 This is done in the interest of efficiency.
@@ -305,16 +310,18 @@ This is done in the interest of efficiency.
 It is important to understand that new allocates memory for an object during run time.
 
 Box b1 = new Box();
-Box b2 = b1;
+
+Box b2 = b1;\
 b1 and b2 will both refer to the same object. The assignment of b1 to b2 did not allocate any memory or copy any part
 of the original object. It simply makes b2 refer to the same object as does b1. Thus, any changes made to the object
 through b2 will affect the object to which b1 is referring, since they are the same object.
 When you assign one object reference variable to another object reference variable, you are not creating a copy of the
 object, you are only making a copy of the reference.
 
-int square(int i){
-return i * i;
-}
+int square(int i){\
+return i * i;\
+}\
+
 A parameter is a variable defined by a method that receives a value when the method is called. For example,
 in square( int i), i is a parameter. An argument is a value that is passed to a method when it is invoked.
 For example, square(100) passes 100 as an argument. Inside square( ), the parameter i receives that value.
@@ -324,35 +331,48 @@ Bus bus = new Bus();
 lhs(reference i.e. bus) is looked be compiler & rhs (object i.e. new Bus()) is looked by jvm
 
 
-#### constructor
+### constructor
 
 The this Keyword:
 Sometimes a method will need to refer to the object that invoked it. To allow this, Java defines the this keyword.
 this can be used inside any method to refer to the current object. That is, this is always a reference to the object on
 which the method was invoked.
 
-final Keyword:
+##### final Keyword:
 A field can be declared as final. Doing so prevents its contents from being modified, making it, essentially, a constant.
 This means that you must initialize a final field when it is declared.
 
-It is a common coding convention to choose all uppercase identifiers for final fields:
-final int FILE_OPEN = 2;
+It is a common coding convention to choose all uppercase identifiers for final fields:\
+##### final int FILE_OPEN = 2;
 
 Unfortunately, final guarantees immutability only when instance variables are primitive types, not reference types.
 If an instance variable of a reference type has the final modifier, the value of that instance variable (the reference
 to an object) will never change—it will always refer to the same object—but the value of the object itself can change.
+````
+final int x = 10;
+x = 20; // Compilation error
 
-The finalize( ) Method:
+````
+When you declare a reference type variable as final, it means the reference (i.e., memory address) cannot be changed, but the contents of the object it points to can be changed.
+````
+final List<String> names = new ArrayList<>();
+names.add("Alice"); // OK
+names = new ArrayList<>(); // Compilation error
+````
+Thus, immutability is not guaranteed, because the internal state (the list contents) can still change.
+
+#### The finalize( ) Method:
 Sometimes an object will need to perform some action when it is destroyed.
 To handle such situations, Java provides a mechanism called finalization. By using finalization,
 you can define specific actions that will occur when an object is just about to be reclaimed by the garbage collector.
 To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method whenever
 it is about to recycle an object of that class. Right before an asset is freed, the Java run time calls the finalize( )
 method on the object.
-
+````
 protected void finalize( ) {
 // finalization code here
 }
+````
 
 Constructors:
 
@@ -370,9 +390,9 @@ Inheritance and constructors in Java:
 In Java, constructor of base class with no argument gets automatically called in derived class constructor.
 For example, output of following program given below is:
 
-Base Class Constructor Called
+Base Class Constructor Called\
 Derived Class Constructor Called
-
+````
 // filename: Main.java
 class Base {
 Base() {
@@ -391,6 +411,7 @@ public static void main(String[] args) {
 Derived d = new Derived();
 }
 }
+````
 
 Any class will have a default constructor, does not matter if we declare it in the class or not. If we inherit a class,
 then the derived class must call its super class constructor. It is done by default in derived class.
@@ -420,7 +441,7 @@ By making enumerations into classes, the capabilities of the enumeration are gre
 An enumeration is created using the enum keyword.
 Enum declaration can be done outside a Class or inside a Class but not inside a Method
 We can declare main() method inside enum. Hence we can invoke enum directly from the Command Prompt.
-
+````
 /* internally above enum Color is converted to (Check Example.java)
 class Color
 {
@@ -428,12 +449,12 @@ public static final Color Red = new Color();
 public static final Color Blue = new Color();
 public static final Color Green = new Color();
 }*/
-
-Enum and Inheritance :
+````
+#### Enum and Inheritance :
 -All enums implicitly extend java.lang.Enum class. As a class can only extend one parent in Java,
 so an enum cannot extend anything else.
--An enum cannot be a superclass.
--toString() method is overridden in java.lang.Enum class, which returns enum constant name.
+-An enum cannot be a superclass.\
+-toString() method is overridden in java.lang.Enum class, which returns enum constant name.\
 -enum can implement many interfaces.
 
 Two enumeration constants can be compared for equality by using the == relational operator.
@@ -445,12 +466,12 @@ These methods are present inside java.lang.Enum.
 just like array index.
 -valueOf() method returns the enum constant of the specified string value, if exists.
 
-enum and constructor :
+### enum and constructor :
 -enum can contain constructor and it is executed separately for each enum constant at the time
-of enum class loading.
--We can’t create enum objects explicitly and hence we can’t invoke enum constructor directly.
--And the constructor cannot be the public or protected it must have private or default modifiers.
--Why? if we create public or protected, it will allow initializing more than one objects.
+of enum class loading.\
+-We can’t create enum objects explicitly and hence we can’t invoke enum constructor directly.\
+-And the constructor cannot be the public or protected it must have private or default modifiers.\
+-Why? if we create public or protected, it will allow initializing more than one objects.\
 -This is totally against enum concept.
 
 enum and methods :
@@ -467,9 +488,10 @@ are from different enumerations. Remember, you can compare two enumeration refer
 
 ## inheritance
 To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
-
+````
 class subclass-name extends superclass-name { // body of class
 }
+````
 You can only specify one superclass for any subclass that you create. Java does not support the inheritance of
 multiple superclasses into a single subclass. You can, as stated, create a hierarchy of inheritance in which a subclass
 becomes a superclass of another subclass. However, no class can be a superclass of itself.
@@ -486,17 +508,20 @@ those parts of the object defined by the superclass.
 plainbox      =  weightbox;
 (superclass)     (subclass)
 
-SUPERCLASS ref = new SUBCLASS();    // HERE ref can only access methods which are available in SUPERCLASS
+SUPERCLASS ref = new SUBCLASS();
+
+HERE ref can only access methods which are available in SUPERCLASS
 
 Using super:
 Whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.
 super has two general forms. The first calls the superclass’ constructor.
 The second is used to access a member of the superclass that has been hidden by a member of a subclass.
-
+````
 BoxWeight(double w, double h, double d, double m) {
 super(w, h, d); // call superclass constructor
 weight = m;
 }
+````
 
 Here, BoxWeight( ) calls super( ) with the arguments w, h, and d. This causes the Box constructor to be called,
 which initializes width, height, and depth using these values. BoxWeight no longer initializes these values itself.
@@ -908,6 +933,7 @@ Static methods are class level methods, so it is always resolved during compile 
 Static INTERFACE METHODS are not inherited by either an implementing class or a sub-interface.
 
 NOTE:
+```` java
 public class Static {
 
     // class Test  // ERROR
@@ -928,6 +954,7 @@ public class Static {
         System.out.println(b.name); // Rahul
     }
 }
+````
 Because :
 The static keyword may modify the declaration of a member type C within the body of a non-inner class or interface T.
 Its effect is to declare that C is not an inner class. Just as a static method of T has no current instance of T in its
@@ -1137,6 +1164,7 @@ Hence we don’t need to create an object and hence if you have everything stati
 
 
 Q) Are Static Methods available to implementing classes by default?
+
 Static methods are not available for implementing classes.
 
 They are not default methods. They are static.

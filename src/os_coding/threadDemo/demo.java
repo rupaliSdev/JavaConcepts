@@ -7,6 +7,10 @@ public class demo {
         System.out.println("hello "+ Thread.currentThread().getName());
         HelloPrinter hp = new HelloPrinter();
         Thread td = new Thread(hp);
+        Thread t2 = new Thread(()->{
+            System.out.println("Hello " + Thread.currentThread().getName());
+        });
         td.start();
+        t2.start();
     }
 }

@@ -4,27 +4,167 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Annotations/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/reflection/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/reflection/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/CyclicSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/prefixSum/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountsubArrayequalK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" afterDir="false" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/GoodArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/prefixSum/EquilibriumIndexOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/prefixSum/SpecialIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/prefixSum/pickFromBothSide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/KthPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/NinetyDegreeRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/searchInRowWiseAndColumnWiseSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BST/LargestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Hashing/PointsProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/CloneLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/DetectACycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/MiddleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/SortLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/ClosestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Tree/CheckMirrorInNArrayTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Tree/ConstructBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Tree/ViewOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Trie/TrieEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/PalindromicPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/SubsetProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/validSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/CountNoOfBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/DevideInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/powerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/ClonedGraphQues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/DetectCycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/DetectCycleInUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/ShortestPathDAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MeetingInARoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/NMeetingsInARoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/ToySelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/KplacesApart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/interviewProblems/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/DeleteOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/MajorityElementNTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/RecoverArrayFromGCDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/subsequences/SubsequenceMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HLD/typehead.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Reservations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/VehicleInventoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ExternalDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/DebugLogProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/ErrorLogProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/MainT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObjectPoolDesignPattern/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObjectPoolDesignPattern/DBConnectionPoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/IphoneObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/StockObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/NotificationAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DatabaseOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/InMemoryOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineDEMO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FixedShippingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FreeShippingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/PercentageShippingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/genericsDemo/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/Locks/FairnessDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/Locks/OptimisticReadInStampedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/Locks/StampedLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/Locks/TimedLockingAndInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/ThreadLocalEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/ThreadPoolExecutor/CustomRejectedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/ThreadPoolExecutor/CustomThreadFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/ThreadPoolExecutor/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/factorialComputation/FactorialCompuation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/factorialComputation/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcepts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/hashset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/BuildArraypermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/BuildArraypermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/stack/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/stack/InfixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC_Demo/jdbc/HandsOn1_Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC_Demo/jdbc/HandsOn1_Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/demoJdbc/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/demoJdbc/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/demoJdbc/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/demoJdbc/student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/SharedResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/Locks/WaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/Iterators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/Iterators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/queueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/queueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/reflection/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/reflection/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/reflection/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/reflection/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/MergeInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/BasicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Tree/BasicProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Tree/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Tree/treeTraversals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/bitManipulation/singleNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/singleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/generateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/generateNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/basic_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/basic_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/InfoLogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/InfoLogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/LogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/LogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/Stream2_MinSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/Stream2_MinSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/lambda/MethodReferencing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/lambda/MethodReferencing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/Locks/ReentrantLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/Locks/ReentrantLocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/producerConsume/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/producerConsume/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/producerConsume/SharedResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/producerConsume/SharedResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threadDemo/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +174,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +191,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/170215/JavaConcepts.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/rupaliSdev/JavaConcepts.git&quot;,
     &quot;accountId&quot;: &quot;fb071b10-ef67-4b77-8b1b-3224882f4c30&quot;
   }
 }</component>
@@ -70,18 +212,66 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BFSDemo.executor": "Run",
+    "Application.BookAllocation.executor": "Run",
     "Application.BuildArraypermutation.executor": "Debug",
+    "Application.Client.executor": "Run",
+    "Application.CloneLL.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.CountSubArrayDivisibleByK.executor": "Debug",
     "Application.CountsubArrayequalK.executor": "Debug",
     "Application.CyclicSort.executor": "Run",
+    "Application.DecoratorDemo.executor": "Run",
+    "Application.DetectCycleInDirectedGraph.executor": "Run",
+    "Application.DetectCycleInUndirectedGraph.executor": "Run",
+    "Application.DevideInteger.executor": "Debug",
+    "Application.FairnessDemo.executor": "Run",
+    "Application.FindTheRunningMedian.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
+    "Application.Iterators.executor": "Run",
     "Application.JavaOracleUpdate.executor": "Run",
+    "Application.KahnsAlgo.executor": "Run",
+    "Application.KthPermutation.executor": "Debug",
+    "Application.LLD_Design.LLDElevatorDesign.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainT.executor": "Run",
+    "Application.MaxSumSquareSubMatrix.executor": "Run",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
+    "Application.MonitorLock.executor": "Run",
+    "Application.NMeetingsInARoom.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NinetyDegreeRotation.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PointsProblems.executor": "Run",
+    "Application.RecoverArrayFromGCDArray.executor": "Run",
+    "Application.ReentrantLocks.executor": "Debug",
+    "Application.RightViewOfBinaryTree.executor": "Run",
+    "Application.ShortestPathDAG.executor": "Run",
+    "Application.ShortestPathUAG.executor": "Run",
+    "Application.SortedPermutationRank.executor": "Run",
+    "Application.SpecialIndex.executor": "Debug",
     "Application.SpiralProblems.executor": "Run",
+    "Application.StampedLockDemo.executor": "Run",
+    "Application.Store.executor": "Run",
+    "Application.SubsequenceMaxSum.executor": "Run",
+    "Application.SubsetProblems.executor": "Run",
+    "Application.SudokuSolver.executor": "Run",
+    "Application.ThreadLocalEx.executor": "Run",
+    "Application.TimedLockingAndInterrupt.executor": "Run",
+    "Application.TopoSort.executor": "Run",
+    "Application.ToySelection.executor": "Run",
+    "Application.TrappingRainProblem.executor": "Run",
     "Application.demo.executor": "Run",
+    "Application.generateNumbers.executor": "Run",
+    "Application.levelOrderTraversal.executor": "Run",
+    "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.validSudoku.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -92,19 +282,32 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HandsOn1_Book">
-    <configuration name="BuildArraypermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.BuildArraypermutation" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="os_coding.ThreadPoolExecutor" />
+      <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
+      <recent name="LLD_Design.CarRentalDesignSystem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LLD_Design" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LLD_Design.Decorator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.demo">
+    <configuration name="CloneLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.LinkedList.CloneLL" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
+          <option name="PATTERN" value="DSA.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSubArrayDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountSubArrayDivisibleByK" />
+    <configuration name="FindTheRunningMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.heapdemo.FindTheRunningMedian" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
+          <option name="PATTERN" value="DSA.heapdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,77 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountsubArrayequalK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountsubArrayequalK" />
+    <configuration name="ViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Tree.ViewOfBinaryTree" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountsubArrayequalK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.subArrays.CountsubArrayequalK" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.subArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.CyclicSort" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.Array.CyclicSort" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandsOn1_Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC_Demo.jdbc.HandsOn1_Book" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC_Demo.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaOracleUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC_Demo.jdbc.JavaOracleUpdate" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC_Demo.jdbc.*" />
+          <option name="PATTERN" value="DSA.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +354,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.reflection.demo" />
+    <configuration name="levelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Tree.levelOrderTraversal" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.reflection.*" />
+          <option name="PATTERN" value="DSA.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,21 +369,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HandsOn1_Book" />
-        <item itemvalue="Application.JavaOracleUpdate" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.CountsubArrayequalK" />
+        <item itemvalue="Application.CloneLL" />
+        <item itemvalue="Application.FindTheRunningMedian" />
+        <item itemvalue="Application.levelOrderTraversal" />
+        <item itemvalue="Application.RightViewOfBinaryTree" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -279,10 +409,223 @@
       <workItem from="1720467537569" duration="2585000" />
       <workItem from="1720470141779" duration="982000" />
       <workItem from="1720595815313" duration="5441000" />
+      <workItem from="1722769891192" duration="12588000" />
+      <workItem from="1722882439366" duration="756000" />
+      <workItem from="1723088674291" duration="2614000" />
+      <workItem from="1723818282633" duration="2681000" />
+      <workItem from="1723875659504" duration="614000" />
+      <workItem from="1724094481835" duration="2678000" />
+      <workItem from="1724700946551" duration="37000" />
+      <workItem from="1724700998726" duration="4605000" />
+      <workItem from="1724730092863" duration="14499000" />
+      <workItem from="1724818839755" duration="7289000" />
+      <workItem from="1724936567567" duration="3992000" />
+      <workItem from="1724941022517" duration="2274000" />
+      <workItem from="1725199540720" duration="5698000" />
+      <workItem from="1725376267298" duration="2247000" />
+      <workItem from="1725388704053" duration="10594000" />
+      <workItem from="1725896433205" duration="1069000" />
+      <workItem from="1725973816503" duration="3505000" />
+      <workItem from="1733653824627" duration="17000" />
+      <workItem from="1733654046472" duration="3029000" />
+      <workItem from="1735293378129" duration="2500000" />
+      <workItem from="1738177451425" duration="26000" />
+      <workItem from="1738177747980" duration="20000" />
+      <workItem from="1738178277479" duration="1993000" />
+      <workItem from="1738353135791" duration="9000" />
+      <workItem from="1738353206160" duration="9000" />
+      <workItem from="1738353555908" duration="12000" />
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <option name="closed" value="true" />
+      <created>1722769923856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722769923856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/basics.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/Minheap.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/bitManipulation/DevideInteger.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/bitManipulation/DevideInteger.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/MedianOfTwoSortedArrays.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/ViewOfBinaryTree.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/reflection/demo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/reflection/demo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <line>3</line>
+          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
+          <line>17</line>
+          <properties class="DSA.heapdemo.FindTheRunningMedian" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="prefixSum" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

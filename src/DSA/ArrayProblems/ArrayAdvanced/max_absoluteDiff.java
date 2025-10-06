@@ -7,4 +7,7 @@ public class max_absoluteDiff {
 
 	}
 
+
+
+
 }

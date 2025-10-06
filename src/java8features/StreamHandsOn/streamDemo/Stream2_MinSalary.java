@@ -18,6 +18,9 @@ public class Stream2_MinSalary {
 			salaries.add(s.nextInt());
 		}
 
+		int sum = salaries.stream().mapToInt(Integer::intValue).sum();
+
+
 		min_salary = salaries.stream().min(Integer :: compareTo).get();
 				//max(Integer :: compareTo).get();
 		System.out.println("Minimum Salary : "+min_salary);

@@ -11,7 +11,7 @@ public abstract class LogProcessor {
     public LogProcessor(LogProcessor nextloggerProcessor) {
         this.nextloggerProcessor = nextloggerProcessor;
     }
-
+//it will send to next
     public void log(int loglevel,String message){
       if(nextloggerProcessor!=null){
           nextloggerProcessor.log(loglevel,message);

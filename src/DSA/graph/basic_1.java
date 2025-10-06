@@ -28,9 +28,7 @@ public class basic_1 {
 	}
 
 	private static void print(ArrayList<ArrayList<Integer>> adj) {
-		// TODO Auto-generated method stub
-		
-		
+
 		for(int i=0;i<adj.size();i++) {
 			 System.out.println("\nAdjacency list of vertex   " +adj.get(i).size() +"->" );
 			for(int j=0;j<adj.get(i).size();j++) {

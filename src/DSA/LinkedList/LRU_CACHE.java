@@ -53,18 +53,18 @@ public class LRU_CACHE {
 		return key;
 		
 	}
-	
-	
+	static
+	class Node{
 
-}
-
-class Node{
-	
-	Node next;
-	Node prev;
-	int key,value;
-	Node(int key,int value){
-		this.key=key;
-		this.value=value;
+		Node next;
+		Node prev;
+		int key,value;
+		Node(int key,int value){
+			this.key=key;
+			this.value=value;
+		}
 	}
+	
+
 }
+

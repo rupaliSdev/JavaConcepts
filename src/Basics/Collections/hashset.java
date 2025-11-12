@@ -33,15 +33,16 @@ public class hashset {
 //			String value = (String)it.next();
 //			System.out.println("Value : "+value);
 //		}
-		HashSet<String> hs = new HashSet<String>();
-		//Duplicate elements are not permitted
+		HashSet<String> hs;
+        hs = new HashSet<String>();
+        //Duplicate elements are not permitted
 		hs.add("Mayuri");
 		hs.add("Rajendra");
 		hs.add("Sannap");
 		hs.add("Lalita");
 		hs.add("Vinayak");
 		hs.add("Priyanka");
-		
+
 		Iterator it = hs.iterator();   //Displya elements is one direction
 		while(it.hasNext()) {
 			String value = (String)it.next();

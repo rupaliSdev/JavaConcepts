@@ -76,13 +76,6 @@ public class SearchInBST {
 		
 	}
 
-}
-class TreeNode2{
-	TreeNode left,right;
-	int val;
-	TreeNode2(int x){
-		val = x;
-		left = null;
-		right = null;
-	}
+
+
 }

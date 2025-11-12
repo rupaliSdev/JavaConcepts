@@ -4,19 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges">
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/FixedWindowAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/LeakyBucketRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowCounterRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowLogRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/TokenBucketRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaVersions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaVersions/Five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaVersions/Seven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaVersions/TwentyOne.java" afterDir="false" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/java.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lld.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problemToSOlve.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Amazon/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Amazon/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/countNoOfSubarraysWithXORK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/FlipAGivenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralTraversalOfMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/setMatrixZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDdistanceApart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/calculateSquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/findTheSearchInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LBusingTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LeaderBoardIUSingHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/FirstUniqueCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Tree/DiameterOfBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/findMissingOrRepeatingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/BuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/KnapSackUnbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/KnapsackBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/UnboundedKnapsackMemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/UniqueSubtrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/longestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CheapestFlightWithKStops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/Dikshtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/FindFloorNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/revise.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/practic " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/queue/QueueUsingTwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/stack/GetMinFromStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/stack/LargestRectangeInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/stack/StackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HLD/scheduler.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/copyConstructor/demo2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/copyConstructor/demo2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorFramwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/practice/Oracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/inventory_wm.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcepts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/conditionalStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/conditionalStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/iteratorsJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/intervals/MergeInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/Max_AbsoluteDIfference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/FirstMissingInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/NinetyDegreeRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/NinetyDegreeRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/searchInRowWiseAndColumnWiseSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/searchInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BST/LargestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/LargestBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BST/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/SearchInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BST/checkbst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/checkbst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BinarySearch/uniqueElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/UniqueElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Hashing/PointsProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Hashing/PointsProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LinearSearchStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LinearSearchStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/rearrangeCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/rearrangeCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/matrix/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/prefixSum/EquilibriumIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/prefixSum/EquilibriumIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/prefixSum/specialIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/prefixSum/specialIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/CountNoOfDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/CountNoOfDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/DistinctPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/DistinctPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/NoOfPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/NoOfPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/OpenDoors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/OpenDoors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/SmallestPrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/SmallestPrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/countNoofPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/countNoofPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/subsequences/SubsequenceMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/subsequences/SubsequenceMaxSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractDemo/AbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractDemo/example1/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/polymorphism/Overriding/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Overriding/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/Locks/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/Locks/WaitAndNotify.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +111,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -34,73 +120,164 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rupaliSdev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rupaliSdev/JavaConcepts.git&quot;,
+    &quot;accountId&quot;: &quot;fb071b10-ef67-4b77-8b1b-3224882f4c30&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.11/Contents/Home/lib/src.zip!/java.base/java/lang/SafeVarargs.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2dwxyuHSEIYXco7f3K0EBK9wPpi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FixedWindowAlgo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashCodevsEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodReferencing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonitorLock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOPS.genericsDemo.BoundedParameter.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadWriteLockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReentrantLocks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Seven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SlidingWindowLogRateLimiter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo23.executor&quot;: &quot;Run&quot;,
-    &quot;Application.enumDemp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.jvmDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.ExecutorDemo.client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.MonitorLockExample.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.callableDemo.client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.producerConsume.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.os_coding.semaphores.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.threadDemo.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.threaddemo3.client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.BFSDemo.executor": "Run",
+    "Application.BookAllocation.executor": "Run",
+    "Application.BuildArraypermutation.executor": "Debug",
+    "Application.CheapestFlightWithKStops.executor": "Debug",
+    "Application.Client.executor": "Run",
+    "Application.CloneLL.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.CountSubArrayDivisibleByK.executor": "Debug",
+    "Application.CountsubArrayequalK.executor": "Debug",
+    "Application.CyclicSort.executor": "Run",
+    "Application.DecoratorDemo.executor": "Run",
+    "Application.DetectCycleInDirectedGraph.executor": "Run",
+    "Application.DetectCycleInUndirectedGraph.executor": "Run",
+    "Application.DevideInteger.executor": "Debug",
+    "Application.DiameterOfBT.executor": "Run",
+    "Application.DijkstraNegativeDemo.executor": "Debug",
+    "Application.ExecutorFramwork.executor": "Debug",
+    "Application.FairnessDemo.executor": "Run",
+    "Application.FindFloorNo.executor": "Run",
+    "Application.FindTheRunningMedian.executor": "Run",
+    "Application.FirstMissingInteger.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.HandsOn1_Book.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
+    "Application.Iterators.executor": "Run",
+    "Application.JavaOracleUpdate.executor": "Run",
+    "Application.KahnsAlgo.executor": "Run",
+    "Application.KnapSackUnbounded.executor": "Run",
+    "Application.KthPermutation.executor": "Debug",
+    "Application.LBusingTreeMap.executor": "Run",
+    "Application.LLD_Design.LLDElevatorDesign.Main.executor": "Run",
+    "Application.LeaderBoardIUSingHeap.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Debug",
+    "Application.MainT.executor": "Run",
+    "Application.MapDemo.executor": "Run",
+    "Application.MaxMeetingsOnePerDay.executor": "Run",
+    "Application.MaxSumSquareSubMatrix.executor": "Run",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
+    "Application.MonitorLock.executor": "Run",
+    "Application.NMeetingsInARoom.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NinetyDegreeRotation.executor": "Run",
+    "Application.Oracle.executor": "Run",
+    "Application.Passenger.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PointsProblems.executor": "Run",
+    "Application.RecoverArrayFromGCDArray.executor": "Run",
+    "Application.ReentrantLocks.executor": "Debug",
+    "Application.RightViewOfBinaryTree.executor": "Run",
+    "Application.Saving.executor": "Run",
+    "Application.ShortestPathDAG.executor": "Run",
+    "Application.ShortestPathUAG.executor": "Run",
+    "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SortedPermutationRank.executor": "Run",
+    "Application.SpecialIndex.executor": "Debug",
+    "Application.SpiralProblems.executor": "Run",
+    "Application.StampedLockDemo.executor": "Run",
+    "Application.Store.executor": "Run",
+    "Application.SubsequenceMaxSum.executor": "Run",
+    "Application.SubsetProblems.executor": "Run",
+    "Application.SudokuSolver.executor": "Run",
+    "Application.ThreadLocalEx.executor": "Run",
+    "Application.TimedLockingAndInterrupt.executor": "Run",
+    "Application.TopoSort.executor": "Run",
+    "Application.ToySelection.executor": "Run",
+    "Application.TrappingRainProblem.executor": "Run",
+    "Application.UnboundedKnapsackMemo.executor": "Run",
+    "Application.UniqueSubtrees.executor": "Run",
+    "Application.demo.executor": "Run",
+    "Application.findTheSearchInRotatedArray.executor": "Run",
+    "Application.generateNumbers.executor": "Run",
+    "Application.immuatable_concepts.executor": "Run",
+    "Application.levelOrderTraversal.executor": "Run",
+    "Application.longestIncreasingSubsequence.executor": "Run",
+    "Application.map.executor": "Run",
+    "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.slidingWindowMaximum.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test1.executor": "Run",
+    "Application.validSudoku.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/Basics/TreeImpl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FixedWindowAlgo">
-    <configuration name="FixedWindowAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HLD.RateLimiter.FixedWindowAlgo" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="os_coding.ThreadPoolExecutor" />
+      <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
+      <recent name="LLD_Design.CarRentalDesignSystem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
+      <recent name="$PROJECT_DIR$/src/Basics" />
+      <recent name="$PROJECT_DIR$/src/LLD_Design" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LLD_Design.Decorator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindFloorNo">
+    <configuration name="FindFloorNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.maths.FindFloorNo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HLD.RateLimiter.*" />
+          <option name="PATTERN" value="DSA.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="os_coding.Locks.ReadWriteLockDemo" />
+    <configuration name="KthPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.ArrayAdvanced.KthPermutation" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="os_coding.Locks.*" />
+          <option name="PATTERN" value="DSA.ArrayProblems.ArrayAdvanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="os_coding.Locks.ReentrantLocks" />
+    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.heapdemo.SlidingWindowMaximum" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="os_coding.Locks.*" />
+          <option name="PATTERN" value="DSA.heapdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaVersions.Seven" />
+    <configuration name="SortedPermutationRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.maths.SortedPermutationRank" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaVersions.*" />
+          <option name="PATTERN" value="DSA.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowLogRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HLD.RateLimiter.SlidingWindowLogRateLimiter" />
+    <configuration name="findTheSearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.findTheSearchInRotatedArray" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HLD.RateLimiter.*" />
+          <option name="PATTERN" value="DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,21 +339,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FixedWindowAlgo" />
-        <item itemvalue="Application.SlidingWindowLogRateLimiter" />
-        <item itemvalue="Application.Seven" />
-        <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.ReentrantLocks" />
+        <item itemvalue="Application.FindFloorNo" />
+        <item itemvalue="Application.KthPermutation" />
+        <item itemvalue="Application.SortedPermutationRank" />
+        <item itemvalue="Application.findTheSearchInRotatedArray" />
+        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -187,220 +356,330 @@
       <option name="presentableId" value="Default" />
       <updated>1710933201630</updated>
       <workItem from="1710933202658" duration="1000" />
-      <workItem from="1710998132804" duration="74000" />
-      <workItem from="1711362019459" duration="1262000" />
-      <workItem from="1711548649082" duration="599000" />
-      <workItem from="1712039638542" duration="2706000" />
-      <workItem from="1712064951507" duration="9979000" />
-      <workItem from="1712214411376" duration="1426000" />
-      <workItem from="1712238305624" duration="8295000" />
-      <workItem from="1712296855376" duration="2041000" />
-      <workItem from="1712314928829" duration="3196000" />
-      <workItem from="1712547883724" duration="644000" />
-      <workItem from="1712553116210" duration="1190000" />
-      <workItem from="1712594027350" duration="730000" />
-      <workItem from="1712914168495" duration="1644000" />
-      <workItem from="1713245976806" duration="2705000" />
-      <workItem from="1713337499674" duration="585000" />
-      <workItem from="1713379738795" duration="3930000" />
-      <workItem from="1713417010032" duration="1851000" />
-      <workItem from="1713801885577" duration="779000" />
-      <workItem from="1713856733383" duration="8794000" />
-      <workItem from="1713890123809" duration="1034000" />
-      <workItem from="1713938450007" duration="10523000" />
-      <workItem from="1714039137295" duration="628000" />
-      <workItem from="1715237139336" duration="749000" />
-      <workItem from="1715320750585" duration="597000" />
-      <workItem from="1715508140009" duration="2724000" />
-      <workItem from="1715532230853" duration="2225000" />
-      <workItem from="1715576351537" duration="7160000" />
-      <workItem from="1715851006168" duration="3103000" />
-      <workItem from="1715924842096" duration="3241000" />
-      <workItem from="1716392010387" duration="738000" />
-      <workItem from="1716442298025" duration="13000" />
-      <workItem from="1716448729762" duration="1115000" />
-      <workItem from="1716530598996" duration="2363000" />
-      <workItem from="1716898258078" duration="1577000" />
-      <workItem from="1716978082115" duration="3787000" />
-      <workItem from="1717052503457" duration="3620000" />
-      <workItem from="1717132758697" duration="7366000" />
-      <workItem from="1718788978371" duration="1815000" />
-      <workItem from="1718953326499" duration="1232000" />
-      <workItem from="1719409727101" duration="556000" />
-      <workItem from="1719498179090" duration="122000" />
-      <workItem from="1719498323336" duration="23000" />
-      <workItem from="1719498374374" duration="48000" />
-      <workItem from="1719498443681" duration="62000" />
-      <workItem from="1719498538838" duration="150000" />
-      <workItem from="1720604138282" duration="1091000" />
-      <workItem from="1720678776335" duration="1231000" />
-      <workItem from="1720694721199" duration="3014000" />
-      <workItem from="1721380205653" duration="28777000" />
-      <workItem from="1721615549719" duration="1746000" />
-      <workItem from="1721624716622" duration="436000" />
-      <workItem from="1721643123502" duration="48494000" />
-      <workItem from="1721884157009" duration="6010000" />
-      <workItem from="1721962134857" duration="619000" />
-      <workItem from="1722162415709" duration="7428000" />
-      <workItem from="1722228002275" duration="7254000" />
-      <workItem from="1752823669716" duration="2790000" />
-      <workItem from="1753349766162" duration="1265000" />
-      <workItem from="1753679480838" duration="598000" />
-      <workItem from="1753764981240" duration="598000" />
-      <workItem from="1755701451839" duration="2075000" />
-      <workItem from="1755758738383" duration="2339000" />
-      <workItem from="1756105254507" duration="3450000" />
-      <workItem from="1756224373136" duration="598000" />
-      <workItem from="1756277533057" duration="604000" />
-      <workItem from="1756357316808" duration="903000" />
-      <workItem from="1756393009778" duration="3007000" />
-      <workItem from="1756446899976" duration="603000" />
-      <workItem from="1756788533855" duration="599000" />
-      <workItem from="1756983699721" duration="601000" />
-      <workItem from="1756984341175" duration="2746000" />
-      <workItem from="1757308741620" duration="594000" />
+      <workItem from="1710957659743" duration="1401000" />
+      <workItem from="1711299020844" duration="222000" />
+      <workItem from="1713231989403" duration="2860000" />
+      <workItem from="1713727781241" duration="627000" />
+      <workItem from="1714505226057" duration="1006000" />
+      <workItem from="1715185064571" duration="1856000" />
+      <workItem from="1715369696778" duration="688000" />
+      <workItem from="1715411013523" duration="2137000" />
+      <workItem from="1715498990677" duration="1103000" />
+      <workItem from="1715701556179" duration="73000" />
+      <workItem from="1716059007049" duration="3821000" />
+      <workItem from="1716241907017" duration="535000" />
+      <workItem from="1716405884925" duration="695000" />
+      <workItem from="1716490741038" duration="3325000" />
+      <workItem from="1718571427899" duration="1872000" />
+      <workItem from="1718641882434" duration="4076000" />
+      <workItem from="1718736264900" duration="3836000" />
+      <workItem from="1718743839923" duration="791000" />
+      <workItem from="1718894435959" duration="1293000" />
+      <workItem from="1719029313418" duration="8799000" />
+      <workItem from="1720467537569" duration="2585000" />
+      <workItem from="1720470141779" duration="982000" />
+      <workItem from="1720595815313" duration="5441000" />
+      <workItem from="1722769891192" duration="12588000" />
+      <workItem from="1722882439366" duration="756000" />
+      <workItem from="1723088674291" duration="2614000" />
+      <workItem from="1723818282633" duration="2681000" />
+      <workItem from="1723875659504" duration="614000" />
+      <workItem from="1724094481835" duration="2678000" />
+      <workItem from="1724700946551" duration="37000" />
+      <workItem from="1724700998726" duration="4605000" />
+      <workItem from="1724730092863" duration="14499000" />
+      <workItem from="1724818839755" duration="7289000" />
+      <workItem from="1724936567567" duration="3992000" />
+      <workItem from="1724941022517" duration="2274000" />
+      <workItem from="1725199540720" duration="5698000" />
+      <workItem from="1725376267298" duration="2247000" />
+      <workItem from="1725388704053" duration="10594000" />
+      <workItem from="1725896433205" duration="1069000" />
+      <workItem from="1725973816503" duration="3505000" />
+      <workItem from="1733653824627" duration="17000" />
+      <workItem from="1733654046472" duration="3029000" />
+      <workItem from="1735293378129" duration="2500000" />
+      <workItem from="1738177451425" duration="26000" />
+      <workItem from="1738177747980" duration="20000" />
+      <workItem from="1738178277479" duration="1993000" />
+      <workItem from="1738353135791" duration="9000" />
+      <workItem from="1738353206160" duration="9000" />
+      <workItem from="1738353555908" duration="12000" />
     </task>
-    <task id="LOCAL-00001" summary="Commiting somechanges">
-      <created>1712171470655</created>
+    <task id="LOCAL-00001" summary="changes">
+      <option name="closed" value="true" />
+      <created>1722769923856</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1712171470655</updated>
+      <updated>1722769923856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <option name="closed" value="true" />
+      <created>1759764511265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759764511265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="6524483b-c0dc-495e-936c-928d368e897a" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="6524483b-c0dc-495e-936c-928d368e897a">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commiting somechanges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting somechanges" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ExceptionHandelling/testing.java</url>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/basics.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/Minheap.java</url>
           <line>16</line>
-          <properties class="ExceptionHandelling.testing" method="main">
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/bitManipulation/DevideInteger.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/bitManipulation/DevideInteger.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/MedianOfTwoSortedArrays.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/ViewOfBinaryTree.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Tree/levelOrderTraversal.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/reflection/demo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/reflection/demo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/longestIncreasingSubsequence.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/KnapSackUnbounded.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Design/LeaderBoardIUSingHeap.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/CheapestFlightWithKStops.java</url>
+          <line>57</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/Passenger.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/Passenger.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/KthPermutation.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/KthPermutation.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <line>3</line>
+          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/os_coding/threadDemo/demo.java</url>
-          <line>4</line>
-          <properties class="os_coding.threadDemo.demo" method="main">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
+          <line>17</line>
+          <properties class="DSA.heapdemo.FindTheRunningMedian" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/OOPS/genericsDemo/BoundedParameter/App.java</url>
-          <line>6</line>
-          <properties class="OOPS.genericsDemo.BoundedParameter.App" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/os_coding/MonitorLockExample/Client.java</url>
-          <line>3</line>
-          <properties class="os_coding.MonitorLockExample.Client" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Basics/Basic/Enum/enumDemp.java</url>
-          <line>23</line>
-          <properties class="Basics.Basic.Enum.enumDemp" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/javaVersions/Seven.java</url>
-          <line>42</line>
-          <properties class="javaVersions.Seven" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/OOPS/StaticDemo/demo23.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/os_coding/threadDemo1/client.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/os_coding/Locks/ReentrantLocks.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HLD/RateLimiter/FixedWindowAlgo.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="prefixSum" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

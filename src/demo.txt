@@ -1,0 +1,557 @@
+💎 1. Arrays & Strings
+
+🔹 Must Revise Problems:
+
+Two Sum / 3Sum / 4Sum
+
+Kadane’s Algorithm (Maximum Subarray Sum)
+
+Maximum Product Subarray
+
+Container With Most Water
+
+Trapping Rain Water
+
+Next Permutation
+
+Merge Intervals
+
+Set Matrix Zeroes
+
+Product of Array Except Self
+
+Search in Rotated Sorted Array
+
+Find Missing Number / Duplicate Number
+
+Sliding Window Maximum
+
+Longest Substring Without Repeating Characters
+
+Longest Palindromic Substring
+
+Rotate Matrix (90°)
+
+Pascal’s Triangle
+
+🌲 2. Linked List
+
+🔹 Must Revise Problems:
+
+Reverse a Linked List (Iterative + Recursive)
+
+Detect Cycle in Linked List (Floyd’s Algorithm)
+
+Find Start of Cycle
+
+Merge Two Sorted Linked Lists
+
+Intersection of Two Linked Lists
+
+Remove Nth Node From End
+
+Add Two Numbers (Linked List form)
+
+Copy Linked List with Random Pointer
+
+LRU Cache Design
+
+Reverse Nodes in K Group
+
+Sort a Linked List
+
+🌳 3. Binary Tree / BST
+
+🔹 Traversal & Basic:
+
+Inorder / Preorder / Postorder Traversal (Iterative + Recursive)
+
+Level Order Traversal
+
+Height of Binary Tree
+
+Diameter of Binary Tree
+
+Check if Tree is Balanced
+
+Lowest Common Ancestor (LCA)
+
+Mirror of a Tree
+
+Check if Two Trees are Identical
+
+🔹 BST Specific:
+
+Validate BST
+
+Construct BST from Preorder / Inorder
+
+Kth Smallest / Largest in BST
+
+Floor / Ceil in BST
+
+Convert Sorted Array to BST
+
+🧩 4. Recursion & Backtracking
+
+🔹 Must Revise Problems:
+
+N-Queens Problem
+
+Rat in a Maze / Sudoku Solver
+
+Generate Parentheses
+
+Permutations / Combinations
+
+Subsets / Subset Sum / Combination Sum
+
+Word Search in Matrix
+
+Palindrome Partitioning
+
+⚡ 5. Stack & Queue
+
+🔹 Must Revise Problems:
+
+Implement Stack using Queue / Queue using Stack
+
+Valid Parentheses
+
+Min Stack
+
+Next Greater Element
+
+Largest Rectangle in Histogram
+
+Stock Span Problem
+
+Circular Tour (Gas Station)
+
+LRU Cache (Queue + HashMap)
+
+Sliding Window Maximum
+
+🧮 6. Heap / Priority Queue
+
+🔹 Must Revise Problems:
+
+Kth Largest / Smallest Element
+
+Merge K Sorted Lists / Arrays
+
+Top K Frequent Elements
+
+Reorganize String
+
+Median in a Stream
+
+Connect Ropes (Minimum Cost)
+
+🧠 7. Hashing & Maps
+
+🔹 Must Revise Problems:
+
+Two Sum using HashMap
+
+Longest Consecutive Sequence
+
+Subarray with Given Sum / 0 Sum
+
+Count Distinct Elements in Window
+
+Group Anagrams
+
+Non-Repeating Character in String
+
+📊 8. Dynamic Programming (DP)
+
+🔹 Must Revise Problems:
+
+Fibonacci / Climbing Stairs (Basics)
+
+Longest Common Subsequence (LCS)
+
+Longest Increasing Subsequence (LIS)
+
+0/1 Knapsack
+
+Partition Equal Subset Sum
+
+Coin Change / Minimum Coins
+
+Matrix Chain Multiplication
+
+Edit Distance
+
+Subset Sum / Target Sum
+
+Maximum Path Sum in Matrix / Triangle
+
+Best Time to Buy & Sell Stock (I–IV Variants)
+
+🌐 9. Graphs
+
+🔹 Must Revise Problems:
+
+BFS / DFS
+
+Detect Cycle (Directed + Undirected)
+
+Topological Sort (Kahn’s + DFS)
+
+Shortest Path (Dijkstra, Bellman-Ford)
+
+Minimum Spanning Tree (Prim’s / Kruskal’s)
+
+Number of Islands
+
+Rotten Oranges
+
+Word Ladder
+
+Clone Graph
+
+Course Schedule (Topological Sort)
+
+🧱 10. Advanced Data Structures
+
+🔹 Optional but Powerful:
+
+Trie (Prefix Tree, Word Search II)
+
+Segment Tree / Fenwick Tree (Range Queries)
+
+Disjoint Set Union (Union-Find)
+
+LFU Cache
+
+💼 11. Core Java (OOPs + Multithreading + Collections)
+
+🔹 Concepts:
+
+OOPs Concepts (Abstraction, Encapsulation, Inheritance, Polymorphism)
+
+SOLID Principles
+
+equals() & hashCode() contract
+
+Immutable Objects (String Example)
+
+Exception Handling Hierarchy
+
+Thread Lifecycle & Synchronization
+
+Thread Safety, Race Conditions
+
+Executor Framework, Callable vs Runnable
+
+wait(), notify(), notifyAll()
+
+Deadlock, Livelock, Producer–Consumer Problem
+
+Collections Framework (List, Set, Map, Queue)
+
+Concurrent Collections
+
+HashMap / ConcurrentHashMap internal working
+
+🧩 12. System Design (Basics)
+
+🔹 High-Level Design Topics:
+
+URL Shortener
+
+LRU Cache
+
+Rate Limiter
+
+News Feed System
+
+Message Queue (Kafka, RabbitMQ)
+
+Logging Framework
+
+Load Balancer
+
+Database Indexing & Sharding Basics
+
+💬 13. Miscellaneous / CS Fundamentals
+
+🔹 Must Revise:
+
+OS: Process vs Thread, Deadlock, Scheduling
+
+DBMS: Joins, Normalization, Transactions, Indexes
+
+Networking: HTTP, TCP vs UDP, REST, Socket Programming
+
+Design Patterns: Singleton, Factory, Strategy, Observer
+
+🧭 Strategy for Revision
+
+👉 Week 1: Arrays, Strings, Linked List
+👉 Week 2: Trees, Stack/Queue, Heap, Hashing
+👉 Week 3: DP + Graphs + Backtracking
+👉 Week 4: Core Java + System Design + Mock Interviews
+
+Would you like me to prepare this list as a printable revision checklist (PDF or Excel sheet) — where you can tick off each topic/problem as you complete it?
+I can also mark priority levels (⭐,⭐⭐,⭐⭐⭐) based on frequency in interviews.
+
+
+
+🧱 1. OOPS (Object-Oriented Programming Concepts)
+🔹 Core Concepts
+
+What are the four pillars of OOP? Explain with real-world examples.
+
+What is encapsulation? How do we achieve it in Java?
+
+What is abstraction? Difference between abstract class and interface.
+
+What is inheritance? What types of inheritance are supported in Java?
+
+What is polymorphism? Difference between compile-time and run-time polymorphism.
+
+Can constructor be overridden or overloaded?
+
+Can we override a private/static/final method? Why not?
+
+What is method hiding?
+
+What happens when you call super() in a constructor?
+
+Difference between this and super keywords.
+
+Can we make a class immutable? How? (Explain with String example.)
+
+Difference between == and equals() method.
+
+Why should you override hashCode() when overriding equals()?
+
+What is the use of the instanceof operator?
+
+Explain association, aggregation, and composition with examples.
+
+What is object cloning? Difference between shallow copy and deep copy.
+
+How does Garbage Collection work in Java?
+
+Can we call the run() method directly instead of start() in a thread class? (Explain OOP impact.)
+
+⚙️ 2. Java Basics & Core Concepts
+
+Difference between JDK, JRE, and JVM.
+
+What is the difference between final, finally, and finalize()?
+
+What are wrapper classes? Why are they needed?
+
+Difference between primitive and reference data types.
+
+What is autoboxing and unboxing?
+
+Why is Java platform-independent?
+
+Explain how memory is managed in Java. (Stack vs Heap vs Method Area)
+
+What is ClassLoader? Types of classloaders.
+
+What is reflection in Java? (Give a small code example.)
+
+Why is String immutable and final in Java?
+
+What is String Pool?
+
+Difference between String, StringBuilder, and StringBuffer.
+
+What is transient keyword?
+
+Explain serialization and deserialization.
+
+How can you make a class singleton? Write code for it.
+
+Difference between volatile and synchronized keyword.
+
+🧩 3. Exception Handling
+
+What is the difference between checked and unchecked exceptions?
+
+Explain throw vs throws.
+
+What happens if an exception occurs inside finally block?
+
+Can we have try block without catch? (try-finally?)
+
+What are common exceptions in Java (NullPointerException, ClassCastException, etc.)
+
+How to create your own custom exception class?
+
+What happens when exception is not handled in thread?
+
+Difference between Error and Exception.
+
+How does try-with-resources work?
+
+🧵 4. Multithreading & Concurrency
+🔹 Thread Basics
+
+What are the different ways to create a thread in Java?
+
+Difference between extending Thread vs implementing Runnable.
+
+What happens when you call start() vs run()?
+
+What are thread states (NEW, RUNNABLE, BLOCKED, WAITING, TERMINATED)?
+
+What is the difference between process and thread?
+
+What is a daemon thread?
+
+🔹 Synchronization & Thread Safety
+
+What is synchronization?
+
+Difference between synchronized method and synchronized block.
+
+What is intrinsic lock (monitor)?
+
+What is a race condition?
+
+How to avoid race conditions?
+
+What is volatile variable?
+
+What is ThreadLocal?
+
+What is ReentrantLock? Difference from synchronized.
+
+What are atomic variables?
+
+🔹 Inter-Thread Communication
+
+How do wait(), notify(), and notifyAll() work?
+
+Can we call wait() outside synchronized block? Why not?
+
+Explain Producer-Consumer problem with example.
+
+What happens if thread calls sleep() holding a lock?
+
+What is a deadlock? How to avoid it?
+
+What is livelock and starvation?
+
+🔹 Advanced Concurrency
+
+Explain Executor Framework (Executor, ExecutorService, ThreadPoolExecutor).
+
+What are Callable and Future interfaces?
+
+Difference between submit() and execute() methods.
+
+Explain ScheduledExecutorService.
+
+Difference between ConcurrentHashMap and HashMap.
+
+What are concurrent collections in Java?
+
+How do CountDownLatch, CyclicBarrier, Semaphore, and Phaser work?
+
+Explain BlockingQueue and its types (LinkedBlockingQueue, ArrayBlockingQueue).
+
+How to make a custom thread-safe Singleton?
+
+🧰 5. Collections Framework
+
+Difference between List, Set, and Map.
+
+What is the internal working of HashMap?
+
+How HashMap handles collisions?
+
+Difference between HashMap and Hashtable.
+
+What is LinkedHashMap and TreeMap?
+
+Difference between ArrayList and LinkedList.
+
+Difference between HashSet and TreeSet.
+
+What is fail-fast vs fail-safe iterator?
+
+Difference between Iterator and ListIterator.
+
+How ConcurrentHashMap avoids concurrent modification?
+
+What are WeakHashMap and IdentityHashMap?
+
+What is comparable vs comparator?
+
+What is PriorityQueue and how does it work internally?
+
+What are immutable and unmodifiable collections?
+
+🧮 6. Design Patterns (Common in Java Interviews)
+
+Singleton Pattern (Eager, Lazy, Thread-Safe versions).
+
+Factory Pattern — Example with code.
+
+Strategy Pattern — Explain with example.
+
+Observer Pattern — Real-life example.
+
+Builder Pattern — Why it’s preferred for object creation.
+
+Decorator Pattern — Example with I/O Streams.
+
+⚡ 7. JVM & Performance
+
+What is JVM architecture (Classloader, Memory, Execution Engine)?
+
+What are different memory areas in JVM?
+
+What is garbage collection?
+
+What are different GC algorithms?
+
+How to tune JVM performance?
+
+How does JIT compiler work?
+
+💬 8. Common Coding Exercises (in Java Context)
+
+Implement your own HashMap.
+
+Implement LRU Cache using LinkedHashMap.
+
+Implement Thread Pool (custom).
+
+Producer-Consumer using wait/notify.
+
+Write immutable class.
+
+Implement Singleton using double-checked locking.
+
+Implement custom Exception.
+
+🎯 9. HR + Behavioral Java Questions
+
+Why did you choose Java as your primary language?
+
+What’s your favorite Java feature introduced in recent versions (Java 8–17)?
+
+How do you ensure thread safety in your code?
+
+Tell about a time you solved a concurrency issue.
+
+Which collections do you most often use and why?
+
+Would you like me to make this into a structured revision sheet (Excel or PDF) where:
+
+Each question has difficulty level (⭐,⭐⭐,⭐⭐⭐)
+
+Space for your short notes / example code link
+
+Grouped by topic for daily revision

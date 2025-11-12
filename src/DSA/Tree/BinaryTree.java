@@ -44,7 +44,7 @@ public class BinaryTree {
 		}
 		System.out.println(root.val);
 		preorder(root.left);
-		
+
 		preorder(root.right);
 	}
 	public static void postorder(TreeNode root) {
@@ -54,7 +54,7 @@ public class BinaryTree {
 		postorder(root.left);
 		postorder(root.right);
 		System.out.println(root.val);
-		
+
 	}
 	public static void Inorder(TreeNode root) {
 		if(root==null) {
@@ -63,17 +63,6 @@ public class BinaryTree {
 		Inorder(root.left);
 		System.out.println(root.val);
 		Inorder(root.right);
-		ArrayList re =new ArrayList<>();
-		Collections.reverse(re);
 	}
 
-}
-class TreeNode1{
-	TreeNode left,right;
-	int val;
-	TreeNode1(int x){
-		val = x;
-		left = null;
-		right = null;
-	}
 }

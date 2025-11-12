@@ -9,7 +9,7 @@ public class generateNumbers {
 		
 		
 		System.out.println(generate(3,3).toString());
-		System.out.println(generate(3,3).size());
+
 		ArrayList<Integer> res = new ArrayList<>();
 		printgenerate(3,3,res);
 
@@ -34,12 +34,7 @@ public class generateNumbers {
 		// TODO Auto-generated method stub
 		 ArrayList<String> res = new ArrayList<>();
 		if(n==0) {
-			
-				
 			res.add(" ");
-				
-			
-			//System.out.println(res.size());
 			return res;
 		}
 		
@@ -49,12 +44,10 @@ public class generateNumbers {
 		
 		for(int d=0;d<k;d++) {
 			for(int j=0;j<smaller.size();j++) {
-				//System.out.println(res.get(j));
-				String str =smaller.get(j)+d;
+				String str =d + smaller.get(j);
 				res.add(str);
 			}
 		}
-		//System.out.println(res.toString());
 		
 		return res ;
 		

@@ -9,7 +9,10 @@ public class queueDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+        //min priority queue,used to solve problems of min heap
 		Queue<String> queue = new PriorityQueue<>();
+
+        Queue<Integer> queue1= new PriorityQueue<>((a,b)->b-a);
 		Queue<String> q = new LinkedList<>();
 		Queue<Integer> pbq = new LinkedList<>();
 		pbq.add(10);

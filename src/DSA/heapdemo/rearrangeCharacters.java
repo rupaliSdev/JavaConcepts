@@ -1,5 +1,6 @@
 package DSA.heapdemo;
 
+import java.security.Key;
 import java.util.*;
 class key {
     int freq;
@@ -9,7 +10,7 @@ class key {
         ch=c;
     }
 }
-class keyComparator implements Comparator<key> {
+class KeyComparator implements Comparator<key> {
     public int compare(key k1,key k2){
         if(k1.freq>k2.freq){
             return 1;
@@ -22,10 +23,6 @@ class keyComparator implements Comparator<key> {
         }
     }
 }
-
-
-
-
 
 public class rearrangeCharacters {
 
@@ -40,27 +37,32 @@ public class rearrangeCharacters {
 	         return "";
 	     }
 	     int[] count = new int[26];
-	     for(int i=0;i<26;i++){
-	         count[i]=0;
-	     }
 	     for(int i=0;i<s.length();i++){
-	         count[i]++;
+	         count[s.charAt(i)-'a']++;
 	     }
-	     int max_count =findThemaxCount(count);
+
+		 PriorityQueue<key> priorityQueue= new PriorityQueue<>(new KeyComparator());
+		 for (char c:s.toCharArray()){
+			 priorityQueue.offer(new key(count[c-'a'],c));
+		 }
+
+		key prev= new key(-1,'#');
+		 String ans="";
+		 while (!priorityQueue.isEmpty()){
+			 key curr= priorityQueue.peek();
+			 priorityQueue.poll();
+			 ans+=curr.ch;
+			 if(prev.freq>0){
+				 priorityQueue.offer(prev);
+			 }
+			 curr.freq--;
+			 prev=curr;
+		 }
+
 		return s;
 	     
         	     
 	}
-	private static int findThemaxCount(int[] count) {
-		// 
-		int max_count=0;
-		for(int i=0;i<count.length;i++) {
-			if(count[i]>max_count) {
-				max_count = count[i];
-			}
-		}
-		return max_count;
-		
-	}
+
 
 }

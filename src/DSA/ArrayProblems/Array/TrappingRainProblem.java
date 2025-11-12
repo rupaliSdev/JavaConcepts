@@ -1,6 +1,7 @@
 package DSA.ArrayProblems.Array;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class TrappingRainProblem {
 
@@ -8,7 +9,8 @@ public class TrappingRainProblem {
 		// TODO Auto-generated method stub
      int[] arr= {5,3,6,3,4,7,2,4,5};
      System.out.println( First_Approach(arr));
-     //System.out.println( Second_Approach(arr));
+     System.out.println(ThirdApproach(arr));
+	 System.out.println(Fourth_Approach(arr));
 	}
 	static //time complexity O(n**2)
 	int First_Approach(int[] arr) {
@@ -27,7 +29,7 @@ public class TrappingRainProblem {
 					left_max = arr[j];
 				}
 				
-			}System.out.println(left_max);
+			}
 			
             for(int j =n-2; j>=i;--j) {
             	if(right_max <= arr[j])
@@ -37,12 +39,11 @@ public class TrappingRainProblem {
 				}
             	
 			}
-            System.out.println(right_max);
-            System.out.println(arr[i]);
+
             int support = Math.min(left_max, right_max);
 			ans +=  Math.abs(support - arr[i]);
 			
-			System.out.println("the ans is"+ans);
+
 			
 		}
      return ans;
@@ -68,16 +69,15 @@ public class TrappingRainProblem {
 			
 		}
 		
-       System.out.println(Arrays.toString( left_max));
-       System.out.println(Arrays.toString( right_max));;
+;
 	  for(int i =0;i<n;++i) {
 			 
            
              int support =Math.min(left_max[i], right_max[i]);
-             System.out.println(support);
+
 			ans +=  Math.abs(support - arr[i]);
 			
-			System.out.println("the ans is"+ans);
+
 			
 		}
     return ans;
@@ -88,8 +88,57 @@ public class TrappingRainProblem {
 		
 	     
 		}
-		
-		
+
+		public static int ThirdApproach(int[] arr){
+
+		    int leftMax= arr[0];
+			int rightMax= arr[ arr.length-1];
+			int l=1,r= arr.length-2;
+			int water =0;
+			while(l<=r){
+				if(arr[l]<arr[r]){
+					if(arr[l]>leftMax){
+						leftMax= arr[l];
+
+					}
+					else{
+						water+=(leftMax-arr[l]);
+					}
+					l++;
+				}
+				else {
+					if(arr[r]>rightMax){
+						rightMax= arr[r];
+					}
+					else{
+						water+=(rightMax-arr[r]);
+					}
+					r--;
+				}
+			}
+
+          return water;
+		}
+
+
+	static //time complexity O(n)
+	int Fourth_Approach(int[] arr) {
+		int n = arr.length;
+		int ans =0;
+
+		Stack<Integer> stack = new Stack<>();
+		for(int i =0;i<=n-1;++i) {
+			while (!stack.isEmpty() && arr[stack.peek()]< arr[i]){
+				int curr = stack.pop();
+
+				if(stack.isEmpty()) break;
+				int distance = i-stack.peek()-1;
+				ans += distance *(Math.min(arr[stack.peek()] ,arr[i]) - arr[curr]);
+			}
+           stack.push(i);
+		}
+		return ans;
+	}
 		
 	
 }

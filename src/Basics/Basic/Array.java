@@ -16,8 +16,8 @@ public class Array {
         int[] arr = new int[5];
         Scanner sc = new Scanner(System.in);
         //Array  = new int[5];
-        for(int i =0;i<anArray.length;i++) {
-        	 System.out.println(anArray[i]);	
+        for (int j : anArray) {
+            System.out.println(j);
         }
 //        for(int i =0;i<arr.length;i++) {
 //       	      arr[i]=sc.nextInt();

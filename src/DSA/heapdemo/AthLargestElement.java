@@ -1,5 +1,6 @@
 package DSA.heapdemo;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class AthLargestElement {
@@ -27,5 +28,29 @@ public class AthLargestElement {
         }
 
         return res;
+    }
+
+    public int findKthLargestElement(int[] arr,int K){
+
+        PriorityQueue<Integer> priorityQueue= new PriorityQueue<>();
+        for(int i:arr){
+            priorityQueue.offer(i);
+            if(priorityQueue.size()>K){
+                priorityQueue.poll();
+            }
+        }
+        return priorityQueue.peek();
+    }
+
+    public int findKthSmallestElement(int[] arr,int K){
+
+        PriorityQueue<Integer> priorityQueue= new PriorityQueue<>(Comparator.reverseOrder());
+        for(int i:arr){
+            priorityQueue.offer(i);
+            if(priorityQueue.size()>K){
+                priorityQueue.poll();
+            }
+        }
+        return priorityQueue.peek();
     }
 }

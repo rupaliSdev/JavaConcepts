@@ -10,7 +10,7 @@ public class LinearSearchStr {
 		System.out.println(Arrays.toString(str.toCharArray()));
         
 	}
-   int LinearSearch(String str, char p) {
+   int linearSearch(String str, char p) {
 	   if(str ==null) {
 		   return -1;
 	   }

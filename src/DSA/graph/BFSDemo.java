@@ -52,8 +52,6 @@ public class BFSDemo {
         visited[start]=1;
         while(!q.isEmpty()){
             int x= q.peek();
-
-
             for(Integer i:adj.get(x)){
                 if(visited[i]==0){
                 q.add(i);
@@ -65,7 +63,9 @@ public class BFSDemo {
         }
 
 
-
+//O(V+E) visting every vertex once  also visiting every edge once
+//  The inner for neighbor in graph[vertex] iterates across all adjacent edges exactly once for every vertex, summing up to
+//  O(E) across the whole graph.
 
     }
 

@@ -10,7 +10,9 @@ public class LongestPalindromic {
          
 		
 	}
-	public static String longestPalindrome(String A) {
+
+
+    public static String longestPalindrome(String A) {
         int n = A.length();
         int start =0;
         int end = 0;

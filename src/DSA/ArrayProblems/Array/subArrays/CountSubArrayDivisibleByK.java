@@ -6,10 +6,10 @@ public class CountSubArrayDivisibleByK {
     public static void main(String[] args) {
         int[] arr=new int[]{4,5,0,-2,-3,1};
         int k=5;
-        System.out.println(FindSubArray(arr,k));
+        System.out.println(findSubArray(arr,k));
     }
 
-    private static int FindSubArray(int[] A, int K) {
+    private static int findSubArray(int[] A, int K) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
         int count = 0, sum = 0;

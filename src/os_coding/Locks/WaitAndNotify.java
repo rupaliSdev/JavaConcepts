@@ -105,11 +105,11 @@ public class WaitAndNotify {
 
 
 }
-class SharedResource {
+class SharedResource1 {
 
     BlockingQueue<Integer> blockingQueue;
 
-    public SharedResource() {
+    public SharedResource1() {
         this.blockingQueue =new ArrayBlockingQueue<>(10) ;
     }
 

@@ -48,6 +48,8 @@ public class SortedPermutationRank {
             for(Integer rep :freq){
                 r= (r* fact(rep,mod)) % mod;
             }
+
+            //a pow -1 = a pow p-2 where p is modulo
             long inverse=power((int)r,mod-2,mod) %mod;
             long perm = (fact(A.length()-1-i,mod) * inverse) % mod;
 

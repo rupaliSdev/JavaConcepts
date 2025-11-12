@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+import static DSA.maths.RecoverArrayFromGCDArray.gcd;
+
 public class PointsProblems {
 
     public static void main(String[] args) {
@@ -47,4 +49,44 @@ public class PointsProblems {
         return count>>1;
 
     }
+
+    public static int samePointsOnTheLine(ArrayList<Integer> A, ArrayList<Integer> B) {
+
+        HashMap<List<Integer>,Integer> map= new HashMap<>();
+
+
+        int max_count =0;
+
+
+        for(int i =0;i<A.size();i++ ){
+            int overlapping=0,count=0;
+
+            for(int j =i+1;j<A.size();j++ ){
+                List<Integer> tmp= new ArrayList<>();
+                int x1 = A.get(i);int y1= B.get(i);
+                int x2=  A.get(j);int y2= B.get(j);
+
+                if(A.get(i)==A.get(j) || B.get(i)==B.get(j) ){
+                    overlapping++;
+                }
+                else {
+                    int xdiff = x2 - x1;
+                    int ydiff = y2 - y1;
+                    int z = gcd(xdiff,ydiff);
+                    xdiff/=z;ydiff/=z;
+
+                    tmp.add(xdiff);tmp.add(ydiff);
+                    map.put(tmp,map.getOrDefault(tmp,0)+1);
+                }
+
+                count=Math.max(count,map.get(tmp));
+
+            }
+            max_count= Math.max(max_count,count+overlapping+1);
+        }
+        return max_count;
+
+    }
+
+
 }

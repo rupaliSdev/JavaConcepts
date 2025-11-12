@@ -71,4 +71,17 @@ public class checkbst {
 		return false;
 	}
 
+	public int countInRange(TreeNode root, int L, int R){
+
+		if(root ==null) return 0;
+		if(root.val<L) return countInRange(root.right,L,R);
+		if(root.val>R) return countInRange(root.left,L,R);
+
+		return 1 + countInRange(root.left,L,R) + countInRange(root.right,L,R);
+	}
+
+
+
+
+
 }

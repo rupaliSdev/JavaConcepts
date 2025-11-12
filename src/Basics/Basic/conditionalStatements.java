@@ -14,7 +14,8 @@ public class conditionalStatements {
 		else {
 			System.out.println("odd number");
 		}
-/////////////////////////////////////////////////////////
+
+        /////////////////////////////////
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		if(a==b) {
@@ -27,8 +28,8 @@ public class conditionalStatements {
 		else {
 			System.out.println("a is less than b");
 		}
-		
-		
+
+
 		/////////////////////////////
 		int button = sc.nextInt();
 		if(button ==1) {
@@ -44,7 +45,9 @@ public class conditionalStatements {
 			System.out.println("Invalid");
 		}
 		
+
 		/////////////////////////////////
+
 		switch(button) {
 		case 1:
 			System.out.println("hello");

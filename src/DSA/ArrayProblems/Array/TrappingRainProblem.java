@@ -121,7 +121,7 @@ public class TrappingRainProblem {
 		}
 
 
-	static //time complexity O(n**2)
+	static //time complexity O(n)
 	int Fourth_Approach(int[] arr) {
 		int n = arr.length;
 		int ans =0;

@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDistanceApart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/FindFirstAndLastPositionInTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDdistanceApart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/practic " beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/practice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Design/InterviewDesign.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +83,7 @@
     "Application.FirstUniqueCharacter.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
+    "Application.InterviewDesign.executor": "Run",
     "Application.Iterators.executor": "Run",
     "Application.JavaOracleUpdate.executor": "Run",
     "Application.KahnsAlgo.executor": "Run",
@@ -173,6 +167,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
       <recent name="LLD_Design.CarRentalDesignSystem" />
@@ -186,7 +181,7 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CowDistanceApart">
+  <component name="RunManager" selected="Application.InterviewDesign">
     <configuration name="CowDistanceApart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.CowDistanceApart" />
       <module name="JavaConcepts" />
@@ -206,6 +201,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DSA.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterviewDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Design.InterviewDesign" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.Design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,26 +247,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findTheSearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.findTheSearchInRotatedArray" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterviewDesign" />
         <item itemvalue="Application.CowDistanceApart" />
         <item itemvalue="Application.FindFloorNo" />
         <item itemvalue="Application.KthPermutation" />
         <item itemvalue="Application.SortedPermutationRank" />
-        <item itemvalue="Application.findTheSearchInRotatedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +323,7 @@
       <workItem from="1738353135791" duration="9000" />
       <workItem from="1738353206160" duration="9000" />
       <workItem from="1738353555908" duration="12000" />
-      <workItem from="1763099271478" duration="3282000" />
+      <workItem from="1763099271478" duration="6602000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />

@@ -5,18 +5,35 @@ public class ContainerWithMostWater {
 
 
     }
-public static int amountOfWater(int[] arr){
 
-        int l=0,r=arr.length-1;
-        int water =0;
-        while (l<=r){
+    public static int amountOfWaterStored(int[] heights) {
+        int low = 0, high = heights.length - 1;
+        int waterStored = 0;
+        while (low <= high) {
 
-            water=Math.max((r-l) *(Math.min(arr[l],arr[r])),water);
+            waterStored = Math.max(waterStored, Math.min(heights[high], heights[low]) * (high - low));
 
-            if(arr[l]>arr[r]){
-                r--;
+            if (heights[low] < heights[high]) {
+                low++;
+            } else {
+                high--;
             }
-            else{
+
+        }
+        return waterStored;
+    }
+
+    public static int amountOfWater(int[] arr) {
+
+        int l = 0, r = arr.length - 1;
+        int water = 0;
+        while (l <= r) {
+
+            water = Math.max((r - l) * (Math.min(arr[l], arr[r])), water);
+
+            if (arr[l] > arr[r]) {
+                r--;
+            } else {
                 l++;
             }
 
@@ -24,7 +41,7 @@ public static int amountOfWater(int[] arr){
 
 
         return water;
-}
+    }
 
 
 }

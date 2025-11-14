@@ -5,103 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/java.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lld.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemToSOlve.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/TreeImpl/geekific/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Amazon/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Amazon/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/countNoOfSubarraysWithXORK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/FlipAGivenArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralTraversalOfMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/setMatrixZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDdistanceApart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/calculateSquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/findTheSearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LBusingTreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LeaderBoardIUSingHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/FirstUniqueCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Tree/DiameterOfBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/findMissingOrRepeatingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/BuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/KnapSackUnbounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/KnapsackBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/UnboundedKnapsackMemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/UniqueSubtrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/longestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CheapestFlightWithKStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/Dikshtra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/maths/FindFloorNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/maths/revise.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/practic " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/queue/QueueUsingTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/GetMinFromStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/LargestRectangeInHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/StackUsingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/scheduler.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/copyConstructor/demo2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/copyConstructor/demo2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorFramwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os_coding/practice/Oracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/inventory_wm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/FindFirstAndLastOccurence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcepts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/conditionalStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/conditionalStatements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/iteratorsJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/intervals/MergeInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/TrappingRainProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/subArrays/CountSubArrayDivisibleByK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/Max_AbsoluteDIfference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/FirstMissingInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/max_absoluteDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/NinetyDegreeRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/NinetyDegreeRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/SpiralProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/searchInRowWiseAndColumnWiseSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/searchInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/BST/LargestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/LargestBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/BST/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/SearchInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/BST/checkbst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BST/checkbst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/BinarySearch/uniqueElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/UniqueElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Hashing/PointsProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Hashing/PointsProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LinearSearchStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LinearSearchStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/rearrangeCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/rearrangeCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/matrix/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/prefixSum/EquilibriumIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/prefixSum/EquilibriumIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/prefixSum/specialIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/prefixSum/specialIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/CountNoOfDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/CountNoOfDivisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/DistinctPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/DistinctPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/NoOfPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/NoOfPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/OpenDoors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/OpenDoors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/SmallestPrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/SmallestPrimeFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/primeNo/countNoofPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/countNoofPrimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/subsequences/SubsequenceMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/subsequences/SubsequenceMaxSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractDemo/AbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractDemo/example1/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/polymorphism/Overriding/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Overriding/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/Locks/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/Locks/WaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/intervals/MyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/stack/removeConsecutivesdups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/stack/removeConsecutivesdups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +77,7 @@
     "Application.DijkstraNegativeDemo.executor": "Debug",
     "Application.ExecutorFramwork.executor": "Debug",
     "Application.FairnessDemo.executor": "Run",
+    "Application.FindFirstAndLastOccurence.executor": "Run",
     "Application.FindFloorNo.executor": "Run",
     "Application.FindTheRunningMedian.executor": "Run",
     "Application.FirstMissingInteger.executor": "Run",
@@ -228,6 +137,7 @@
     "Application.longestIncreasingSubsequence.executor": "Run",
     "Application.map.executor": "Run",
     "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.removeConsecutivesdups.executor": "Run",
     "Application.slidingWindowMaximum.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test1.executor": "Run",
@@ -271,7 +181,20 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindFloorNo">
+  <component name="RunManager" selected="Application.FindFirstAndLastOccurence">
+    <configuration name="FindFirstAndLastOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.FindFirstAndLastOccurence" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindFloorNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.maths.FindFloorNo" />
       <module name="JavaConcepts" />
@@ -298,19 +221,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.heapdemo.SlidingWindowMaximum" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.heapdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortedPermutationRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.maths.SortedPermutationRank" />
       <module name="JavaConcepts" />
@@ -324,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findTheSearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.findTheSearchInRotatedArray" />
+    <configuration name="removeConsecutivesdups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.stack.removeConsecutivesdups" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.BinarySearch.*" />
+          <option name="PATTERN" value="DSA.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstAndLastOccurence" />
+        <item itemvalue="Application.removeConsecutivesdups" />
         <item itemvalue="Application.FindFloorNo" />
         <item itemvalue="Application.KthPermutation" />
         <item itemvalue="Application.SortedPermutationRank" />
-        <item itemvalue="Application.findTheSearchInRotatedArray" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759764511265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <option name="closed" value="true" />
+      <created>1762955442864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762955442864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

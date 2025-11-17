@@ -1,6 +1,5 @@
 package DSA.BST;
 
-import OOPS.genericsDemo.EXample1.Data;
 
 import java.util.LinkedList;
 import java.util.Queue;

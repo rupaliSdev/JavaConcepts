@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/InterviewDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BST/ConvertBSToBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BST/SortedArrayToBBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/PredictTheWinner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +110,7 @@
     "Application.Passenger.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PointsProblems.executor": "Run",
+    "Application.PredictTheWinner.executor": "Run",
     "Application.RecoverArrayFromGCDArray.executor": "Run",
     "Application.ReentrantLocks.executor": "Debug",
     "Application.RightViewOfBinaryTree.executor": "Run",
@@ -114,6 +118,7 @@
     "Application.ShortestPathDAG.executor": "Run",
     "Application.ShortestPathUAG.executor": "Run",
     "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SortedArrayToBBST.executor": "Run",
     "Application.SortedPermutationRank.executor": "Run",
     "Application.SpecialIndex.executor": "Debug",
     "Application.SpiralProblems.executor": "Run",
@@ -167,6 +172,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
@@ -181,7 +187,7 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterviewDesign">
+  <component name="RunManager" selected="Application.PredictTheWinner">
     <configuration name="CowDistanceApart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.CowDistanceApart" />
       <module name="JavaConcepts" />
@@ -221,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayProblems.ArrayAdvanced.KthPermutation" />
+    <configuration name="PredictTheWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.PredictTheWinner" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ArrayProblems.ArrayAdvanced.*" />
+          <option name="PATTERN" value="DSA.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedPermutationRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.maths.SortedPermutationRank" />
+    <configuration name="SortedArrayToBBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.BST.SortedArrayToBBST" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.maths.*" />
+          <option name="PATTERN" value="DSA.BST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredictTheWinner" />
+        <item itemvalue="Application.SortedArrayToBBST" />
         <item itemvalue="Application.InterviewDesign" />
         <item itemvalue="Application.CowDistanceApart" />
         <item itemvalue="Application.FindFloorNo" />
-        <item itemvalue="Application.KthPermutation" />
-        <item itemvalue="Application.SortedPermutationRank" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +329,8 @@
       <workItem from="1738353135791" duration="9000" />
       <workItem from="1738353206160" duration="9000" />
       <workItem from="1738353555908" duration="12000" />
-      <workItem from="1763099271478" duration="6602000" />
+      <workItem from="1763099271478" duration="7779000" />
+      <workItem from="1763361329402" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -341,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759764511265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commiting somechanges">
+      <option name="closed" value="true" />
+      <created>1763125047365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763125047365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +385,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="Commiting somechanges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting somechanges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,10 +617,20 @@
           <line>70</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BST/SortedArrayToBBST.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/BST/SortedArrayToBBST.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.Decorator.DecoratorDemo">
+          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -613,7 +639,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
           <line>17</line>
-          <properties class="DSA.heapdemo.FindTheRunningMedian">
+          <properties class="DSA.heapdemo.FindTheRunningMedian" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

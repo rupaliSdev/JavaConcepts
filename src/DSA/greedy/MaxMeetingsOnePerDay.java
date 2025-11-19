@@ -28,18 +28,7 @@ public class MaxMeetingsOnePerDay {
             return maxCount;
         }
 
-    public static int maxMeetingsI(int[] firstDay, int[] lastDay) {
-        Arrays.sort(firstDay);
-        Arrays.sort(lastDay);
-        int maxCount = 0,prev_EndDay=0;
-        for (int i=0;i<firstDay.length;i++) {
-            if(lastDay[i]>prev_EndDay) {
-                maxCount++;
-                prev_EndDay=firstDay[i]>prev_EndDay?firstDay[i]:prev_EndDay+1;
-            }
-        }
-        return maxCount;
-    }
+
     public static int maxMeetingsII(int[] firstDay, int[] lastDay) {
             int n= firstDay.length;
         int[][] meetings = new int[n][2];
@@ -67,7 +56,7 @@ public class MaxMeetingsOnePerDay {
 
             int result = maxMeetings(firstDay, lastDay);
 
-            System.out.println("Maximum number of meetings: " + result+","+maxMeetingsI(firstDay,lastDay));
+            System.out.println("Maximum number of meetings: " + result+","+maxMeetingsII(firstDay,lastDay));
         }
     }
 

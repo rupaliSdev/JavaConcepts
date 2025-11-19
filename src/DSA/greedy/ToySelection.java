@@ -19,6 +19,7 @@ public class ToySelection {
         Toy[] toys = {
                 new Toy(1, 9), new Toy(2, 6), new Toy(3, 5), new Toy(3, 3)
         };
+
         System.out.println("Max Beauty = " + maxBeauty(toys));
     }
     public static int maxBeauty(Toy[] toys){

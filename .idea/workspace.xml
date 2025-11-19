@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/BinarySortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Design/gs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/TwoPointers/SmallestSubArrayGreaterThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/TwoPointers/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/RestoreIPAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/MaximumPathSumInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/NthStair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/AlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/KillProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/NoOFIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/NoOfProvinces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/RottenOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxNoOfEventCanBeAttended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/CircleAndLatticePoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/maths/FindRecurringSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/queue/ImplementDeques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/sorting/gs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HLD/gs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/os_coding/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/Twosum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/Twosum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/NQueens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/PalindromicPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/greedy/ToySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/greedy/ToySelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,15 +89,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlienDictionary.executor": "Run",
     "Application.App.executor": "Run",
     "Application.BFSDemo.executor": "Run",
+    "Application.BinarySortedArray.executor": "Run",
     "Application.BookAllocation.executor": "Run",
     "Application.BuildArraypermutation.executor": "Debug",
     "Application.CheapestFlightWithKStops.executor": "Debug",
+    "Application.CircleAndLatticePoints.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CloneLL.executor": "Run",
     "Application.CombinationSum.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
+    "Application.CountNoOfTeams.executor": "Debug",
     "Application.CountSubArrayDivisibleByK.executor": "Debug",
     "Application.CountsubArrayequalK.executor": "Debug",
     "Application.CowDdistanceApart.executor": "Run",
@@ -76,9 +116,11 @@
     "Application.ExecutorFramwork.executor": "Debug",
     "Application.FairnessDemo.executor": "Run",
     "Application.FindFloorNo.executor": "Run",
+    "Application.FindRecurringSequence.executor": "Run",
     "Application.FindTheRunningMedian.executor": "Run",
     "Application.FirstMissingInteger.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InterviewDesign.executor": "Run",
@@ -95,12 +137,16 @@
     "Application.MainT.executor": "Run",
     "Application.MapDemo.executor": "Run",
     "Application.MaxMeetingsOnePerDay.executor": "Run",
+    "Application.MaxNoOfEventCanBeAttended.executor": "Debug",
     "Application.MaxSumSquareSubMatrix.executor": "Run",
+    "Application.MaximumPathSumInMatrix.executor": "Run",
     "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MonitorLock.executor": "Run",
     "Application.NMeetingsInARoom.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NinetyDegreeRotation.executor": "Run",
+    "Application.NoOFIslands.executor": "Run",
+    "Application.NoOfProvinces.executor": "Run",
     "Application.Oracle.executor": "Run",
     "Application.Passenger.executor": "Run",
     "Application.Permutations.executor": "Run",
@@ -113,6 +159,7 @@
     "Application.ShortestPathDAG.executor": "Run",
     "Application.ShortestPathUAG.executor": "Run",
     "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SmallestSubArrayGreaterThanK.executor": "Run",
     "Application.SortedArrayToBBST.executor": "Run",
     "Application.SortedPermutationRank.executor": "Run",
     "Application.SpecialIndex.executor": "Debug",
@@ -182,13 +229,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredictTheWinner">
-    <configuration name="CowDistanceApart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.CowDistanceApart" />
+  <component name="RunManager" selected="Application.NoOFIslands">
+    <configuration name="AlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.AlienDictionary" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.BinarySearch.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFloorNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.maths.FindFloorNo" />
+    <configuration name="KahnsAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.KahnsAlgo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.maths.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Design.InterviewDesign" />
+    <configuration name="NoOFIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOFIslands" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Design.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredictTheWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.dp.PredictTheWinner" />
+    <configuration name="NoOfProvinces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOfProvinces" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.dp.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArrayToBBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.BST.SortedArrayToBBST" />
+    <configuration name="TopoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.TopoSort" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.BST.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,21 +297,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredictTheWinner" />
-        <item itemvalue="Application.SortedArrayToBBST" />
-        <item itemvalue="Application.InterviewDesign" />
-        <item itemvalue="Application.CowDistanceApart" />
-        <item itemvalue="Application.FindFloorNo" />
+        <item itemvalue="Application.NoOFIslands" />
+        <item itemvalue="Application.NoOfProvinces" />
+        <item itemvalue="Application.AlienDictionary" />
+        <item itemvalue="Application.KahnsAlgo" />
+        <item itemvalue="Application.TopoSort" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -455,16 +494,6 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
           <line>26</line>
           <option name="timeStamp" value="27" />
@@ -496,17 +525,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
-          <line>69</line>
+          <line>90</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -630,6 +649,56 @@
           <line>24</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/TwoPointers/SmallestSubArrayGreaterThanK.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/TwoPointers/SmallestSubArrayGreaterThanK.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/TwoPointers/SmallestSubArrayGreaterThanK.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/greedy/MaxNoOfEventCanBeAttended.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/greedy/MaxNoOfEventCanBeAttended.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/greedy/MaxNoOfEventCanBeAttended.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
           <line>3</line>
@@ -647,6 +716,12 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java</url>
+          <line>7</line>
+          <properties field="MAX_CHAR" class="DSA.StringDemo.GroupAnagrams" />
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

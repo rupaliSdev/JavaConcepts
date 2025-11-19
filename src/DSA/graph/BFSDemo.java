@@ -46,7 +46,6 @@ public class BFSDemo {
         for(int i=0 ;i< adj.size();i++){
             visited[i]=0;
         }
-
         Queue<Integer> q= new LinkedList<>();
         q.offer(start);
         visited[start]=1;

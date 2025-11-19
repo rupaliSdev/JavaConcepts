@@ -1,4 +1,4 @@
-package DSA.backtracking;
+package DSA.dp;
 
 public class PalindromicPartition {
 

@@ -16,14 +16,14 @@ public class removeConsecutivesdups {
 		for(int i=0;i<s.length();i++) {
 			if(!st.isEmpty() && st.peek()==s.charAt(i)) {
 				//System.out.println("hi " + s.charAt(i));
-				System.out.println(st.pop());
+				st.pop();
 			}
 			else {
 				//System.out.println("hey " + s.charAt(i));
 				st.push(s.charAt(i));
 			}
 		}
-		System.out.println(st);
+
 		StringBuilder sb = new StringBuilder();
         if(st.isEmpty()) {
 			return "";

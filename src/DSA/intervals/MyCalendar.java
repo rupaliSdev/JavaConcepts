@@ -30,6 +30,11 @@ class MyCalendar {
         bookings= new ArrayList<>();
         map=new TreeMap<>();
     }
+//
+//    Overlap happens if one starts before the other ends
+//    and
+//    ends after the other starts. b1.start<b2.end && b1.end>b2.start
+
 
     public boolean book(int startTime, int endTime) {
         Booking booking = new Booking(startTime,endTime);

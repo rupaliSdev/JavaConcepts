@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/DSA/queue/CrossTheBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/queue/CrossTheBridgeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaDiffVersions/Records/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/InterviewQues/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/queue/Encrypted_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/queue/Encrypted_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/queue/cicularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/queue/cicularArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/collections1/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/collections1/ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/collections1/hashmapDemo/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/collections1/hashmapDemo/implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/CallableFutures/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/callableDemo/CallableFutures/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/CallableFutures/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/callableDemo/CallableFutures/MergeSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/ClientD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/ClientD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/PrintTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/PrintTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/ItemStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/ItemStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threadDemo1/PrintTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threadDemo1/PrintTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threadDemo1/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threadDemo1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/subtractor.java" afterDir="false" />
-    </list>
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +15,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,8 +71,6 @@
     "Application.CountsubArrayequalK.executor": "Debug",
     "Application.CowDdistanceApart.executor": "Run",
     "Application.CowDistanceApart.executor": "Run",
-    "Application.CrossTheBridge.executor": "Run",
-    "Application.CrossTheBridgeII.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.DecoratorDemo.executor": "Run",
     "Application.DetectCycleInDirectedGraph.executor": "Run",
@@ -111,12 +85,13 @@
     "Application.FindTheRunningMedian.executor": "Run",
     "Application.FirstMissingInteger.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.FunctionDemo.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
-    "Application.HashCodevsEquals.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InterviewDesign.executor": "Run",
     "Application.Iterators.executor": "Run",
+    "Application.Java17ClassDemo.executor": "Run",
     "Application.JavaOracleUpdate.executor": "Run",
     "Application.KahnsAlgo.executor": "Run",
     "Application.KnapSackUnbounded.executor": "Run",
@@ -168,7 +143,6 @@
     "Application.TrappingRainProblem.executor": "Run",
     "Application.UnboundedKnapsackMemo.executor": "Run",
     "Application.UniqueSubtrees.executor": "Run",
-    "Application.client.executor": "Run",
     "Application.demo.executor": "Run",
     "Application.findTheSearchInRotatedArray.executor": "Run",
     "Application.generateNumbers.executor": "Run",
@@ -177,7 +151,6 @@
     "Application.longestIncreasingSubsequence.executor": "Run",
     "Application.map.executor": "Run",
     "Application.os_coding.MonitorLockExample.Client.executor": "Run",
-    "Application.os_coding.threadDemo.threadDemo1.client.executor": "Run",
     "Application.slidingWindowMaximum.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test1.executor": "Run",
@@ -199,7 +172,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -208,11 +181,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="DSA.queue" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
+      <recent name="LLD_Design.CarRentalDesignSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -223,13 +196,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrossTheBridgeII">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="os_coding.threadDemo.threadDemo1.Client" />
+  <component name="RunManager" selected="Application.FunctionDemo">
+    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.FunctionDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="os_coding.threadDemo.threadDemo1.*" />
+          <option name="PATTERN" value="java8features.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossTheBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.queue.CrossTheBridge" />
+    <configuration name="Java17ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaVersions.Java17.Java17ClassDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.queue.*" />
+          <option name="PATTERN" value="javaVersions.Java17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossTheBridgeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.queue.CrossTheBridgeII" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.Main" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.queue.*" />
+          <option name="PATTERN" value="java8features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="os_coding.callableDemo.client" />
+    <configuration name="NoOFIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOFIslands" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="os_coding.callableDemo.*" />
+          <option name="PATTERN" value="DSA.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="os_coding.threadDemo.demo" />
+    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.Predicates" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="os_coding.threadDemo.*" />
+          <option name="PATTERN" value="java8features.functionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,13 +264,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CrossTheBridgeII" />
-        <item itemvalue="Application.CrossTheBridge" />
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.client" />
+        <item itemvalue="Application.FunctionDemo" />
+        <item itemvalue="Application.Predicates" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Java17ClassDemo" />
+        <item itemvalue="Application.NoOFIslands" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -359,6 +340,9 @@
       <workItem from="1738353555908" duration="12000" />
       <workItem from="1763099271478" duration="7779000" />
       <workItem from="1763361329402" duration="5933000" />
+      <workItem from="1763619423307" duration="8800000" />
+      <workItem from="1763962064641" duration="599000" />
+      <workItem from="1763965970522" duration="6490000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -392,13 +376,13 @@
       <option name="project" value="LOCAL" />
       <updated>1763375809501</updated>
     </task>
-    <task id="LOCAL-00005" summary="changes">
+    <task id="LOCAL-00005" summary="Commiting somechanges">
       <option name="closed" value="true" />
-      <created>1763566195647</created>
+      <created>1763994664308</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1763566195647</updated>
+      <updated>1763994664308</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -428,9 +412,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commiting somechanges" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="Commiting somechanges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting somechanges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,12 +471,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>63</line>
+          <line>66</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>77</line>
+          <line>81</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -524,11 +508,6 @@
           <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/MedianOfTwoSortedArrays.java</url>
           <line>16</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/Tree/ViewOfBinaryTree.java</url>
@@ -704,7 +683,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
+          <properties class="LLD_Design.Decorator.DecoratorDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -713,7 +692,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
           <line>17</line>
-          <properties class="DSA.heapdemo.FindTheRunningMedian" method="main">
+          <properties class="DSA.heapdemo.FindTheRunningMedian">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

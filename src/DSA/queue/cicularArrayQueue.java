@@ -11,7 +11,6 @@ public class cicularArrayQueue {
 		x.offer(50);
 		x.offer(60);
 //		x.offer(70);
-		
 		x.remove();
 		System.out.println(x.size);
 		x.offer(46);
@@ -45,7 +44,6 @@ class queue{
 		arr[rear%capacity]= x;
 		size++;
 	}
-	
 	public int remove() {
 		front++;
 		

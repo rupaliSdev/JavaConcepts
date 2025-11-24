@@ -9,11 +9,11 @@ public class ItemStore {
         System.out.println("Inside putItem");
         while (!isItemAvailable) {
 
-                System.out.println("producer adding item");
+            System.out.println("producer adding item");
 
-                this.item = item;
-                isItemAvailable = true;
-                System.out.println(isItemAvailable);
+            this.item = item;
+            isItemAvailable = true;
+            System.out.println(isItemAvailable);
 
         }
         try {
@@ -25,15 +25,11 @@ public class ItemStore {
     }
 
     public synchronized int getItem() {
-        System.out.println("Inside getItem "+ isItemAvailable);
+        System.out.println("Inside getItem " + isItemAvailable);
         while (isItemAvailable) {
-
-                System.out.println("consumer consuming item");
-
-                isItemAvailable = false;
-
+            System.out.println("consumer consuming item");
+            isItemAvailable = false;
         }
-
         notify();
         return item;
     }

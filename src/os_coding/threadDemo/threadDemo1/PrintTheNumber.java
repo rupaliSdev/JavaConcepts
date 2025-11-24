@@ -1,4 +1,4 @@
-package os_coding.threadDemo1;
+package os_coding.threadDemo.threadDemo1;
 //import java.lang.Runnable;
 import java.lang.*;
 public class PrintTheNumber implements Runnable{
@@ -7,7 +7,7 @@ public class PrintTheNumber implements Runnable{
         this.numberToprint=num;
     }
     public void run(){
-           System.out.println(numberToprint + "thread no " +Thread.currentThread().getName());
+           System.out.println("Number is "+ numberToprint + " And thread name" +Thread.currentThread().getName());
     }
 
 }

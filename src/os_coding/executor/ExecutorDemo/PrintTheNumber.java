@@ -1,4 +1,4 @@
-package os_coding.ExecutorDemo;
+package os_coding.executor.ExecutorDemo;
 
 public class PrintTheNumber implements  Runnable {
     int numberToPrint;

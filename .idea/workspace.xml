@@ -5,41 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/BinarySortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/gs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/TwoPointers/SmallestSubArrayGreaterThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/TwoPointers/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/RestoreIPAddresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/MaximumPathSumInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/NthStair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/AlienDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/KillProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/NoOFIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/NoOfProvinces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/RottenOranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxNoOfEventCanBeAttended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/maths/CircleAndLatticePoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/maths/FindRecurringSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/queue/ImplementDeques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/sorting/gs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/gs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os_coding/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/queue/CrossTheBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/queue/CrossTheBridgeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaDiffVersions/Records/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/Twosum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/Twosum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/PalindromicPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/KahnsAlgo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/greedy/MaxMeetingsOnePerDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/greedy/ToySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/greedy/ToySelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/InterviewQues/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/queue/Encrypted_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/queue/Encrypted_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/queue/cicularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/queue/cicularArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/collections1/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/collections1/ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/collections1/hashmapDemo/implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/collections1/hashmapDemo/implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/CallableFutures/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/callableDemo/CallableFutures/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/CallableFutures/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/callableDemo/CallableFutures/MergeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/ClientD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/ClientD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/PrintTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/PrintTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/ExecutorDemo/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/executor/ExecutorDemo/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/ItemStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/MonitorLockExample/ItemStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threadDemo1/PrintTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threadDemo1/PrintTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threadDemo1/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threadDemo1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/threaddemo3/subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/threadDemo/threaddemo3/subtractor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +40,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -106,6 +95,8 @@
     "Application.CountsubArrayequalK.executor": "Debug",
     "Application.CowDdistanceApart.executor": "Run",
     "Application.CowDistanceApart.executor": "Run",
+    "Application.CrossTheBridge.executor": "Run",
+    "Application.CrossTheBridgeII.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.DecoratorDemo.executor": "Run",
     "Application.DetectCycleInDirectedGraph.executor": "Run",
@@ -122,6 +113,7 @@
     "Application.FirstUniqueCharacter.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
+    "Application.HashCodevsEquals.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InterviewDesign.executor": "Run",
     "Application.Iterators.executor": "Run",
@@ -176,6 +168,7 @@
     "Application.TrappingRainProblem.executor": "Run",
     "Application.UnboundedKnapsackMemo.executor": "Run",
     "Application.UniqueSubtrees.executor": "Run",
+    "Application.client.executor": "Run",
     "Application.demo.executor": "Run",
     "Application.findTheSearchInRotatedArray.executor": "Run",
     "Application.generateNumbers.executor": "Run",
@@ -184,6 +177,7 @@
     "Application.longestIncreasingSubsequence.executor": "Run",
     "Application.map.executor": "Run",
     "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.os_coding.threadDemo.threadDemo1.client.executor": "Run",
     "Application.slidingWindowMaximum.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test1.executor": "Run",
@@ -214,11 +208,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DSA.queue" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
-      <recent name="LLD_Design.CarRentalDesignSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -229,13 +223,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NoOFIslands">
-    <configuration name="AlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.AlienDictionary" />
+  <component name="RunManager" selected="Application.CrossTheBridgeII">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="os_coding.threadDemo.threadDemo1.Client" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
+          <option name="PATTERN" value="os_coding.threadDemo.threadDemo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KahnsAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.KahnsAlgo" />
+    <configuration name="CrossTheBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.queue.CrossTheBridge" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
+          <option name="PATTERN" value="DSA.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOFIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOFIslands" />
+    <configuration name="CrossTheBridgeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.queue.CrossTheBridgeII" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
+          <option name="PATTERN" value="DSA.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfProvinces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOfProvinces" />
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="os_coding.callableDemo.client" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
+          <option name="PATTERN" value="os_coding.callableDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,12 +276,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.TopoSort" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="os_coding.threadDemo.demo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
+          <option name="PATTERN" value="os_coding.threadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NoOFIslands" />
-        <item itemvalue="Application.NoOfProvinces" />
-        <item itemvalue="Application.AlienDictionary" />
-        <item itemvalue="Application.KahnsAlgo" />
-        <item itemvalue="Application.TopoSort" />
+        <item itemvalue="Application.CrossTheBridgeII" />
+        <item itemvalue="Application.CrossTheBridge" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.client" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763375809501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes">
+      <option name="closed" value="true" />
+      <created>1763566195647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763566195647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,9 +428,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes" />
     <MESSAGE value="Commiting somechanges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting somechanges" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,12 +487,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>66</line>
+          <line>63</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>81</line>
+          <line>77</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

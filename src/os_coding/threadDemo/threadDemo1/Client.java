@@ -1,6 +1,6 @@
-package os_coding.threadDemo1;
+package os_coding.threadDemo.threadDemo1;
 
-public class client {
+public class Client {
 
     public static void main(String[] args){
         System.out.println("hello");

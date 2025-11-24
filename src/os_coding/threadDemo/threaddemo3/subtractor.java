@@ -1,4 +1,4 @@
-package os_coding.threaddemo3;
+package os_coding.threadDemo.threaddemo3;
 
 public class subtractor implements Runnable{
     count c;

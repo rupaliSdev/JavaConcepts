@@ -1,4 +1,4 @@
-package OOPS.collections1.hashmapDemo;
+package Basics.Collections.collections1.hashmapDemo;
 
 import java.util.LinkedList;
 

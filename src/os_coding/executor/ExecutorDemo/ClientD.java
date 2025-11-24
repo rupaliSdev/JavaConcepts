@@ -1,7 +1,6 @@
-package os_coding.ExecutorDemo;
+package os_coding.executor.ExecutorDemo;
 
 import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ClientD {

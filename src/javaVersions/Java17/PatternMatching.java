@@ -7,7 +7,6 @@ public class PatternMatching {
 
         //before
         if(obj instanceof Car){
-
             Car car= (Car) obj;
             System.out.println(car);
         }

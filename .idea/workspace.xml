@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Commiting somechanges" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="problems in Queue">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8features/FunctionalInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8features/StreamHandsOn/practice/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8features/StreamHandsOn/practice/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Annotations/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Annotations/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparatorss/ComparableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/ComparatorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/Comparators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/streams/StreamDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/streams/StreamDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/streams/StreamDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/ClassDemo1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/ClassDemo1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/Stream2_MinSalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/Stream3_DistinctJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/Stream4_First5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/StreamDemo_ex1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/StreamDemoex2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/StreamDemoex3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/StreamHandsOn/streamDemo/StreamFilter1_Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8features/defaultMethods/m2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/defaultMethods/m2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,14 +95,19 @@
     "Application.Client.executor": "Run",
     "Application.CloneLL.executor": "Run",
     "Application.CombinationSum.executor": "Run",
+    "Application.ComparableDemo.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.CountNoOfTeams.executor": "Debug",
     "Application.CountSubArrayDivisibleByK.executor": "Debug",
     "Application.CountsubArrayequalK.executor": "Debug",
     "Application.CowDdistanceApart.executor": "Run",
     "Application.CowDistanceApart.executor": "Run",
+    "Application.CrossTheBridge.executor": "Run",
+    "Application.CrossTheBridgeII.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.DecoratorDemo.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Demo2.executor": "Run",
     "Application.DetectCycleInDirectedGraph.executor": "Run",
     "Application.DetectCycleInUndirectedGraph.executor": "Run",
     "Application.DevideInteger.executor": "Debug",
@@ -85,13 +120,12 @@
     "Application.FindTheRunningMedian.executor": "Run",
     "Application.FirstMissingInteger.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
-    "Application.FunctionDemo.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HandsOn1_Book.executor": "Run",
+    "Application.HashCodevsEquals.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InterviewDesign.executor": "Run",
     "Application.Iterators.executor": "Run",
-    "Application.Java17ClassDemo.executor": "Run",
     "Application.JavaOracleUpdate.executor": "Run",
     "Application.KahnsAlgo.executor": "Run",
     "Application.KnapSackUnbounded.executor": "Run",
@@ -143,6 +177,7 @@
     "Application.TrappingRainProblem.executor": "Run",
     "Application.UnboundedKnapsackMemo.executor": "Run",
     "Application.UniqueSubtrees.executor": "Run",
+    "Application.client.executor": "Run",
     "Application.demo.executor": "Run",
     "Application.findTheSearchInRotatedArray.executor": "Run",
     "Application.generateNumbers.executor": "Run",
@@ -151,6 +186,7 @@
     "Application.longestIncreasingSubsequence.executor": "Run",
     "Application.map.executor": "Run",
     "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.os_coding.threadDemo.threadDemo1.client.executor": "Run",
     "Application.slidingWindowMaximum.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test1.executor": "Run",
@@ -172,7 +208,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -181,11 +217,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DSA.queue" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
-      <recent name="LLD_Design.CarRentalDesignSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -196,13 +232,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionDemo">
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.FunctionDemo" />
+  <component name="RunManager" selected="Application.ComparableDemo">
+    <configuration name="ComparableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.comparatorss.ComparableDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8features.functionalInterface.*" />
+          <option name="PATTERN" value="Basics.comparatorss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +246,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java17ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaVersions.Java17.Java17ClassDemo" />
+    <configuration name="CrossTheBridgeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.queue.CrossTheBridgeII" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaVersions.Java17.*" />
+          <option name="PATTERN" value="DSA.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.AbstractAndInterface.Demo" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.AbstractAndInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.StreamHandsOn.practice.Demo2" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8features.StreamHandsOn.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,49 +298,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOFIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.graph.NoOFIslands" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.Predicates" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8features.functionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionDemo" />
-        <item itemvalue="Application.Predicates" />
+        <item itemvalue="Application.ComparableDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Java17ClassDemo" />
-        <item itemvalue="Application.NoOFIslands" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.CrossTheBridgeII" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -340,9 +368,6 @@
       <workItem from="1738353555908" duration="12000" />
       <workItem from="1763099271478" duration="7779000" />
       <workItem from="1763361329402" duration="5933000" />
-      <workItem from="1763619423307" duration="8800000" />
-      <workItem from="1763962064641" duration="599000" />
-      <workItem from="1763965970522" duration="6490000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -376,13 +401,13 @@
       <option name="project" value="LOCAL" />
       <updated>1763375809501</updated>
     </task>
-    <task id="LOCAL-00005" summary="Commiting somechanges">
+    <task id="LOCAL-00005" summary="changes">
       <option name="closed" value="true" />
-      <created>1763994664308</created>
+      <created>1763566195647</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1763994664308</updated>
+      <updated>1763566195647</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -412,9 +437,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes" />
     <MESSAGE value="Commiting somechanges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting somechanges" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,12 +496,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>66</line>
+          <line>63</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>81</line>
+          <line>77</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -508,6 +533,11 @@
           <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/MedianOfTwoSortedArrays.java</url>
           <line>16</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/backtracking/CombinationSum.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/Tree/ViewOfBinaryTree.java</url>
@@ -683,7 +713,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.Decorator.DecoratorDemo">
+          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -692,7 +722,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DSA/heapdemo/FindTheRunningMedian.java</url>
           <line>17</line>
-          <properties class="DSA.heapdemo.FindTheRunningMedian">
+          <properties class="DSA.heapdemo.FindTheRunningMedian" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

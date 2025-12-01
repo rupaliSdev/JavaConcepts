@@ -1,8 +1,8 @@
-package Basics.Collections.collections1.hashmapDemo;
+package Basics.Collections.map;
 
 import java.util.LinkedList;
 
-public class implementation {
+public class HashMapImpl {
     static class HashMap<K,V> {
         private class Node{
             K key ;

@@ -104,15 +104,11 @@ public class CouponSystem {
 
         CouponSystem system = new CouponSystem(categories, coupons);
         system.getEffectiveCoupon(categories,coupons);
-
-
-
-
-
     }
 
 
     private void getEffectiveCoupon(List<Category> categories, Map<String, List<Coupon>> coupons) {
+
 
         
 

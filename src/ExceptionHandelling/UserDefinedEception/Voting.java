@@ -17,15 +17,15 @@ public class Voting {
          
 	}
 
-}
-class invalidAgeException extends Exception{
-	private int age;
+	static class invalidAgeException extends Exception{
+		private int age;
 
-	invalidAgeException( int age) {
-		this.age=age;
-	}
-	public String toString() {
+		invalidAgeException( int age) {
+			this.age=age;
+		}
+		public String toString() {
 
-		return "Your age id less than 18 ,you are not eligible";
+			return "Your age id less than 18 ,you are not eligible";
+		}
 	}
 }

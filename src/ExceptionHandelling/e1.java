@@ -19,8 +19,8 @@ public class e1 {
 
 	}
 
+	static class dog{
+		String name ="heyyyyyy";
+	}
 }
 
-class dog{
-	String name ="heyyyyyy";
-}

@@ -1,5 +1,7 @@
 package os_coding.AtomicIntegerEx;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class ItemResource {
     Counter counter;
 
@@ -19,5 +21,7 @@ public class ItemResource {
         return counter.atomicInteger.get();
     }
 
-
+}
+class Counter {
+    AtomicInteger atomicInteger=new AtomicInteger(0);
 }

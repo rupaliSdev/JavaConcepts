@@ -7,8 +7,8 @@ Example: 4 is an integer literal.
 **Identifiers:** Identifiers are the names of variables, methods, classes, packages and interfaces
 
 * Octal values are denoted in Java by a leading zero. Normal decimal numbers cannot have a leading zero.
-* Thus, the seemingly valid value 09 will produce an error from the compiler, since 9 is outside of octal’s 0 to 7 range.
-* 
+Thus, the seemingly valid value 09 will produce an error from the compiler, since 9 is outside of octal’s 0 to 7 range.
+
 * You signify a hexadecimal constant with a leading zero-x, (0x or 0X).
 * The range of a hexadecimal digit is 0 to 15, so A through F (or a through f ) are substituted for 10 through 15.
 * 
@@ -48,7 +48,9 @@ Example: 4 is an integer literal.
 * The remainder a % b is defined such that (a / b) * b + a % b is always equal to a :
 * System.out.println(-15 % 2);    // -1
 * System.out.println(15 % -2);    // 1
-* 
+
+
+
 #### Type Conversion and Casting:
 
 Java’s Automatic Conversions
@@ -100,7 +102,7 @@ They are as follows: First, all byte, short, and char values are promoted to int
 Then, if one operand is a long, the whole expression is promoted to long. If one operand is a float,
 the entire expression is promoted to float. If any of the operands are double, the result is double.
 
-class Promote {
+```class Promote {
 public static void main(String args[]) {
 byte b = 42;
 char c = 'a';
@@ -113,6 +115,7 @@ System.out.println((f * b) + " + " + (i / c) + " - " + (d * s));
 System.out.println("result = " + result);
 }
 }
+```
 Let’s look closely at the type promotions that occur in this line from the program:
 
      double result = (f * b) + (i / c) - (d * s);
@@ -153,7 +156,9 @@ Q) What is a marker interface?
 A Marker interface can be defined as the interface having no data member and member functions. In simpler terms, an empty interface is called the Marker interface.
 serializable and clonable interface
 
-Q) Can you override a private or static method in Java?
+**TODO**
+
+**Q) Can you override a private or static method in Java?**
 
 As I have told you in previous videos : method overriding is a good topic to ask trick questions in Java.
 
@@ -161,31 +166,25 @@ As I have told you in previous videos : method overriding is a good topic to ask
 
 2) you cannot override a private method in sub class because it's not accessible there, what you do is create another private method with the same name in the child class.
 
-3) For static methods if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as method hiding.
+3) For static methods if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as **method hiding**.
 
-Q) Does “finally” always execute in Java?
-Not in following cases
-“System.exit()” function
-system crash
+**Q) Does “finally” always execute in Java?**
 
-Q) What Methods Does the Object Class Have?
+Not in following cases “System.exit()” function and system crash
+
+**Q) What Methods Does the Object Class Have?**
+
 Java.lang.Object class, parent of all has following methods :
 
-protected Object clone() throws CloneNotSupportedException
-Creates and returns a copy of this object.
-
-public boolean equals(Object obj)
-Indicates whether some other object is “equal to” this one.
-
-protected void finalize() throws Throwable
-Called by the garbage collector on an object when garbagecollection   determines that there are no more references to the object.
-
-public final Class getClass() : Returns the runtime class of an object.
-
-public int hashCode(): Returns a hash code value for the object.
+* protected Object clone() throws CloneNotSupportedException :-> Creates and returns a copy of this object.
+* public boolean equals(Object obj) : Indicates whether some other object is “equal to” this one.
+* protected void finalize() throws Throwable : Called by the garbage collector on an object when garbagecollection  determines that there are no more references to the object.
+* public final Class getClass() : Returns the runtime class of an object.
+* public int hashCode(): Returns a hash code value for the object.
 
 
-Q) How Can You Make a Class Immutable?
+**Q) How Can You Make a Class Immutable?**
+```
 1) Make the class final, so that no other classes can extend it.
 2) Make all fields private so that direct access is not allowed.
 3) Do not provide setter methods for variables.
@@ -201,9 +200,12 @@ Q) How Can You Make a Class Immutable?
 10) Use a factory method to create instances of the class.
 11) Use the clone() method to return a copy of the object.
 12) Use the final keyword so that the methods can’t be overridden.
+```
 
-Q) What is singleton class in Java and how can we make a class singleton?
+**Q) What is singleton class in Java and how can we make a class singleton?**
+```
 Singleton class is a class which allows only one instance of the class at a time. It is used in logging, driver objects, caching and thread pool. To make a class singleton, we need to follow these steps:
+Refer: JavaConcepts/src/LLD_Design/SingletonDesignPattern/SingletonDemo.java
 
 1) Make constructor as private.
 2) Write a static method that has return type object of this singleton class. Here, the concept of Lazy initialization is used to write this static method.
@@ -220,7 +222,93 @@ Singleton class is a class which allows only one instance of the class at a time
 11) To prevent multiple instances in a multithreaded environment, we can use the concept of double-checked locking.
 12) To prevent multiple instances in a multithreaded environment, we can use the concept of the synchronized keyword.
 
-![img.png](img.png)
+```
+
+
+
+### **_Collection_**
+
+```
+Collection (I)
+│
+├── List (I)
+│     ├── ArrayList (C)
+│     ├── LinkedList (C)
+│     ├── Vector (C)
+│     │      └── Stack (C)
+│
+├── Set (I)
+│     ├── HashSet (C)
+│     │      └── LinkedHashSet (C)
+│     └── SortedSet (I)
+│            └── NavigableSet (I)
+│                  └── TreeSet (C)
+│
+└── Queue (I)
+      ├── Deque (I)
+      │     ├── ArrayDeque (C)
+      │     └── LinkedList (C)
+      │
+      └── PriorityQueue (C)
+
+Map (I)
+│
+├── HashMap (C)
+│     └── LinkedHashMap (C)
+│
+├── Hashtable (C)
+│     └── Properties (C)
+│
+├── SortedMap (I)
+│       └── NavigableMap (I)
+│             └── TreeMap (C)
+│
+└── ConcurrentMap (I)
+       └── ConcurrentHashMap (C)
+
+```
+
+
+
+java.util.Collection — root for grouping single elements (subinterfaces: List, Set, Queue).
+
+java.util.Map — separate root for key→value mappings (not a Collection).
+
+
+List<E> (ordered, index-based)
+
+Preserves insertion order, allows duplicates, provides random access (if supported).
+
+Extra methods: get(int), set(int,E), add(int,E), remove(int), indexOf, lastIndexOf, listIterator.
+
+Implementations vary in performance semantics.
+
+Set<E> (no duplicates)
+
+No guaranteed order (unless specific impl like LinkedHashSet or TreeSet).
+
+Duplicate is determined by equals() (and hashCode() for hash-based sets).
+
+SortedSet<E> / NavigableSet<E>
+
+SortedSet (older): natural order or provided Comparator.
+
+NavigableSet adds methods: lower, floor, ceiling, higher, pollFirst, pollLast, descendingSet.
+
+Queue<E> and Deque<E>
+
+FIFO semantics generally for Queue. Deque supports both ends (double-ended).
+
+Special queue types: PriorityQueue (not FIFO — ordered by comparator/priority), blocking queues in java.util.concurrent package.
+
+Map<K,V>
+
+Methods: put, get, remove, containsKey, containsValue, keySet, values, entrySet.
+
+Keys unique; values can be duplicated.
+
+SortedMap / NavigableMap similar to sorted sets.
+
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
@@ -374,7 +462,7 @@ protected void finalize( ) {
 }
 ````
 
-Constructors:
+**Constructors:**
 
 Once defined, the constructor is automatically called when the object is created, before the new operator completes.
 Constructors look a little strange because they have no return type, not even void.
@@ -385,7 +473,7 @@ Box mybox1 = new Box();
 new Box( ) is calling the Box( ) constructor.
 
 
-Inheritance and constructors in Java:
+**Inheritance and constructors in Java:**
 
 In Java, constructor of base class with no argument gets automatically called in derived class constructor.
 For example, output of following program given below is:
@@ -459,7 +547,7 @@ so an enum cannot extend anything else.
 
 Two enumeration constants can be compared for equality by using the == relational operator.
 
-values(), ordinal() and valueOf() methods :
+_**values(), ordinal() and valueOf() methods :**_
 These methods are present inside java.lang.Enum.
 -values() method can be used to return all values present inside enum.
 -Order is important in enums.By using ordinal() method, each enum constant index can be found,
@@ -1168,3 +1256,312 @@ Q) Are Static Methods available to implementing classes by default?
 Static methods are not available for implementing classes.
 
 They are not default methods. They are static.
+
+
+
+
+https://chatgpt.com/c/68e49c82-0e84-832b-9e72-be01d9273da6
+Q2. Can Static Methods be Overridden?
+🔴 No, Static methods cannot be overridden — but they can be hidden.
+
+👉 When a subclass defines a static method with the same name and signature as one in its superclass, it’s called method hiding, not overriding.
+Think of a static method as a class-level utility, not behavior of an object.
+You can redefine it in child classes, but the binding depends on the class reference, not the runtime object.
+````
+class Parent {
+static void greet() {
+System.out.println("Hello from Parent");
+}
+}
+
+class Child extends Parent {
+static void greet() {
+System.out.println("Hello from Child");
+}
+}
+
+public class Test {
+public static void main(String[] args) {
+Parent p = new Child();
+p.greet();  // Output: Hello from Parent
+}
+}
+
+````
+Constructors → Overloading possible, Overriding not
+
+Static methods → Method hiding, not overriding
+
+Runtime polymorphism applies only to instance (non-static) methods
+
+Static methods can’t be overridden because overriding requires
+runtime polymorphism — and static methods are resolved at compile time.
+
+
+| **Feature**         | **Abstraction**                               | **Encapsulation**                                                 |
+| ------------------- | --------------------------------------------- | ----------------------------------------------------------------- |
+| **Focus**           | Hides **implementation details**              | Hides **data / internal state**                                   |
+| **Purpose**         | To simplify design (show only necessary info) | To protect data integrity                                         |
+| **Achieved By**     | Using **abstract classes** and **interfaces** | Using **classes**, **private variables**, and **getters/setters** |
+| **Example Keyword** | `abstract`, `interface`                       | `private`, `public`                                               |
+| **Relation**        | “What an object does”                         | “How the object hides its data”                                   |
+| **Example**         | `Payment` interface hides payment logic       | `BankAccount` hides `balance`                                     |
+
+
+| **Feature**                        | **Abstract Class**                                             | **Interface**                                                                                                             |
+| ---------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Keyword**                        | `abstract`                                                     | `interface`                                                                                                               |
+| **Methods**                        | Can have **abstract** and **non-abstract (concrete)** methods  | Can have **abstract**, **default**, **static**, and (since Java 9) **private** methods                                    |
+| **Access Modifiers (for methods)** | Can use **any** modifier: `private`, `protected`, `public`     | All **abstract methods are implicitly public**<br>Default, static, and private methods must use those keywords explicitly |
+| **Variables / Fields**             | Can have **instance**, **static**, or **final** variables      | All variables are **public static final** (constants) by default                                                          |
+| **Constructors**                   | ✅ Can have constructors (for initialization of subclass state) | ❌ Cannot have constructors                                                                                                |
+| **Inheritance**                    | A class can extend **only one** abstract class                 | A class can **implement multiple** interfaces                                                                             |
+| **When to Use**                    | When classes share **common code and state**                   | When unrelated classes should follow a **common contract**                                                                |
+| **Example Use Case**               | `abstract class Vehicle` (defines base behavior)               | `interface Drivable` (defines capability)                                                                                 |
+
+| **Method Type**   | **Can Override?** | **Binding**       | **Reference Type vs Object Type** | **Example Behavior**                                  |
+| ----------------- | ----------------- | ----------------- | --------------------------------- | ----------------------------------------------------- |
+| Instance (normal) | ✅ Yes             | Runtime (dynamic) | JVM uses **actual object type**   | `Child.show()` called for `Parent p = new Child();`   |
+| Static            | ❌ No, hides       | Compile-time      | JVM uses **reference type**       | `Parent.greet()` called for `Parent p = new Child();` |
+| Final             | ❌ No              | Compile-time      | Reference type irrelevant         | Cannot override, always Parent method                 |
+| Private           | ❌ No              | Compile-time      | Reference type irrelevant         | Child method is **new**, Parent method invisible      |
+
+
+1️⃣ How a Java Program is Executed
+
+Java execution involves multiple steps because it runs on the Java Virtual Machine (JVM).
+
+Step 1: Source Code Compilation
+
+You write code in .java files.
+
+The Java Compiler (javac) converts .java → .class (bytecode).
+
+Bytecode is platform-independent.
+
+MyProgram.java → javac → MyProgram.class (bytecode)
+
+Step 2: Class Loading
+
+JVM loads the class using ClassLoader.
+
+There are three main class loaders:
+
+Bootstrap ClassLoader → Loads core Java classes (java.lang.*)
+
+Extension ClassLoader → Loads classes from ext folder
+
+System/Application ClassLoader → Loads classes from your project/classpath
+
+Step 3: Linking
+
+Verification: Ensures bytecode is valid.
+
+Preparation: Allocates memory for static variables (class-level).
+
+Resolution: Resolves symbolic references to actual memory addresses.
+
+Step 4: Initialization
+
+Static variables and static blocks are initialized in the order they appear.
+
+Example:
+
+class Test {
+static int x = 10;
+
+    static {
+        System.out.println("Static block executed");
+    }
+
+    int y = 20; // instance variable
+}
+
+
+When class is loaded, JVM allocates memory for static variable x and executes the static block.
+
+Step 5: Execution
+
+JVM executes the main() method.
+
+Objects are created using new keyword, which allocates memory for instance variables in the heap.
+
+Methods are called, local variables are stored in the stack.
+
+2️⃣ Java Memory Areas
+
+When JVM runs a program, memory is divided into several areas:
+
+Memory Area	Purpose	Lifetime
+Method Area (Static Area)	Stores class-level info, bytecode, static variables, constants, static methods	JVM lifetime (shared among all objects)
+Heap	Stores objects and instance variables	Until object is garbage collected
+Stack	Stores local variables, method call info (frames)	Until method execution finishes
+PC Register	Keeps track of current instruction for thread	Thread-lifetime
+Native Method Stack	Stores native method calls	Thread-lifetime
+3️⃣ Static vs Instance Memory Allocation
+Static Members
+
+Stored in Method Area (Class Area)
+
+Shared across all instances of the class
+
+Initialized when the class is loaded
+
+class Test {
+static int a = 10;  // static variable
+int b = 20;         // instance variable
+}
+
+
+Test.a → one copy, shared
+
+Test obj1 = new Test(); obj1.b → separate copy for each object
+
+Instance Members
+
+Stored in Heap, one copy per object
+
+Created when object is instantiated (new)
+
+Heap:
+obj1 -> b = 20
+obj2 -> b = 20
+
+Local Variables
+
+Stored in Stack, exist only during method execution
+
+void method() {
+int x = 5; // stack memory, destroyed after method ends
+}
+
+Static Method vs Instance Method Memory
+Feature	Static Method	Instance Method
+Memory Location	Method Area	Method Area (code), heap (for this)
+Access	Can access only static variables/methods directly	Can access both instance and static members
+Invocation	ClassName.method()	Object.method()
+Binding	Compile-time (static binding)	Runtime (dynamic binding / polymorphism)
+4️⃣ Execution Flow with Example
+class Example {
+static int x = 100;
+int y = 200;
+
+    static {
+        System.out.println("Static block executed");
+    }
+
+    void print() {
+        System.out.println("y = " + y);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("x = " + x);  // static accessed directly
+        Example e = new Example();       // instance created, memory allocated in heap
+        e.print();                       // instance method
+    }
+}
+
+
+Execution Flow:
+
+JVM loads Example class → allocates static variable x → executes static block
+
+JVM executes main() → prints static x
+
+Object e created → instance variable y stored in heap
+
+e.print() called → stack frame created → prints y
+
+Output:
+
+Static block executed
+x = 100
+y = 200
+
+🔑 Quick Rules to Remember
+
+Static → Class-level → Method Area → Shared by all objects
+
+Instance → Object-level → Heap → Unique per object
+
+Local → Method-level → Stack → Destroyed after method ends
+
+Static methods → Can’t access instance members directly
+
+Instance methods → Can access both static & instance members
+
+If you want, Rupali, I can draw a complete JVM memory diagram showing:
+
+Method Area (static)
+
+Heap (instance)
+
+Stack (local variables)
+
+Static vs instance method & variable allocation
+
+This diagram is very popular in SDE interviews and helps explain everything in 30 seconds.
+
+| Point           | Explanation                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| **Bytecode**    | Platform-independent intermediate code                              |
+| **JVM**         | Platform-specific interpreter that executes bytecode                |
+| **Requirement** | JVM must exist on the target machine to run Java programs           |
+| **WORA**        | “Write Once, Run Anywhere” because JVM handles platform differences |
+
+Java:
+
+Think of bytecode as English instructions.
+
+JVM = translator for your OS/CPU.
+
+You can give the same instructions to any system with a translator.
+
+C++:
+
+Think of compiled binary as system-specific instructions.
+
+If you take the binary to another system, it won’t run because the instructions are OS-specific.
+
+“What happens if parent class has only parameterized constructor and child calls super() without arguments?”
+
+Answer:
+
+“A compile-time error occurs, because there is no default no-argument constructor in the parent class. Java only provides a default constructor if no constructors are explicitly defined in the class.”
+
+
+2️⃣ Summary Table: Final Keyword
+Usage	Effect
+Final Variable	Value cannot change after initialization
+Final Method	Cannot be overridden in subclasses
+Final Class	Cannot be extended
+Final Parameter	Cannot be reassigned inside method
+Final in Anonymous Class	Used to capture local variables safely
+
+💡 Interview Tip:
+
+final + static → commonly used for constants (static final int MAX = 100;)
+
+String is final class, that’s why you cannot extend it
+
+final ensures immutability, security, and consistency
+
+
+
+##### What is the purpose of the java.util.concurrent package in Java?
+    Answer:
+    • The java.util.concurrent package in Java provides utilities and classes for
+    concurrent programming.
+    • It contains classes for creating and managing threads, thread pools,
+    synchronization primitives, concurrent data structures, and utilities for
+    handling concurrent execution.
+
+
+**52. Explain the difference between throw and throws keywords in Java.**
+`Answer:
+• throw keyword is used to explicitly throw an exception from a method or
+block of code.
+• throws keyword is used in the method signature to indicate that the
+method may throw one or more exceptions, and the responsibility of
+handling those exceptions is delegated to the caller method or the JVM.
+`

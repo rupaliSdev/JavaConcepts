@@ -21,9 +21,7 @@ public class Encrypted_String {
 			if('a'<=s.charAt(i) && s.charAt(i)<='z') {
 				x++;
 				st.push(x);
-//				System.out.print(x);
 				map.put(x,s.charAt(i));
-				
 			}
 			else {
 				x+=(s.charAt(i)-'0');
@@ -32,12 +30,9 @@ public class Encrypted_String {
 		while(true) {
 			
 			while(!st.isEmpty() && st.peek()>k) {
-//				System.out.print(st.peek());
 				st.pop();
 			}
-			
 			k=k%st.peek();
-			
 			if(k==0) {
 				return map.get(st.peek());
 			}
@@ -45,7 +40,6 @@ public class Encrypted_String {
 				return map.get(k);
 			}
 			if(st.isEmpty()) {
-//				System.out.print("hello");
 				break;
 			}
 		}

@@ -4,26 +4,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="CouponSystem.java changes">
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LFU_CACHE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/HLD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/abstract/interface.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticDemo/static.md" afterDir="false" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="java concepts + LLD">
+      <change afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/BackSpaceStringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/InterfaceSegragation/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/LSP/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Adapter/AdapterDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_25,_8_23 pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_25__8_23pm__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/Season.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/enumDemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/Enum/EnumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/StaticDemo/StaticDemoex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/StaticDemo/StaticDemoex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/enumExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/ThreeDArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/gitNotes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/Mapnotes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/CompareClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/CompareClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/collections1/ex1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/HashMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/TreeMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/ComparableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandelling/Tstthrws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandelling/Tstthrws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandelling/testing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Client_Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Client_Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Reservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Reservations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/VehicleInventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/VehicleInventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CouponSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/CoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/CoffeeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/SimpleCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/DiscountServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/AndroidUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/AndroidUIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/Flutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/Flutter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/UIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/UIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ExternalDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ExternalDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Floor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/IOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/IOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/op/IOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op/IOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/op2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/IphoneObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observable/IphoneObserverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/StockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observable/StockObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/NotificationAlertObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/NotificationAlertObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/QuizEx/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/QuizEx/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/IntelligentStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/studentRegistery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/studentRegistery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex1/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex1/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex1/v1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex1/v1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/VendingMachineDEMO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/VendingMachineState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Jump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FixedShippingCostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FreeShippingCostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/strategyDesignPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/PercentageShippingCostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/strategyDesignPattern/ShippingCostCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShoppingCart.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/ItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/ItemResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/os_coding/interview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/inventory_wm.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/inventory_wm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +183,7 @@
     &quot;Application.CircleAndLatticePoints.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.CloneLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountNoOfTeams.executor&quot;: &quot;Debug&quot;,
@@ -93,11 +193,14 @@
     &quot;Application.CowDistanceApart.executor&quot;: &quot;Run&quot;,
     &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.DecoratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
     &quot;Application.DetectCycleInDirectedGraph.executor&quot;: &quot;Run&quot;,
     &quot;Application.DetectCycleInUndirectedGraph.executor&quot;: &quot;Run&quot;,
     &quot;Application.DevideInteger.executor&quot;: &quot;Debug&quot;,
     &quot;Application.DiameterOfBT.executor&quot;: &quot;Run&quot;,
     &quot;Application.DijkstraNegativeDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DiscountServices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExecutorFramwork.executor&quot;: &quot;Debug&quot;,
     &quot;Application.FairnessDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindFloorNo.executor&quot;: &quot;Run&quot;,
@@ -108,6 +211,7 @@
     &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
     &quot;Application.HandsOn1_Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashCodevsEquals.executor&quot;: &quot;Run&quot;,
     &quot;Application.InfixToPostfix.executor&quot;: &quot;Run&quot;,
     &quot;Application.InterviewDesign.executor&quot;: &quot;Run&quot;,
     &quot;Application.Iterators.executor&quot;: &quot;Run&quot;,
@@ -121,6 +225,7 @@
     &quot;Application.LeaderBoardIUSingHeap.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainT.executor&quot;: &quot;Run&quot;,
     &quot;Application.MapDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxMeetingsOnePerDay.executor&quot;: &quot;Run&quot;,
@@ -131,7 +236,6 @@
     &quot;Application.MonitorLock.executor&quot;: &quot;Run&quot;,
     &quot;Application.NMeetingsInARoom.executor&quot;: &quot;Run&quot;,
     &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedIFDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.NinetyDegreeRotation.executor&quot;: &quot;Run&quot;,
     &quot;Application.NoOFIslands.executor&quot;: &quot;Run&quot;,
     &quot;Application.NoOfProvinces.executor&quot;: &quot;Run&quot;,
@@ -155,7 +259,6 @@
     &quot;Application.SpecialIndex.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SpiralProblems.executor&quot;: &quot;Run&quot;,
     &quot;Application.StampedLockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticDemoex.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Store.executor&quot;: &quot;Run&quot;,
     &quot;Application.SubsequenceMaxSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.SubsetProblems.executor&quot;: &quot;Run&quot;,
@@ -165,9 +268,10 @@
     &quot;Application.TopoSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.ToySelection.executor&quot;: &quot;Run&quot;,
     &quot;Application.TrappingRainProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tstthrws.executor&quot;: &quot;Run&quot;,
     &quot;Application.UnboundedKnapsackMemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.UniqueSubtrees.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
     &quot;Application.findTheSearchInRotatedArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.generateNumbers.executor&quot;: &quot;Run&quot;,
     &quot;Application.immuatable_concepts.executor&quot;: &quot;Run&quot;,
@@ -220,13 +324,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demo">
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Collections.map.MapDemo" />
+  <component name="RunManager" selected="Application.Tstthrws">
+    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.InterviewQues.CollectionDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.Collections.map.*" />
+          <option name="PATTERN" value="Basics.InterviewQues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.AbstractAndInterface.NestedIFDemo" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLD_Design.SOLIDPrniciples.LSP.Demo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.AbstractAndInterface.*" />
+          <option name="PATTERN" value="LLD_Design.SOLIDPrniciples.LSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +351,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Saving" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.AbstractAndInterface.Saving" />
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.Basic.Enum.EnumDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.AbstractAndInterface.*" />
+          <option name="PATTERN" value="Basics.Basic.Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +364,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDemoex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.StaticDemo.StaticDemoex" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLD_Design.Behavioural.strategyDesignPattern.Main" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.StaticDemo.*" />
+          <option name="PATTERN" value="LLD_Design.Behavioural.strategyDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +377,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.LinkedList.demo" />
+    <configuration name="Tstthrws" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandelling.Tstthrws" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.LinkedList.*" />
+          <option name="PATTERN" value="ExceptionHandelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,21 +392,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.NestedIFDemo" />
-        <item itemvalue="Application.Saving" />
-        <item itemvalue="Application.StaticDemoex" />
-        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.Tstthrws" />
+        <item itemvalue="Application.EnumDemo" />
+        <item itemvalue="Application.CollectionDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -370,23 +466,7 @@
       <workItem from="1764220293909" duration="555000" />
       <workItem from="1764310446006" duration="9698000" />
       <workItem from="1764567615113" duration="4277000" />
-      <workItem from="1764578775889" duration="7214000" />
-      <workItem from="1764832243341" duration="9856000" />
-      <workItem from="1765171759539" duration="834000" />
-      <workItem from="1765202939670" duration="1427000" />
-      <workItem from="1765213334925" duration="13746000" />
-      <workItem from="1765283430280" duration="603000" />
-      <workItem from="1765284460971" duration="438000" />
-      <workItem from="1765285152501" duration="2000" />
-      <workItem from="1765285368518" duration="1244000" />
-      <workItem from="1765305982698" duration="481000" />
-      <workItem from="1765345577946" duration="6224000" />
-      <workItem from="1765370003424" duration="599000" />
-      <workItem from="1765371723572" duration="595000" />
-      <workItem from="1765372523285" duration="714000" />
-      <workItem from="1765375834439" duration="599000" />
-      <workItem from="1765429829990" duration="1198000" />
-      <workItem from="1765876684922" duration="1806000" />
+      <workItem from="1764578775889" duration="5402000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -444,15 +524,7 @@
       <option name="project" value="LOCAL" />
       <updated>1764343370108</updated>
     </task>
-    <task id="LOCAL-00008" summary="CouponSystem.java changes">
-      <option name="closed" value="true" />
-      <created>1764597447848</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1764597447848</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,17 +561,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Sugar.java</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/SimpleCoffee.java</url>
           <line>5</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -750,64 +822,70 @@
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java</url>
           <line>120</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java</url>
           <line>173</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java</url>
           <line>123</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java</url>
           <line>143</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>128</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="productName=&quot;Infinite Soap Dispenser&quot;" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/SingletonDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/SingletonDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.Decorator.DecoratorDemo" method="main">
+          <properties class="LLD_Design.structural.Decorator.DecoratorDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -830,5 +908,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="prefixSum" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

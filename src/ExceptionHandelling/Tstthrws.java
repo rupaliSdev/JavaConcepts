@@ -17,9 +17,9 @@ public class Tstthrws{
             n();
             
         }
-//        catch (IOException ie){
-//            System.out.println(ie.getMessage());
-//        }
+        catch (IOException ie){
+            System.out.println(ie.getMessage());
+        }
         catch(Exception e){
             System.out.println("Exception Handled "+ e.getMessage());
         }

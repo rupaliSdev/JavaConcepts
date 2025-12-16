@@ -4,7 +4,7 @@ public interface m2 {
 
     abstract void playing();
 
-    default void hello(){
+    default void hey(){
         System.out.println("hello");
     }
 }

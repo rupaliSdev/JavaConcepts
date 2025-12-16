@@ -3,7 +3,6 @@ package OOPS.ClassDemo1;
 public class Car {
 
    // all properties are private so we can't access it outside the class
-    //
     private int speed=0;
     private String doors="open";
 

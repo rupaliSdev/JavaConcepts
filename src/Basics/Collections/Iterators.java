@@ -7,7 +7,15 @@ import java.util.List;
 public class Iterators {
 
 	public static void main(String[] args) {
-		
+
+    /*    The java.util.Iterator interface in Java is used to iterate over elements of
+                a collection sequentially.
+• It provides methods for checking if there are more elements (hasNext()),
+                retrieving the next element (next()), and removing the current element
+        (remove()).
+• Iterator objects are obtained from collection classes using the iterator()
+        method.*/
+
 		//Iterator<String>str = Iterator();
         List<Integer> in = new ArrayList<Integer>();
         in.add(10);

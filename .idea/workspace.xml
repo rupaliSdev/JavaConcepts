@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="CouponSystem.java changes">
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/OMS/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/OMS/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/OMS/op/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/OMS/op2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LFU_CACHE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/HLD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/abstract/interface.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticDemo/static.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/enumDemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/Enum/EnumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/AbstractAndInterface/InterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/StaticDemo/StaticDemoex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/StaticDemo/StaticDemoex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,135 +72,137 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlienDictionary.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.BFSDemo.executor": "Run",
-    "Application.BinarySortedArray.executor": "Run",
-    "Application.BookAllocation.executor": "Run",
-    "Application.BuildArraypermutation.executor": "Debug",
-    "Application.CheapestFlightWithKStops.executor": "Debug",
-    "Application.CircleAndLatticePoints.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.CloneLL.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.CountNoOfTeams.executor": "Debug",
-    "Application.CountSubArrayDivisibleByK.executor": "Debug",
-    "Application.CountsubArrayequalK.executor": "Debug",
-    "Application.CowDdistanceApart.executor": "Run",
-    "Application.CowDistanceApart.executor": "Run",
-    "Application.CyclicSort.executor": "Run",
-    "Application.DecoratorDemo.executor": "Run",
-    "Application.DetectCycleInDirectedGraph.executor": "Run",
-    "Application.DetectCycleInUndirectedGraph.executor": "Run",
-    "Application.DevideInteger.executor": "Debug",
-    "Application.DiameterOfBT.executor": "Run",
-    "Application.DijkstraNegativeDemo.executor": "Debug",
-    "Application.ExecutorFramwork.executor": "Debug",
-    "Application.FairnessDemo.executor": "Run",
-    "Application.FindFloorNo.executor": "Run",
-    "Application.FindRecurringSequence.executor": "Run",
-    "Application.FindTheRunningMedian.executor": "Run",
-    "Application.FirstMissingInteger.executor": "Run",
-    "Application.FirstUniqueCharacter.executor": "Run",
-    "Application.FunctionDemo.executor": "Run",
-    "Application.GroupAnagrams.executor": "Run",
-    "Application.HandsOn1_Book.executor": "Run",
-    "Application.InfixToPostfix.executor": "Run",
-    "Application.InterviewDesign.executor": "Run",
-    "Application.Iterators.executor": "Run",
-    "Application.Java17ClassDemo.executor": "Run",
-    "Application.JavaOracleUpdate.executor": "Run",
-    "Application.KahnsAlgo.executor": "Run",
-    "Application.KnapSackUnbounded.executor": "Run",
-    "Application.KthPermutation.executor": "Debug",
-    "Application.LBusingTreeMap.executor": "Run",
-    "Application.LLD_Design.LLDElevatorDesign.Main.executor": "Run",
-    "Application.LeaderBoardIUSingHeap.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainApp.executor": "Debug",
-    "Application.MainT.executor": "Run",
-    "Application.MapDemo.executor": "Run",
-    "Application.MaxMeetingsOnePerDay.executor": "Run",
-    "Application.MaxNoOfEventCanBeAttended.executor": "Debug",
-    "Application.MaxSumSquareSubMatrix.executor": "Run",
-    "Application.MaximumPathSumInMatrix.executor": "Run",
-    "Application.MedianOfTwoSortedArrays.executor": "Run",
-    "Application.MonitorLock.executor": "Run",
-    "Application.NMeetingsInARoom.executor": "Run",
-    "Application.NQueens.executor": "Run",
-    "Application.NinetyDegreeRotation.executor": "Run",
-    "Application.NoOFIslands.executor": "Run",
-    "Application.NoOfProvinces.executor": "Run",
-    "Application.Oracle.executor": "Run",
-    "Application.OrderManagementSystem.executor": "Run",
-    "Application.OrderService.executor": "Run",
-    "Application.Passenger.executor": "Run",
-    "Application.Permutations.executor": "Run",
-    "Application.PointsProblems.executor": "Run",
-    "Application.PredictTheWinner.executor": "Run",
-    "Application.RecoverArrayFromGCDArray.executor": "Run",
-    "Application.ReentrantLocks.executor": "Debug",
-    "Application.RightViewOfBinaryTree.executor": "Run",
-    "Application.Saving.executor": "Run",
-    "Application.ShortestPathDAG.executor": "Run",
-    "Application.ShortestPathUAG.executor": "Run",
-    "Application.SlidingWindowMaximum.executor": "Run",
-    "Application.SmallestSubArrayGreaterThanK.executor": "Run",
-    "Application.SortedArrayToBBST.executor": "Run",
-    "Application.SortedPermutationRank.executor": "Run",
-    "Application.SpecialIndex.executor": "Debug",
-    "Application.SpiralProblems.executor": "Run",
-    "Application.StampedLockDemo.executor": "Run",
-    "Application.Store.executor": "Run",
-    "Application.SubsequenceMaxSum.executor": "Run",
-    "Application.SubsetProblems.executor": "Run",
-    "Application.SudokuSolver.executor": "Run",
-    "Application.ThreadLocalEx.executor": "Run",
-    "Application.TimedLockingAndInterrupt.executor": "Run",
-    "Application.TopoSort.executor": "Run",
-    "Application.ToySelection.executor": "Run",
-    "Application.TrappingRainProblem.executor": "Run",
-    "Application.UnboundedKnapsackMemo.executor": "Run",
-    "Application.UniqueSubtrees.executor": "Run",
-    "Application.demo.executor": "Run",
-    "Application.findTheSearchInRotatedArray.executor": "Run",
-    "Application.generateNumbers.executor": "Run",
-    "Application.immuatable_concepts.executor": "Run",
-    "Application.levelOrderTraversal.executor": "Run",
-    "Application.longestIncreasingSubsequence.executor": "Run",
-    "Application.map.executor": "Run",
-    "Application.os_coding.MonitorLockExample.Client.executor": "Run",
-    "Application.slidingWindowMaximum.executor": "Run",
-    "Application.test.executor": "Run",
-    "Application.test1.executor": "Run",
-    "Application.validSudoku.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/Basics/TreeImpl",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlienDictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFSDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookAllocation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildArraypermutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CheapestFlightWithKStops.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CircleAndLatticePoints.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNoOfTeams.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountSubArrayDivisibleByK.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountsubArrayequalK.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CowDdistanceApart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CowDistanceApart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectCycleInDirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectCycleInUndirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DevideInteger.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DiameterOfBT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DijkstraNegativeDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExecutorFramwork.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FairnessDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFloorNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindRecurringSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheRunningMedian.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstMissingInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandsOn1_Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfixToPostfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewDesign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java17ClassDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaOracleUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KahnsAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnapSackUnbounded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthPermutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LBusingTreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LLD_Design.LLDElevatorDesign.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeaderBoardIUSingHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMeetingsOnePerDay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNoOfEventCanBeAttended.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxSumSquareSubMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumPathSumInMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MedianOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonitorLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NMeetingsInARoom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedIFDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NinetyDegreeRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOFIslands.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOfProvinces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Oracle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Passenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PointsProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredictTheWinner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecoverArrayFromGCDArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLocks.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RightViewOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Saving.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestPathDAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestPathUAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestSubArrayGreaterThanK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedArrayToBBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedPermutationRank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecialIndex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpiralProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StampedLockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticDemoex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Store.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsequenceMaxSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SudokuSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimedLockingAndInterrupt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopoSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToySelection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnboundedKnapsackMemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueSubtrees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.findTheSearchInRotatedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generateNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.immuatable_concepts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.levelOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.longestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.os_coding.MonitorLockExample.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.slidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.validSudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/Basics/TreeImpl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DSA.BST" />
@@ -205,13 +220,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderService">
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.FunctionDemo" />
+  <component name="RunManager" selected="Application.demo">
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.Collections.map.MapDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8features.functionalInterface.*" />
+          <option name="PATTERN" value="Basics.Collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.Main" />
+    <configuration name="NestedIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.AbstractAndInterface.NestedIFDemo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8features.*" />
+          <option name="PATTERN" value="OOPS.AbstractAndInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD_Design.OMS.OrderManagementSystem" />
+    <configuration name="Saving" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.AbstractAndInterface.Saving" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD_Design.OMS.*" />
+          <option name="PATTERN" value="OOPS.AbstractAndInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD_Design.OMS.OrderService" />
+    <configuration name="StaticDemoex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticDemo.StaticDemoex" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD_Design.OMS.*" />
+          <option name="PATTERN" value="OOPS.StaticDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.functionalInterface.Predicates" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.LinkedList.demo" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8features.functionalInterface.*" />
+          <option name="PATTERN" value="DSA.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderService" />
-        <item itemvalue="Application.OrderManagementSystem" />
-        <item itemvalue="Application.FunctionDemo" />
-        <item itemvalue="Application.Predicates" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.NestedIFDemo" />
+        <item itemvalue="Application.Saving" />
+        <item itemvalue="Application.StaticDemoex" />
+        <item itemvalue="Application.MapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +370,23 @@
       <workItem from="1764220293909" duration="555000" />
       <workItem from="1764310446006" duration="9698000" />
       <workItem from="1764567615113" duration="4277000" />
-      <workItem from="1764578775889" duration="5402000" />
+      <workItem from="1764578775889" duration="7214000" />
+      <workItem from="1764832243341" duration="9856000" />
+      <workItem from="1765171759539" duration="834000" />
+      <workItem from="1765202939670" duration="1427000" />
+      <workItem from="1765213334925" duration="13746000" />
+      <workItem from="1765283430280" duration="603000" />
+      <workItem from="1765284460971" duration="438000" />
+      <workItem from="1765285152501" duration="2000" />
+      <workItem from="1765285368518" duration="1244000" />
+      <workItem from="1765305982698" duration="481000" />
+      <workItem from="1765345577946" duration="6224000" />
+      <workItem from="1765370003424" duration="599000" />
+      <workItem from="1765371723572" duration="595000" />
+      <workItem from="1765372523285" duration="714000" />
+      <workItem from="1765375834439" duration="599000" />
+      <workItem from="1765429829990" duration="1198000" />
+      <workItem from="1765876684922" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -413,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764343370108</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CouponSystem.java changes">
+      <option name="closed" value="true" />
+      <created>1764597447848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764597447848</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,6 +769,41 @@
           <line>143</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/LinkedList/demo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java</url>
           <line>3</line>
@@ -756,10 +830,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="prefixSum" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

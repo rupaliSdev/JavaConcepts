@@ -1,21 +1,17 @@
 package Basics.Basic.Enum;
 
-public class enumDemp {
+public class EnumDemo {
 
     public enum Val{
         RUPALI("24"),
         AANCHAL("23");
-
         String age;
-
         Val(String age) {
             this.age = age;
         }
-
         public String getAge() {
             return age;
         }
-
         public void setAge(String age) {
             this.age = age;
         }

@@ -13,11 +13,7 @@ public class MapDemo {
         map.add(Map.entry(3,"anchal"));
 
         //cant have null values
-        map.add(Map.entry(null,"anchal"));
-
-
-
-
+        // map.add(Map.entry(null,"anchal"));
 
         TreeMap<Integer, String> hashMap= new TreeMap<>();
         hashMap.put(1,"rupali");
@@ -29,13 +25,10 @@ public class MapDemo {
         for (Map.Entry<Integer,String> entry:hashMap.entrySet()){
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-
         System.out.println("next");
         for (Map.Entry<Integer,String> entry:map){
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-
-
 
 
     }

@@ -4,125 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="java concepts + LLD">
-      <change afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/CollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/BackSpaceStringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/InterfaceSegragation/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/LSP/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/SingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Adapter/AdapterDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_25,_8_23 pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_25__8_23pm__Changes_.xml" beforeDir="false" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes">
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/Observer/NotificationObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/ConnectionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Like.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/builder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/API.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/Season.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/enumDemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Basic/Enum/EnumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/Enum/enumExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/ThreeDArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Basic/gitNotes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/Mapnotes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/CompareClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/CompareClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/collections1/ex1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/HashMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/TreeMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/TreeMaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Collections/map/map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/comparatorss/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/comparator/ComparableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionHandelling/Tstthrws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandelling/Tstthrws.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionHandelling/testing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Client_Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Client_Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Builder_design/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/ReservationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Reservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Reservations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CarRentalDesignSystem/VehicleInventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/VehicleInventoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/CouponSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/CoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/CoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/DecoratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/SimpleCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/SimpleCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Decorator/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/structural/Decorator/Sugar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/DiscountServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/AndroidUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/AndroidUIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/Flutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/Flutter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/FactoryDesign/UIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/FactoryDesign/UIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ElevatorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/ExternalDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ExternalDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/InternalDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LLDElevatorDesign/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/IOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/IOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/op/IOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op/IOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/OMS/op2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/IphoneObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observable/IphoneObserverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observable/StockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observable/StockObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Observer/NotificationAlertObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Observer/NotificationAlertObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObserverDesignPattern/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/ObserverDesignPattern/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/QuizEx/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/QuizEx/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/IntelligentStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/Prototype_DesignPattern/scaler/studentRegistery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Prototype_DesignPattern/scaler/studentRegistery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex1/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex1/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex1/v1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex1/v1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SingletonDesignPattern/ex2/DatabaseConnection4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/ex2/DatabaseConnection4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/VendingMachineDEMO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/VendingMachine/VendingMachineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/VendingMachine/VendingMachineState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Jump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/snakeAndLadder/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FixedShippingCostCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/FreeShippingCostCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/strategyDesignPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/PercentageShippingCostCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/Behavioural/strategyDesignPattern/ShippingCostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShippingCostContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/strategyDesignPattern/ShippingCostCalcuator/ShoppingCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/ItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/AtomicIntegerEx/ItemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/interview.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/inventory_wm.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/inventory_wm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -294,13 +195,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/Basics/TreeImpl&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
@@ -309,11 +210,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="LLD_Design.LinkedIn.entity" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
-      <recent name="LLD_Design.CarRentalDesignSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -321,6 +222,7 @@
       <recent name="$PROJECT_DIR$/src/LLD_Design" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LLD_Design.LinkedIn.entity" />
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
@@ -393,12 +295,20 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Tstthrws" />
-        <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.CollectionDemo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.CollectionDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -467,6 +377,16 @@
       <workItem from="1764310446006" duration="9698000" />
       <workItem from="1764567615113" duration="4277000" />
       <workItem from="1764578775889" duration="5402000" />
+      <workItem from="1766036046405" duration="1075000" />
+      <workItem from="1766052783761" duration="613000" />
+      <workItem from="1766076222493" duration="1336000" />
+      <workItem from="1766085204463" duration="1196000" />
+      <workItem from="1766121555791" duration="599000" />
+      <workItem from="1766129948492" duration="352000" />
+      <workItem from="1766130566653" duration="15666000" />
+      <workItem from="1766466116297" duration="861000" />
+      <workItem from="1766467225435" duration="6000" />
+      <workItem from="1769059983484" duration="9284000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -555,7 +475,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="Commiting somechanges" />
     <MESSAGE value="CouponSystem.java changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="CouponSystem.java changes" />
+    <MESSAGE value="Linkedin  changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linkedin  changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,16 +530,6 @@
           <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
           <line>68</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
@@ -885,7 +796,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.structural.Decorator.DecoratorDemo">
+          <properties class="LLD_Design.structural.Decorator.DecoratorDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

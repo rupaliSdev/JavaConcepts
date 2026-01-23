@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes">
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/Observer/NotificationObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/ConnectionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Like.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/creational/Builder_design/builder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/req.md" afterDir="false" />
-    </list>
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -444,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764343370108</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Linkedin  changes">
+      <option name="closed" value="true" />
+      <created>1769195542560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769195542560</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="java concepts + LLD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -177,13 +175,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/Basics/TreeImpl&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
@@ -192,11 +190,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="LLD_Design.LinkedIn.entity" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
-      <recent name="LLD_Design.CarRentalDesignSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -204,6 +202,7 @@
       <recent name="$PROJECT_DIR$/src/LLD_Design" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LLD_Design.LinkedIn.entity" />
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
@@ -276,12 +275,20 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Tstthrws" />
-        <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.CollectionDemo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.CollectionDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -350,6 +357,16 @@
       <workItem from="1764310446006" duration="9698000" />
       <workItem from="1764567615113" duration="4277000" />
       <workItem from="1764578775889" duration="5402000" />
+      <workItem from="1766036046405" duration="1075000" />
+      <workItem from="1766052783761" duration="613000" />
+      <workItem from="1766076222493" duration="1336000" />
+      <workItem from="1766085204463" duration="1196000" />
+      <workItem from="1766121555791" duration="599000" />
+      <workItem from="1766129948492" duration="352000" />
+      <workItem from="1766130566653" duration="15666000" />
+      <workItem from="1766466116297" duration="861000" />
+      <workItem from="1766467225435" duration="6000" />
+      <workItem from="1769059983484" duration="9284000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -407,13 +424,13 @@
       <option name="project" value="LOCAL" />
       <updated>1764343370108</updated>
     </task>
-    <task id="LOCAL-00008" summary="java concepts + LLD">
+    <task id="LOCAL-00008" summary="Linkedin  changes">
       <option name="closed" value="true" />
-      <created>1765830794553</created>
+      <created>1769195542560</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1765830794553</updated>
+      <updated>1769195542560</updated>
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -446,8 +463,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="Commiting somechanges" />
     <MESSAGE value="CouponSystem.java changes" />
-    <MESSAGE value="java concepts + LLD" />
-    <option name="LAST_COMMIT_MESSAGE" value="java concepts + LLD" />
+    <MESSAGE value="Linkedin  changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linkedin  changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,16 +518,6 @@
           <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
           <line>68</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/Matrix/MaxSumSquareSubMatrix.java</url>
@@ -777,7 +784,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>3</line>
-          <properties class="LLD_Design.structural.Decorator.DecoratorDemo">
+          <properties class="LLD_Design.structural.Decorator.DecoratorDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

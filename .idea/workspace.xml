@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes">
+      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/RotateNonNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/LinkedInSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/LinkedinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/ConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/NewsFeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/startegy/ChronologicalSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/startegy/FeedSortingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,17 +197,17 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="LLD_Design.LinkedIn" />
       <recent name="LLD_Design.LinkedIn.entity" />
       <recent name="DSA.BST" />
       <recent name="DSA.Design" />
       <recent name="os_coding.ThreadPoolExecutor" />
-      <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
@@ -367,6 +380,8 @@
       <workItem from="1766466116297" duration="861000" />
       <workItem from="1766467225435" duration="6000" />
       <workItem from="1769059983484" duration="9284000" />
+      <workItem from="1769500169702" duration="5626000" />
+      <workItem from="1770613741212" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -781,6 +796,11 @@
           <line>13</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>3</line>
@@ -798,6 +818,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java</url>
+          <line>13</line>
+          <properties class="LLD_Design.LinkedIn.entity.NewsFeed" method="display">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java</url>

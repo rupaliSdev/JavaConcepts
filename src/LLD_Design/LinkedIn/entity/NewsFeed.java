@@ -1,5 +1,7 @@
 package LLD_Design.LinkedIn.entity;
 
+import LLD_Design.LinkedIn.startegy.FeedSortingStrategy;
+
 import java.util.List;
 
 public class NewsFeed {
@@ -9,7 +11,7 @@ public class NewsFeed {
         this.posts = posts;
     }
 
-/*    public void display(FeedSortingStrategy strategy) {
+    public void display(FeedSortingStrategy strategy) {
         List<Post> sortedPosts = strategy.sort(posts);
         if (sortedPosts.isEmpty()) {
             System.out.println("  Your news feed is empty.");
@@ -22,5 +24,5 @@ public class NewsFeed {
             System.out.printf("Likes: %d, Comments: %d%n", post.getLikes().size(), post.getComments().size());
             System.out.println("----------------------------------------");
         });
-    }*/
+    }
 }

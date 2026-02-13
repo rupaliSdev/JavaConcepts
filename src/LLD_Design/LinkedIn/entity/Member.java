@@ -24,6 +24,14 @@ public class Member implements NotificationObserver {
         this.profile = profile;
     }
 
+    public Set<Member> getConnections() {
+        return connections;
+    }
+
+    public List<Notification> getNotifications() {
+        return notifications;
+    }
+
     public String getId() {
         return id;
     }

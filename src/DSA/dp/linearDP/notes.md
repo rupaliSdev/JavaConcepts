@@ -1,0 +1,1 @@
+“Number of ways”, “minimum cost”, “reach end”

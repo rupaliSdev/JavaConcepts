@@ -27,9 +27,6 @@ public class CountNoOfTeams {
                 }
             }
         }
-
-
-
         return 0;
     }
 
@@ -71,15 +68,11 @@ public class CountNoOfTeams {
         if(currIndex==n)return 0;
         if(teamSize==3) return 1;
         if(increasingCache[currIndex][teamSize]!=null)return increasingCache[currIndex][teamSize];
-
         int teams=0;
-
         for(int nextIndex= currIndex+1;nextIndex<n;nextIndex++){
-
             if(rating[nextIndex]>rating[currIndex]){
                 teams+=countIncreasingTeams(rating,nextIndex,teamSize+1,increasingCache);
             }
-
         }
         return increasingCache[currIndex][teamSize]=teams;
     }

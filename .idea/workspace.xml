@@ -4,7 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="java concepts + LLD">
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack/KnapSackUnbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/CoinChangeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/MinCostToClimb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/bitManipulation/findMissingOrRepeatingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/findMissingOrRepeatingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/BuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/stateDP/BuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/KnapSackUnbounded.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/KnapsackBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack/KnapsackBounded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/MaximumPathSumInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/pathToTarget/MaximumPathSumInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/NthStair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/PalindromicPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/stateDP/Passenger_CherryPickUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/UnboundedKnapsackMemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack/UnboundedKnapsackMemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/UniqueSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/tree/UniqueSubtrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/longestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/longestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/max_subsequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/pathToTarget/max_subsequenceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/complex/AlienDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/BFSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/basics/BFSDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/CheapestFlightWithKStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/path/CheapestFlightWithKStops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/topo/CourseSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/DetectCycleInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/directed/DetectCycleInDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/DetectCycleInUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/undirected/DetectCycleInUndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/path/DijkstraNegativeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/Dikshtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/directed/Dikshtra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/FloodFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/KillProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/KillProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/NoOFIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/NoOFIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/NoOfProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/NoOfProvinces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/RottenOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/RottenOranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/ShortestPathDAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/path/ShortestPathDAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/ShortestPathUAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/path/ShortestPathUAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/TopoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/topo/TopoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/graph/basic_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/basics/basic_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/ReadingUsingScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/ReadingUsingScanner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +62,7 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -57,13 +104,17 @@
     &quot;Application.AlienDictionary.executor&quot;: &quot;Run&quot;,
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.BFSDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics.Annotations.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySortedArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.BookAllocation.executor&quot;: &quot;Run&quot;,
     &quot;Application.BuildArraypermutation.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CheapestFlightWithKStops.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CircleAndLatticePoints.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClimbStairs.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CloneLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChangeII.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CollectionDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
@@ -175,14 +226,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rupalisahu/Documents/GitHub/JavaConcepts/src/DSA/graph&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -197,6 +248,7 @@
       <recent name="LLD_Design.strategyDesignPattern.ShippingCostCalcuator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DSA/graph" />
       <recent name="$PROJECT_DIR$/src/Basics/TreeImpl" />
       <recent name="$PROJECT_DIR$/src/Basics" />
       <recent name="$PROJECT_DIR$/src/LLD_Design" />
@@ -206,13 +258,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tstthrws">
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.InterviewQues.CollectionDemo" />
+  <component name="RunManager" selected="Application.CoinChangeII">
+    <configuration name="Basics.Annotations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.Annotations.Main" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.InterviewQues.*" />
+          <option name="PATTERN" value="Basics.Annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD_Design.SOLIDPrniciples.LSP.Demo" />
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.linearDP.ClimbStairs" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD_Design.SOLIDPrniciples.LSP.*" />
+          <option name="PATTERN" value="DSA.dp.linearDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Basic.Enum.EnumDemo" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.knapsack.CoinChange" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.Basic.Enum.*" />
+          <option name="PATTERN" value="DSA.dp.knapsack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD_Design.Behavioural.strategyDesignPattern.Main" />
+    <configuration name="CoinChangeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.linearDP.CoinChangeII" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD_Design.Behavioural.strategyDesignPattern.*" />
+          <option name="PATTERN" value="DSA.dp.linearDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,21 +326,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChangeII" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.Basics.Annotations.Main" />
+        <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.Tstthrws" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.CollectionDemo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -580,13 +624,13 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/dp/longestIncreasingSubsequence.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/dp/Strings/longestIncreasingSubsequence.java</url>
           <line>37</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/dp/KnapSackUnbounded.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/DSA/dp/knapsack/KnapSackUnbounded.java</url>
+          <line>25</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -615,7 +659,7 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/graph/path/DijkstraNegativeDemo.java</url>
           <line>21</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -623,12 +667,12 @@
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/DijkstraNegativeDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/graph/path/DijkstraNegativeDemo.java</url>
           <line>30</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/graph/CheapestFlightWithKStops.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/graph/path/CheapestFlightWithKStops.java</url>
           <line>57</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -636,12 +680,12 @@
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/dp/Passenger.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/dp/stateDP/Passenger_CherryPickUp.java</url>
           <line>90</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/dp/Passenger.java</url>
+          <url>file://$PROJECT_DIR$/src/DSA/dp/stateDP/Passenger_CherryPickUp.java</url>
           <line>98</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
@@ -707,17 +751,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
-          <line>38</line>
+          <line>35</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
-          <line>44</line>
+          <line>41</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/dp/CountNoOfTeams.java</url>
-          <line>47</line>
+          <line>44</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -780,6 +824,26 @@
           <url>file://$PROJECT_DIR$/src/LLD_Design/creational/SingletonDesignPattern/SingletonDemo.java</url>
           <line>13</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/linearDP/MinCostToClimb.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/knapsack/CoinChange.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/knapsack/CoinChange.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/linearDP/CoinChangeII.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>

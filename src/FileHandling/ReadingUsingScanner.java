@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ReadingUsingScanner {
     public static void main(String[] args) {
         //surround with try catch block bcoz of private resources
-         Scanner sc1= new Scanner(System.in);
+        Scanner sc1= new Scanner(System.in);
         try{
             Scanner sc = new Scanner(new File("team.txt"));
             String line;

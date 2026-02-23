@@ -24,7 +24,7 @@ public class ConnectionService {
 
         Notification notification= new Notification(
                 to.getId(),
-                NotificationType.CONNECTION_REQUEST
+                NotificationType.CONNECTION_REQUEST,
                 from.getName() + " wants to connect with you."
         );
         notificationService.sendNotification(to,notification);

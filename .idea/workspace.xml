@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes">
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayProblems/Array/RotateNonNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/LinkedInSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/LinkedinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/ConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/NewsFeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/startegy/ChronologicalSortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/startegy/FeedSortingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/SlidingWindowMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/TaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/heapdemo/heapNotes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/AthLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/SlidingWindowMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/ConnectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/ConnectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/LinkedIn/service/SearchService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -65,142 +65,143 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlienDictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BFSDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookAllocation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuildArraypermutation.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CheapestFlightWithKStops.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CircleAndLatticePoints.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CloneLL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountNoOfTeams.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountSubArrayDivisibleByK.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountsubArrayequalK.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CowDdistanceApart.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CowDistanceApart.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecoratorDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetectCycleInDirectedGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetectCycleInUndirectedGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DevideInteger.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DiameterOfBT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DijkstraNegativeDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DiscountServices.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorFramwork.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FairnessDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFloorNo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindRecurringSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindTheRunningMedian.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstMissingInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HandsOn1_Book.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashCodevsEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InfixToPostfix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterviewDesign.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Iterators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java17ClassDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaOracleUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KahnsAlgo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KnapSackUnbounded.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthPermutation.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LBusingTreeMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LLD_Design.LLDElevatorDesign.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeaderBoardIUSingHeap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxMeetingsOnePerDay.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxNoOfEventCanBeAttended.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxSumSquareSubMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumPathSumInMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MedianOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonitorLock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NMeetingsInARoom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NinetyDegreeRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NoOFIslands.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NoOfProvinces.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Oracle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Passenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PointsProblems.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PredictTheWinner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecoverArrayFromGCDArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReentrantLocks.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RightViewOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Saving.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestPathDAG.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestPathUAG.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestSubArrayGreaterThanK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedArrayToBBST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedPermutationRank.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpecialIndex.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SpiralProblems.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StampedLockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Store.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubsequenceMaxSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubsetProblems.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SudokuSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocalEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimedLockingAndInterrupt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopoSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToySelection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tstthrws.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnboundedKnapsackMemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueSubtrees.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findTheSearchInRotatedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.generateNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.immuatable_concepts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.levelOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.longestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.os_coding.MonitorLockExample.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.slidingWindowMaximum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.validSudoku.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlienDictionary.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.BFSDemo.executor": "Run",
+    "Application.BinarySortedArray.executor": "Run",
+    "Application.BookAllocation.executor": "Run",
+    "Application.BuildArraypermutation.executor": "Debug",
+    "Application.CheapestFlightWithKStops.executor": "Debug",
+    "Application.CircleAndLatticePoints.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CloneLL.executor": "Run",
+    "Application.CollectionDemo.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.CountNoOfTeams.executor": "Debug",
+    "Application.CountSubArrayDivisibleByK.executor": "Debug",
+    "Application.CountsubArrayequalK.executor": "Debug",
+    "Application.CowDdistanceApart.executor": "Run",
+    "Application.CowDistanceApart.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
+    "Application.DecoratorDemo.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.DetectCycleInDirectedGraph.executor": "Run",
+    "Application.DetectCycleInUndirectedGraph.executor": "Run",
+    "Application.DevideInteger.executor": "Debug",
+    "Application.DiameterOfBT.executor": "Run",
+    "Application.DijkstraNegativeDemo.executor": "Debug",
+    "Application.DiscountServices.executor": "Run",
+    "Application.EnumDemo.executor": "Run",
+    "Application.ExecutorFramwork.executor": "Debug",
+    "Application.FairnessDemo.executor": "Run",
+    "Application.FindFloorNo.executor": "Run",
+    "Application.FindRecurringSequence.executor": "Run",
+    "Application.FindTheRunningMedian.executor": "Run",
+    "Application.FirstMissingInteger.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.FunctionDemo.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.HandsOn1_Book.executor": "Run",
+    "Application.HashCodevsEquals.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
+    "Application.InterviewDesign.executor": "Run",
+    "Application.Iterators.executor": "Run",
+    "Application.Java17ClassDemo.executor": "Run",
+    "Application.JavaOracleUpdate.executor": "Run",
+    "Application.KahnsAlgo.executor": "Run",
+    "Application.KnapSackUnbounded.executor": "Run",
+    "Application.KthPermutation.executor": "Debug",
+    "Application.LBusingTreeMap.executor": "Run",
+    "Application.LLD_Design.LLDElevatorDesign.Main.executor": "Run",
+    "Application.LeaderBoardIUSingHeap.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Debug",
+    "Application.MainDemo.executor": "Run",
+    "Application.MainT.executor": "Run",
+    "Application.MapDemo.executor": "Run",
+    "Application.MaxMeetingsOnePerDay.executor": "Run",
+    "Application.MaxNoOfEventCanBeAttended.executor": "Debug",
+    "Application.MaxSumSquareSubMatrix.executor": "Run",
+    "Application.MaximumPathSumInMatrix.executor": "Run",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
+    "Application.MonitorLock.executor": "Run",
+    "Application.NMeetingsInARoom.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NinetyDegreeRotation.executor": "Run",
+    "Application.NoOFIslands.executor": "Run",
+    "Application.NoOfProvinces.executor": "Run",
+    "Application.Oracle.executor": "Run",
+    "Application.OrderManagementSystem.executor": "Run",
+    "Application.OrderService.executor": "Run",
+    "Application.Passenger.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PointsProblems.executor": "Run",
+    "Application.PredictTheWinner.executor": "Run",
+    "Application.RecoverArrayFromGCDArray.executor": "Run",
+    "Application.ReentrantLocks.executor": "Debug",
+    "Application.RightViewOfBinaryTree.executor": "Run",
+    "Application.Saving.executor": "Run",
+    "Application.ShortestPathDAG.executor": "Run",
+    "Application.ShortestPathUAG.executor": "Run",
+    "Application.SlidingWindowMaximum.executor": "Run",
+    "Application.SmallestSubArrayGreaterThanK.executor": "Run",
+    "Application.SortedArrayToBBST.executor": "Run",
+    "Application.SortedPermutationRank.executor": "Run",
+    "Application.SpecialIndex.executor": "Debug",
+    "Application.SpiralProblems.executor": "Run",
+    "Application.StampedLockDemo.executor": "Run",
+    "Application.Store.executor": "Run",
+    "Application.SubsequenceMaxSum.executor": "Run",
+    "Application.SubsetProblems.executor": "Run",
+    "Application.SudokuSolver.executor": "Run",
+    "Application.TaskScheduler.executor": "Debug",
+    "Application.ThreadLocalEx.executor": "Run",
+    "Application.TimedLockingAndInterrupt.executor": "Run",
+    "Application.TopoSort.executor": "Run",
+    "Application.ToySelection.executor": "Run",
+    "Application.TrappingRainProblem.executor": "Run",
+    "Application.Tstthrws.executor": "Run",
+    "Application.UnboundedKnapsackMemo.executor": "Run",
+    "Application.UniqueSubtrees.executor": "Run",
+    "Application.demo.executor": "Run",
+    "Application.findTheSearchInRotatedArray.executor": "Run",
+    "Application.generateNumbers.executor": "Run",
+    "Application.immuatable_concepts.executor": "Run",
+    "Application.levelOrderTraversal.executor": "Run",
+    "Application.longestIncreasingSubsequence.executor": "Run",
+    "Application.map.executor": "Run",
+    "Application.os_coding.MonitorLockExample.Client.executor": "Run",
+    "Application.slidingWindowMaximum.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test1.executor": "Run",
+    "Application.validSudoku.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LLD_Design.LinkedIn" />
@@ -219,20 +220,7 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tstthrws">
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.InterviewQues.CollectionDemo" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.InterviewQues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TaskScheduler">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LLD_Design.SOLIDPrniciples.LSP.Demo" />
       <module name="JavaConcepts" />
@@ -272,6 +260,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.heapdemo.TaskScheduler" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.heapdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tstthrws" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandelling.Tstthrws" />
       <module name="JavaConcepts" />
@@ -287,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskScheduler" />
         <item itemvalue="Application.Tstthrws" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.CollectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -382,6 +383,11 @@
       <workItem from="1769059983484" duration="9284000" />
       <workItem from="1769500169702" duration="5626000" />
       <workItem from="1770613741212" duration="2000" />
+      <workItem from="1770972985273" duration="4332000" />
+      <workItem from="1771321704888" duration="602000" />
+      <workItem from="1771334071804" duration="1198000" />
+      <workItem from="1771478480609" duration="598000" />
+      <workItem from="1771842987426" duration="1426000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -447,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769195542560</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Linkedin  changes">
+      <option name="closed" value="true" />
+      <created>1770972994702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770972994702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,6 +814,16 @@
           <url>file://$PROJECT_DIR$/src/LLD_Design/LinkedIn/entity/NewsFeed.java</url>
           <line>14</line>
           <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/TaskScheduler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/heapdemo/TaskScheduler.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>

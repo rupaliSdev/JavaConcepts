@@ -43,3 +43,5 @@ public class SlidingWindowMaximum {
         return result;
     }
 }
+
+//https://chatgpt.com/c/6996b0f3-b758-83a5-8ccf-1977180c842f

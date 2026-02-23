@@ -41,6 +41,9 @@ public class AthLargestElement {
         }
         return priorityQueue.peek();
     }
+    //o(logk) per insertion as height of tree is k
+
+    //n insertion
 
     public int findKthSmallestElement(int[] arr,int K){
 

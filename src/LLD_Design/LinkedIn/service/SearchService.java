@@ -9,5 +9,6 @@ public class SearchService {
 
     public List<Member> searchByName(String name) {
 
+        return null;
     }
 }

@@ -13,6 +13,7 @@ public void setDeleted(boolean deleted) {
 }
 
 
+
 @Repository
 public class HotelRepository {
 

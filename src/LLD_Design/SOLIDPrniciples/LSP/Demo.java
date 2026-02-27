@@ -16,7 +16,6 @@ public class Demo {
         System.out.println(r.area()); // Expected: 50, actual: 100
 
 
-
     }
 }
 

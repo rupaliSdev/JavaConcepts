@@ -8,10 +8,15 @@ public class SlidingWindowMaximum {
     public static void main(String[] args) {
 
         SlidingWindowMaximum solver = new SlidingWindowMaximum();
-        int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
+      /*  int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int k = 3;
         System.out.println(Arrays.toString(solver.maxSlidingWindow(nums, k)));
-        // Output: [3, 3, 5, 5, 6, 7]
+        // Output: [3, 3, 5, 5, 6, 7]*/
+
+        int[] t2 ={7,2,4};
+        int k2 =2;
+        System.out.println(Arrays.toString(solver.maxSlidingWindow(t2,k2)));
+
 
     }
 
@@ -24,7 +29,7 @@ public class SlidingWindowMaximum {
         Deque<Integer> dq = new ArrayDeque<>();
         //k=3
         for(int i =0;i<arr.length;i++){
-            while( !dq.isEmpty()&& arr[dq.peekFirst()]<=i-k){
+            while( !dq.isEmpty() && dq.peekFirst()<=i-k){
                 dq.removeFirst();
             }
 

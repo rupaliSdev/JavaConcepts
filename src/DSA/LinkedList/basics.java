@@ -5,19 +5,19 @@ public class basics {
 	public static void main(String[] args) {
 		
 		
-		lnode root= new lnode(20);
-		root.next=new lnode(30);
+		ListNode root= new ListNode(20);
+		root.next=new ListNode(30);
 				
-		root.next.next=new lnode(40);
-		root.next.next.next=new lnode(50);
-		root.next.next.next.next=new lnode(60);
-		root.next.next.next.next.next=new lnode(70);
+		root.next.next=new ListNode(40);
+		root.next.next.next=new ListNode(50);
+		root.next.next.next.next=new ListNode(60);
+		root.next.next.next.next.next=new ListNode(70);
 		//print(root);
 		/////////////////////
-		lnode r1= new lnode(40);
-		lnode temp =r1;
+		ListNode r1= new ListNode(40);
+		ListNode temp =r1;
 		for(int i=1;i<=5;i++) {
-			temp.next= new lnode(temp.val+10);
+			temp.next= new ListNode(temp.value+10);
 			temp=temp.next;
 
 		}
@@ -32,12 +32,12 @@ public class basics {
 		
 	}
 
-	private static lnode reverse(lnode r1) {
+	private static ListNode reverse(ListNode r1) {
 		// TODO Auto-generated method stub
 		
-		lnode prev=null;
-		lnode next=null;
-		lnode curr= r1;
+		ListNode prev=null;
+		ListNode next=null;
+		ListNode curr= r1;
 		while(curr!=null) {
 			 next=curr.next;
 			 curr.next=prev;
@@ -48,9 +48,9 @@ public class basics {
 	}
 
 	
-	private static lnode deleteKthPosition(lnode r1, int k) {
+	private static ListNode deleteKthPosition(ListNode r1, int k) {
 		// TODO Auto-generated method stub
-		lnode curr=r1;
+		ListNode curr=r1;
 		if(k<0) {
 			return r1;
 		}
@@ -74,9 +74,9 @@ public class basics {
 		
 	}
 
-	private static lnode deleteKthPositionfromTheLast(lnode r1, int k) {
+	private static ListNode deleteKthPositionfromTheLast(ListNode r1, int k) {
 		// TODO Auto-generated method stub
-		lnode slow=r1,fast = r1;
+		ListNode slow=r1,fast = r1;
 		if(k<0) {
 			return r1;
 		}
@@ -102,14 +102,14 @@ public class basics {
 
 
 
-	private static lnode insertKthPosition(lnode r1, int k, int x) {
+	private static ListNode insertKthPosition(ListNode r1, int k, int x) {
 		// TODO Auto-generated method stub
-		lnode curr=r1;
+		ListNode curr=r1;
 		if(k<0) {
 			return r1;
 		}
 		if(k==0) {
-			lnode temp= new lnode(x);
+			ListNode temp= new ListNode(x);
 			temp.next= curr;
 			curr=temp;
 			return curr;
@@ -122,7 +122,7 @@ public class basics {
 		if(curr!=null)
 		{
 			
-			lnode temp= new lnode(x);
+			ListNode temp= new ListNode(x);
 			temp.next= curr.next;
 			curr.next=temp;
 			
@@ -133,9 +133,9 @@ public class basics {
 		
 	}
 
-	private static int kthposition(lnode r1,int k) {
+	private static int kthposition(ListNode r1,int k) {
 		// TODO Auto-generated method stub
-		lnode curr=r1;
+		ListNode curr=r1;
 		if(k<0) {
 			return -1;
 		}
@@ -147,28 +147,44 @@ public class basics {
 			curr=curr.next;
 		}
 		
-		return curr.val;
+		return curr.value;
 	}
 
-	private static void print(lnode root) {
+	public static boolean isPalindrome(ListNode head){
+//		Find middle
+//
+//		Reverse second half
+//
+//				Compare
+		return false;
+
+	}
+
+
+
+		public ListNode getIntersectionNode(ListNode a, ListNode b) {
+
+			ListNode p1 = a;
+			ListNode p2 = b;
+
+			while(p1 != p2){
+
+				p1 = (p1 == null) ? b : p1.next;
+				p2 = (p2 == null) ? a : p2.next;
+			}
+
+			return p1;
+		}
+
+	private static void print(ListNode root) {
 		// TODO Auto-generated method stub
-		lnode curr=root;
+		ListNode curr=root;
 		while(curr!=null) {
-			System.out.println(curr.val);
+			System.out.println(curr.value);
 			curr=curr.next;
 		}
 	}
-	
-	
-	
-	 
 
-}
-class lnode{
-	lnode next;
-	int val;
-	lnode(int x){
-		val=x;
-		next =null;
-	}
+
+
 }

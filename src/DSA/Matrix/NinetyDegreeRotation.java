@@ -36,19 +36,10 @@ public class NinetyDegreeRotation {
         for(int i =0;i<n/2;i++){
             for(int j =i;j<n-1-i;j++){
                 int temp = matrix[i][j];
-                matrix[i][j]=matrix[n-1-j][i];
+                matrix[i][j]=matrix[n-1-j][i];//rotation so row became col and col became row
                 matrix[n-1-j][i]= matrix[n-1-i][n-1-j];
                 matrix[n-1-i][n-1-j]= matrix[j][n-1-i];
                 matrix[j][n-1-i]=temp;
-
-
-
-                // arr[i][j]= arr[n-1-j][i]
-                //arr[n-1-j][i]=arr[n-1-i][n-1-j]
-                //arr[n-1-i][n-1-j]=arr[j][n-1-i]
-                //arr[j][n-1-i]=arr[i][j]
-
-
             }
         }
     }

@@ -127,7 +127,6 @@ public class DiscountServices {
             if (parent.get(category).equalsIgnoreCase("NONE")) {
                 categoryQueue.offer(category);
                 effectiveCoupon.put(category, computeEffectiveCoupon(categoryCoupon.get(category)));
-
             }
         }
         while (!categoryQueue.isEmpty()) {

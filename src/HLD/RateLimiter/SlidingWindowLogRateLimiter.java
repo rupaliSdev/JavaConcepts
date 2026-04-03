@@ -35,18 +35,13 @@ public class SlidingWindowLogRateLimiter {
         for (int i = 0; i < 5; i++) {
             System.out.println("Request " + i + " allowed: " + limiter.isAllowed("user1"));
         }
-
         try {
             Thread.sleep(10000); // Wait for the window to pass
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
         for (int i = 0; i < 5; i++) {
             System.out.println("Request " + i + " allowed: " + limiter.isAllowed("user1"));
         }
-
-
     }
 }

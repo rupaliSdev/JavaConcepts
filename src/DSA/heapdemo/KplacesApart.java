@@ -12,10 +12,14 @@ package DSA.heapdemo;
 //No two persons can have the same priority.
 //Use the property of the queue to sort the queue with complexity O(NlogB).
 
+// N insertion + N deletion  -> O(N logB) TC
+//SC
+
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class KplacesApart {
-    public int[] solve(int[] A, int B) {
+    public static int[] solve(int[] A, int B) {
 
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         int i ;
@@ -34,5 +38,11 @@ public class KplacesApart {
             j++;
         }
         return A;
+    }
+
+    public static void main(String[] args){
+
+        int[] arr = {4,9,27,3,39,44,7,14,30,21};
+        System.out.print(Arrays.toString(solve(arr,4)));
     }
 }

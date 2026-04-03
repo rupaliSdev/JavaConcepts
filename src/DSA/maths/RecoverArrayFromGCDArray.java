@@ -14,42 +14,42 @@ public class RecoverArrayFromGCDArray {
 
     public static void main(String[] args) {
 
-        System.out.println(recoverArray(new ArrayList<>(Arrays.asList(2,2,2,2,8,2,2,2,10))));
+        System.out.println(recoverArray(new ArrayList<>(Arrays.asList(2, 2, 2, 2, 8, 2, 2, 2, 10))));
     }
 
-    public static List<Integer> recoverArray(List<Integer> arr){
-        int n= arr.size();
+    public static List<Integer> recoverArray(List<Integer> arr) {
+        int n = arr.size();
         Map<Integer, Integer> freq = new HashMap<>();
 
         List<Integer> res = new ArrayList<>();
-        for(Integer i:arr){
-           freq.put(i, freq.getOrDefault(i,0)+1);
+        for (Integer i : arr) {
+            freq.put(i, freq.getOrDefault(i, 0) + 1);
 
         }
-        Collections.sort(arr,Collections.reverseOrder());
-        for(Integer i :arr){
+        Collections.sort(arr, Collections.reverseOrder());
+        for (Integer i : arr) {
 
 //            For each number x, if its remaining frequency > 0:
 //             We add it to result once. subtract out all gcds it forms with previously found numbers.
 //            We subtract its self-gcd once.If freq[x] is still >0 after one pass, it means there’s another original element equal to x still to take.
-           while (freq.getOrDefault(i,0)>0){
-               for(Integer j :res){
-                   int g = gcd(j,i);
-                   freq.put(g,freq.get(g)-2);
-               }
-               res.add(i);
-               freq.put(i,freq.get(i)-1);
-           }
+            while (freq.getOrDefault(i, 0) > 0) {
+                for (Integer j : res) {
+                    int g = gcd(j, i);
+                    freq.put(g, freq.get(g) - 2);
+                }
+                res.add(i);
+                freq.put(i, freq.get(i) - 1);
+            }
         }
 
         return res;
     }
 
-    public static int gcd(int a,int b){
-        if(b==0){
+    public static int gcd(int a, int b) {
+        if (b == 0) {
             return a;
         }
 
-        return gcd(b, a%b);
+        return gcd(b, a % b);
     }
 }

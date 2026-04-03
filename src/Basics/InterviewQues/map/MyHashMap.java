@@ -16,7 +16,7 @@ public class MyHashMap<K,V> {
     private int size = 0;
     private int threshold;
 
-    // Node structure for LinkedList bucket
+    // ListNode structure for LinkedList bucket
 
     static class Node<K,V>{
 

@@ -9,7 +9,7 @@ public class InversionCount {
 
 	}
 	
-	public int InverionCount(ArrayList<Integer> A) {
+	public int InversionCount(ArrayList<Integer> A) {
 		   
         int m = 1000000007;
         return invCount(A,0,A.size()-1)%m;
@@ -38,7 +38,6 @@ public class InversionCount {
         int j= m+1;
         int[] c = new int[e-s+1];
         int k=0;
-        int n1= m-s+1;
         int count =0;
         while(i<=m && j<=e){
            if(A.get(i)>A.get(j)){
@@ -63,7 +62,6 @@ public class InversionCount {
              j++;
            
         }
-
         for(int p = s;p<=e;p++){
            A.set(p,c[p-s]);
         }

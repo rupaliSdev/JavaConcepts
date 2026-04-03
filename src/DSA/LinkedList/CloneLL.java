@@ -2,10 +2,10 @@ package DSA.LinkedList;
 
 public class CloneLL {
 
-   // Clone a linked list with next and random pointer
+    // Clone a linked list with next and random pointer
 
     public static void main(String[] args) {
-       CloneNode head = new CloneNode(7);
+        CloneNode head = new CloneNode(7);
         head.next = new CloneNode(14);
         head.next.next = new CloneNode(21);
         head.next.next.next = new CloneNode(28);
@@ -17,62 +17,62 @@ public class CloneLL {
         head.next.next.next.random = head.next;
 
         CloneNode copy = cloneLinkedList(head);
-        while (copy!=null){
+        while (copy != null) {
             System.out.println(copy.val);
-           // System.out.println(copy.random.val);
-            copy=copy.next;
+            // System.out.println(copy.random.val);
+            copy = copy.next;
         }
         copy = cloneLinkedList(head);
-        while (copy!=null){
-           // System.out.println(copy.val);
+        while (copy != null) {
+            // System.out.println(copy.val);
             System.out.println(copy.random.val);
-            copy=copy.next;
+            copy = copy.next;
         }
 
     }
-    public static CloneNode cloneLinkedList(CloneNode head){
 
-        CloneNode curr= head;
-        while (curr!=null){
-            CloneNode copy= new CloneNode(curr.val);
-            copy.next= curr.next;
-            curr.next= copy;
-            curr= copy.next;
+    public static CloneNode cloneLinkedList(CloneNode head) {
+
+        // insert clone node
+        CloneNode curr = head;
+        while (curr != null) {
+            CloneNode copy = new CloneNode(curr.val);
+            copy.next = curr.next;
+            curr.next = copy;
+            curr = copy.next;
         }
-        curr= head;
-        while (curr!=null){
+        //assigning random
+        curr = head;
+        while (curr != null) {
 
-           if(curr.random!=null){
-               curr.next.random= curr.random.next;
-           }
-           curr=curr.next.next;
+            if (curr.random != null) {
+                curr.next.random = curr.random.next;
+            }
+            curr = curr.next.next;
         }
 
         //extract
-        curr= head;
-        CloneNode res= new CloneNode(0),copyCur= res;
+        curr = head;
+        CloneNode res = new CloneNode(0), copyCur = res;
 
-        while (curr!=null){
-            copyCur.next= curr.next;
-
-            copyCur= copyCur.next;
-
-            curr= curr.next.next;
-
+        while (curr != null) {
+            copyCur.next = curr.next;
+            copyCur = copyCur.next;
+            curr = curr.next.next;
         }
 
-     return res.next;
+        return res.next;
     }
 
-    static class CloneNode{
+    static class CloneNode {
         CloneNode random;
         CloneNode next;
         int val;
 
         public CloneNode(int val) {
             this.val = val;
-            random=null;
-            next=null;
+            random = null;
+            next = null;
         }
     }
 }

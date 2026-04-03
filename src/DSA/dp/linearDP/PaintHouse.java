@@ -24,7 +24,7 @@ public class PaintHouse {
 
        int minCost= findMinCost(-1,0,costs);
        int[][] dp = new int[costs.length][costs[0].length];
-       dp[0][0]=17;
+        dp[0][0]=17;
         dp[0][1]=16;
         dp[0][2]=14;
     }

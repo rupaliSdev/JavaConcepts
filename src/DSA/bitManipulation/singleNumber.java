@@ -51,4 +51,10 @@ public class singleNumber {
 
 
 
+	//every element repeat twice except 2 elemenst occurs once
+	public static int singleNumberIII(int[] nums){
+
+		return 0;
+
+	}
 }

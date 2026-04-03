@@ -5,10 +5,10 @@ public class SortLL {
 
     }
 
-    public static Node mergeLL(Node h1,Node h2){
-        Node h3 = new Node(-1);
-        Node curr = h3;
-        Node curr1 =h1,curr2=h2;
+    public static ListNode mergeLL(ListNode h1, ListNode h2){
+        ListNode h3 = new ListNode(-1);
+        ListNode curr = h3;
+        ListNode curr1 =h1,curr2=h2;
 
         while (curr1!=null && curr2!=null){
             if(curr1.value<=curr2.value){

@@ -2,8 +2,9 @@ package DSA.LinkedList;
 
 public class MiddleElement {
 
-    static Node middleElement(Node head){
-        Node slow = head,fast= head;
+    //O(n)
+    public static ListNode middleElement(ListNode head){
+        ListNode slow = head,fast= head;
 
         while (fast.next!=null && fast.next.next!=null){
             slow = slow.next;

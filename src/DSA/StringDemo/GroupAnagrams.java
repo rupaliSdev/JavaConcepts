@@ -21,6 +21,7 @@ public class GroupAnagrams {
         ArrayList<ArrayList<String>> res= new ArrayList<>();
         for(String string :arr){
             String key = findHash(string);
+
             if(!map.containsKey(key)){
                 map.put(key,res.size());
                 res.add(new ArrayList<>());

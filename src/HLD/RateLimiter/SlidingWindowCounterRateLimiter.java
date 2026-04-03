@@ -54,7 +54,7 @@ public class SlidingWindowCounterRateLimiter {
 
         double getWeightedCount(long now, long windowSizeMs) {
             long timeInCurrent = now % windowSizeMs;
-            double weight = (double)(windowSizeMs - timeInCurrent) / windowSizeMs;
+            double weight = (double) (windowSizeMs - timeInCurrent) / windowSizeMs;
             return currentCount + prevCount * weight;
         }
     }

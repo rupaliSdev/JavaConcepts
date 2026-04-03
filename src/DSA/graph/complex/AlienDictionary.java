@@ -1,6 +1,6 @@
 package DSA.graph.complex;
 
-import DSA.graph.topo.TopoSort;
+import DSA.graph.cycleDetection.topo.TopoSort;
 
 import java.util.ArrayList;
 import java.util.List;

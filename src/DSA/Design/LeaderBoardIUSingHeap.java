@@ -45,7 +45,7 @@ public class LeaderBoardIUSingHeap {
         lbHeap.updateScores(4, 30);
         lbHeap.updateScores(5, 90);
 
-// Top 3 after first updates
+        // Top 3 after first updates
         System.out.println(lbHeap.getTopK()); // users: 5, 3, 1
 
         lbHeap.updateScores(1, 20); // user 1 drops

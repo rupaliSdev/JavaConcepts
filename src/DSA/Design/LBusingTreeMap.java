@@ -5,39 +5,37 @@ import java.util.*;
 public class LBusingTreeMap {
 
     private final TreeMap<Integer, Set<Integer>> scoreToUsers;
-    private final HashMap<Integer,Integer> userScores;
+    private final HashMap<Integer, Integer> userScores;
     private final Integer k;
 
 
     public LBusingTreeMap(Integer k) {
         this.userScores = new HashMap<>();
-        this.scoreToUsers=new TreeMap<>(Comparator.reverseOrder());
+        this.scoreToUsers = new TreeMap<>(Comparator.reverseOrder());
         this.k = k;
     }
 
     //O(1)
-    public void updateScores(Integer userId,Integer scores){
-        if(userScores.containsKey(userId)){
-            Set<Integer> users= scoreToUsers.get(userScores.get(userId));
+    public void updateScores(Integer userId, Integer scores) {
+        if (userScores.containsKey(userId)) {
+            Set<Integer> users = scoreToUsers.get(userScores.get(userId));
             users.remove(userId);
-            if(users.isEmpty()) scoreToUsers.remove(userScores.get(userId));
+            if (users.isEmpty()) scoreToUsers.remove(userScores.get(userId));
         }
-        userScores.put(userId,scores);
-
-        scoreToUsers.computeIfAbsent(scores,k->new HashSet<>()).add(userId);
+        userScores.put(userId, scores);
+        scoreToUsers.computeIfAbsent(scores, k -> new HashSet<>()).add(userId);
     }
 
     public List<Map.Entry<Integer, Integer>> getTopK() {
         List<Map.Entry<Integer, Integer>> result = new ArrayList<>();
-        for(Map.Entry<Integer,Set<Integer>> entry:scoreToUsers.entrySet()){
-            for (Integer id : entry.getValue()){
-                if(result.size()>k)break;
-                result.add(Map.entry(id,entry.getKey()));
+        for (Map.Entry<Integer, Set<Integer>> entry : scoreToUsers.entrySet()) {
+            for (Integer id : entry.getValue()) {
+                if (result.size() > k) break;
+                result.add(Map.entry(id, entry.getKey()));
             }
-
         }
-       result.sort((a,b)->b.getValue()-a.getValue());
-     return result;
+        result.sort((a, b) -> b.getValue() - a.getValue());
+        return result;
 
     }
 

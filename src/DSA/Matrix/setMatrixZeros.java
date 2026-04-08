@@ -27,6 +27,8 @@ public class setMatrixZeros {
                 if (mat[i][0] == 0 || mat[0][j] == 0)
                     mat[i][j] = 0;
 
+
+
         if (firstRow) for (int j = 0; j < n; j++) mat[0][j] = 0;
         if (firstCol) for (int i = 0; i < m; i++) mat[i][0] = 0;
     }

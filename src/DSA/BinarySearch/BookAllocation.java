@@ -38,9 +38,9 @@ You have to allocate the book to ‘m’ students such that the maximum number o
 
 
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(25, 46, 28, 49, 24));
-        int n = 5;
-        int m = 4;
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(13, 31, 37, 45, 46 ,54 ,55, 63 ,73 ,84 ,85));
+        int n = arr.size();
+        int m = 9;
         int ans = allocateBook(arr, n, m);
         System.out.println("The answer is: " + ans);
 

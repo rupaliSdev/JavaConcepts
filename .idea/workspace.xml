@@ -5,157 +5,179 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="java concepts + LLD">
-      <change afterPath="$PROJECT_DIR$/src/DSA/A_google.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Array/Kadane/MaxSubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Array/MinSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Array/WaveSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/MaxAbsoluteDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/MaxTeamOfKPlayers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/AutoComplete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/BrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/ConsistentHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/DesignFileSharingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/HitCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LeaderBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/LogStorageSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/MyCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/PhoneDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/RandomizedSetII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/SnakeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/Twitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Design/UndergroundSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Google/MinNoOfSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/RemoveNthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/ReverseLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LongestSubstringWithoutRepeatingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/StringMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/AddOneDigitNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/BurstBallons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/CountOfSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/CountSubsetWithGivenDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/EqualSumPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/MinSubsetSumDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/SubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/mcm/MCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/unboundedknapsack/CoinChangeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/dp/unboundedknapsack/RodCuttingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/basics/FindifPathExistsinGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/basics/ReorderRoutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/bfs/KnightsInChess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/EventualSafeStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/LongestCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/UndirectedGraphCycleDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/topo/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/SnackesAndLadders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/greedy/MinPlatformsRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/EmployeeFreeTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/IntervalIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/MeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/NonOverLappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/intervals/SkyLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/maths/MathFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/slidingwindowTP/MaxConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/GenerateParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/ScoreOfParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/stack/ValidParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/testr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HLD/Twitter/twitter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/factory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/ClothingProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/ElectronicsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/GroceryProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Observers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/RateLimiter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/googleCalender/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD_Design/problems/googleCalender/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os_coding/threadlocal&amp;VirtualThread.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/backtracking/WordBreakII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartitionII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/LastDayToCross.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Amazon/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaConcepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcepts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DSA/Array/RotateNonNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Array/RotateNonNegative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Array/prefixSum/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/slidingwindowTP/prefixSum/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Array/prefixSum/EquilibriumIndexOfAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/slidingwindowTP/prefixSum/EquilibriumIndexOfAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Array/prefixSum/SpecialIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/slidingwindowTP/prefixSum/SpecialIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Array/prefixSum/pickFromBothSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/slidingwindowTP/prefixSum/pickFromBothSide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/FirstMissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/FirstMissingInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/MaxValueOFEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/MaxValueOfEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/ArrayAdvanced/max_absoluteDiff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Design/LBusingTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Design/LBusingTreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Design/LeaderBoardIUSingHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Design/LeaderBoardIUSingHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/CloneLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/CloneLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/DetectACycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/DetectACycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LRU_CACHE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/MiddleElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/MiddleElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/ReorderLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/ReorderLinkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/SortLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/SortLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/doublyLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/DoublyLinkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/happyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Matrix/BinarySortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Matrix/BinarySortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Matrix/NinetyDegreeRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Matrix/NinetyDegreeRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Matrix/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Matrix/basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LongestPalindromic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/validSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/ValidSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/bitManipulation/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/bitManipulation/singleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/Strings/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/Strings/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/Strings/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/Strings/longestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/Strings/LongestIncreasingPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/knapsack/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/unboundedknapsack/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/knapsack/KnapSackUnbounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/unboundedknapsack/KnapSackUnbounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/knapsack/KnapsackBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/knapsack01/KnapsackBounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/knapsack/UnboundedKnapsackMemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/unboundedknapsack/UnboundedKnapsackMemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/linearDP/CoinChangeII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/linearDP/MinCostToClimb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/MinCostToClimb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/linearDP/MinPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/pathToTarget/MinPathSumTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/dp/linearDP/PaintHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/linearDP/PaintHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/ClonedGraphQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/ClonedGraphQues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/CountNoOfIslands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/basics/basic_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/basics/basic_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/complex/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/complex/AlienDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/components/NoOFIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/components/NoOFIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/components/RottenOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/bfs/RottenOranges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/directed/DetectCycleInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/DirectedGraphCycleDetection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/directed/Dikshtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/Dikshtra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/path/CheapestFlightWithKStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/CheapestFlightWithKStops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/path/DijkstraNegativeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/DijkstraNegativeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/path/ShortestPathDAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/ShortestPathDAG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/path/ShortestPathUAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/shortestPath/undirected/ShortestPathUAG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/topo/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/topo/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/topo/TopoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/graph/cycleDetection/topo/TopoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/graph/undirected/DetectCycleInUndirectedGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/KplacesApart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/KplacesApart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/deleteroot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/heapdemo/HeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/heapdemo/heapdemoex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/intervals/MyCalenderIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/maths/MajorityElementNTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/MajorityElementNTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/maths/RecoverArrayFromGCDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/RecoverArrayFromGCDArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/SortedPermutationRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/maths/primeNo/CountNoOfDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/maths/primeNo/CountNoOfDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDistanceApart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/CowDistanceApart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Matrix/setMatrixZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Matrix/setMatrixZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Recursion/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/Recursion/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Recursion/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/Recursion/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Recursion/SudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/backtracking/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/backtracking/ValidSudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DSA/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DSA/sorting/sorting/InversionCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/sorting/sorting/InversionCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/stack/checkBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/stack/checkBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowCounterRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowCounterRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowLogRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowLogRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/ThreadLocalEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/ThreadLocalEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/os_coding/ThreadPoolExecutor/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/os_coding/ThreadPoolExecutor/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/DebugLogProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/ErrorLogProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/InfoLogProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/LogProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/LoggerDesignPattern/MainT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObjectPoolDesignPattern/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/ObjectPoolDesignPattern/DBConnectionPoolManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Observable/IphoneObserverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Observable/StockObservable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Observer/EmailAlertObserverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Observer/NotificationAlertObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/ObserverDesignPattern/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/VendingMachine/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/VendingMachine/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/VendingMachine/VendingMachineDEMO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/VendingMachine/VendingMachineState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/strategyDesignPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_Behavioural/strategyDesignPattern/ShippingCostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/AbstarctFactory/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/AbstarctFactory/ParkingLotDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Client_Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Builder_design/builder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/FactoryDesign/AndroidUIFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/FactoryDesign/Flutter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/FactoryDesign/UIFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/QuizEx/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/scaler/IntelligentStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/scaler/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/scaler/client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/scaler/prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/Prototype_DesignPattern/scaler/studentRegistery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/SingletonDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/ex1/v1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/ex2/DatabaseConnection1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/ex2/DatabaseConnection2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/ex2/DatabaseConnection3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/SingletonDesignPattern/ex2/DatabaseConnection4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_creational/notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/Adapter/AdapterDesignPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/Adapter/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/Bridge/BridgeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/Decorator/DecoratorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/proxy/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/P_structural/proxy/OrderServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/DI/DependecyInversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/InterfaceSegragation/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/LSP/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/OCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/SOLIDPrniciples/SRP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/ReservationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Reservations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/CarRentalDesignSystem/VehicleInventoryManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/DiscountServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/HMS/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/HMS/OrderBill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/factory/ProductFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/ClothingProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/ElectronicsProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/GroceryProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Observers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/InventoryManagementSystem/model/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Building.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ElevatorState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/ExternalDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/InternalDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LLDElevatorDesign/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/HLD.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/LinkedInSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/LinkedinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/Observer/NotificationObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/Observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/ConnectionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Education.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Like.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/NewsFeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/NotificationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/entity/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/req.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/service/ConnectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/service/NewsFeedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/service/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/service/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/startegy/ChronologicalSortStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/LinkedIn/startegy/FeedSortingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/IOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op/IOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OMS/op2/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/Attempt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/ExamConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/OnlineExamSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/OnlineExamSystem/lld.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/RateLimiter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/googleCalender/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/googleCalender/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Dice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Jump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/snakeAndLadder/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/SplitwiseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/ExpenseSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/SplitType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/services/BalanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/services/ExpenseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/services/SettleMentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/strategy/EqualSplitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/strategy/ExactSplitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/strategy/PercentageSplitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/strategy/SplitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LLD_Design/problems/splitwise/strategy/SplitStrategyFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +190,7 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -204,171 +227,177 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlienDictionary.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.BFSDemo.executor": "Run",
-    "Application.BinarySortedArray.executor": "Run",
-    "Application.BookAllocation.executor": "Run",
-    "Application.BuildArraypermutation.executor": "Debug",
-    "Application.CheapestFlightWithKStops.executor": "Debug",
-    "Application.CircleAndLatticePoints.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.CloneLL.executor": "Run",
-    "Application.CoinChange.executor": "Run",
-    "Application.CoinChangeII.executor": "Run",
-    "Application.CollectionDemo.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.CountNoOfTeams.executor": "Debug",
-    "Application.CountSubArrayDivisibleByK.executor": "Debug",
-    "Application.CountSubsetWithGivenDiff.executor": "Run",
-    "Application.CountsubArrayequalK.executor": "Debug",
-    "Application.CourseSchedule.executor": "Run",
-    "Application.CowDdistanceApart.executor": "Run",
-    "Application.CowDistanceApart.executor": "Run",
-    "Application.CyclicSort.executor": "Run",
-    "Application.DecoratorDemo.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.DetectCycleInDirectedGraph.executor": "Run",
-    "Application.DetectCycleInUndirectedGraph.executor": "Run",
-    "Application.DevideInteger.executor": "Debug",
-    "Application.DiameterOfBT.executor": "Run",
-    "Application.DijkstraNegativeDemo.executor": "Debug",
-    "Application.DiscountServices.executor": "Run",
-    "Application.EnumDemo.executor": "Run",
-    "Application.EqualSumPartition.executor": "Debug",
-    "Application.EventualSafeStates.executor": "Run",
-    "Application.ExecutorFramwork.executor": "Debug",
-    "Application.FairnessDemo.executor": "Run",
-    "Application.FindFloorNo.executor": "Run",
-    "Application.FindRecurringSequence.executor": "Run",
-    "Application.FindTheRunningMedian.executor": "Run",
-    "Application.FirstMissingInteger.executor": "Run",
-    "Application.FirstUniqueCharacter.executor": "Run",
-    "Application.FunctionDemo.executor": "Run",
-    "Application.GroupAnagrams.executor": "Run",
-    "Application.HandsOn1_Book.executor": "Run",
-    "Application.HashCodevsEquals.executor": "Run",
-    "Application.InfixToPostfix.executor": "Run",
-    "Application.InterviewDesign.executor": "Run",
-    "Application.Iterators.executor": "Run",
-    "Application.Java17ClassDemo.executor": "Run",
-    "Application.JavaOracleUpdate.executor": "Run",
-    "Application.KahnsAlgo.executor": "Run",
-    "Application.KnapSackUnbounded.executor": "Debug",
-    "Application.KnapsackBounded.executor": "Run",
-    "Application.KnightsInChess.executor": "Run",
-    "Application.KplacesApart.executor": "Run",
-    "Application.KthPermutation.executor": "Debug",
-    "Application.LBusingTreeMap.executor": "Run",
-    "Application.LLD_Design.LLDElevatorDesign.Main.executor": "Run",
-    "Application.LeaderBoardIUSingHeap.executor": "Run",
-    "Application.MCM.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainApp.executor": "Debug",
-    "Application.MainDemo.executor": "Run",
-    "Application.MainT.executor": "Run",
-    "Application.MajorityElementNTwo.executor": "Run",
-    "Application.MapDemo.executor": "Run",
-    "Application.MathFunctions.executor": "Run",
-    "Application.MaxConsecutiveOnes.executor": "Run",
-    "Application.MaxMeetingsOnePerDay.executor": "Run",
-    "Application.MaxNoOfEventCanBeAttended.executor": "Debug",
-    "Application.MaxSubArraySum.executor": "Run",
-    "Application.MaxSumSquareSubMatrix.executor": "Run",
-    "Application.MaxTeamOfKPlayers.executor": "Run",
-    "Application.MaximumPathSumInMatrix.executor": "Run",
-    "Application.MedianOfTwoSortedArrays.executor": "Run",
-    "Application.MinPathSum.executor": "Run",
-    "Application.MinPlatformsRequired.executor": "Run",
-    "Application.MinSubsetSumDiff.executor": "Run",
-    "Application.MinSwaps.executor": "Run",
-    "Application.MonitorLock.executor": "Run",
-    "Application.NMeetingsInARoom.executor": "Run",
-    "Application.NQueens.executor": "Run",
-    "Application.NinetyDegreeRotation.executor": "Run",
-    "Application.NoOFIslands.executor": "Run",
-    "Application.NoOfProvinces.executor": "Run",
-    "Application.Oracle.executor": "Run",
-    "Application.OrderManagementSystem.executor": "Run",
-    "Application.OrderService.executor": "Run",
-    "Application.Passenger.executor": "Run",
-    "Application.Permutations.executor": "Run",
-    "Application.PointsProblems.executor": "Run",
-    "Application.PredictTheWinner.executor": "Run",
-    "Application.RecoverArrayFromGCDArray.executor": "Run",
-    "Application.ReentrantLocks.executor": "Debug",
-    "Application.ReorderLinkedlist.executor": "Run",
-    "Application.RightViewOfBinaryTree.executor": "Run",
-    "Application.RodCuttingProblem.executor": "Run",
-    "Application.Saving.executor": "Run",
-    "Application.ShortestPathDAG.executor": "Run",
-    "Application.ShortestPathUAG.executor": "Run",
-    "Application.SlidingWindowMaximum.executor": "Run",
-    "Application.SmallestSubArrayGreaterThanK.executor": "Run",
-    "Application.SnackesAndLadders.executor": "Run",
-    "Application.SortedArrayToBBST.executor": "Run",
-    "Application.SortedPermutationRank.executor": "Run",
-    "Application.SpecialIndex.executor": "Debug",
-    "Application.SpiralProblems.executor": "Run",
-    "Application.StampedLockDemo.executor": "Run",
-    "Application.Store.executor": "Run",
-    "Application.StringMatching.executor": "Run",
-    "Application.SubsequenceMaxSum.executor": "Run",
-    "Application.SubsetProblems.executor": "Run",
-    "Application.SubsetSum.executor": "Run",
-    "Application.SudokuSolver.executor": "Run",
-    "Application.ThreadLocalEx.executor": "Run",
-    "Application.TimedLockingAndInterrupt.executor": "Run",
-    "Application.TokenBucketRateLimiter.executor": "Debug",
-    "Application.TopoSort.executor": "Run",
-    "Application.ToySelection.executor": "Run",
-    "Application.TrappingRainProblem.executor": "Run",
-    "Application.Tstthrws.executor": "Run",
-    "Application.UnboundedKnapsackMemo.executor": "Run",
-    "Application.UndirectedGraphCycleDetection.executor": "Run",
-    "Application.UniqueSubtrees.executor": "Run",
-    "Application.WaveSort.executor": "Run",
-    "Application.demo.executor": "Run",
-    "Application.findTheSearchInRotatedArray.executor": "Run",
-    "Application.generateNumbers.executor": "Run",
-    "Application.immuatable_concepts.executor": "Run",
-    "Application.levelOrderTraversal.executor": "Run",
-    "Application.longestIncreasingSubsequence.executor": "Run",
-    "Application.map.executor": "Run",
-    "Application.max_absoluteDiff.executor": "Debug",
-    "Application.os_coding.MonitorLockExample.Client.executor": "Run",
-    "Application.slidingWindowMaximum.executor": "Run",
-    "Application.test.executor": "Run",
-    "Application.test1.executor": "Run",
-    "Application.testr.executor": "Run",
-    "Application.validSudoku.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlienDictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFSDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookAllocation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildArraypermutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CheapestFlightWithKStops.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CircleAndLatticePoints.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChangeII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNoOfTeams.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountSubArrayDivisibleByK.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountSubsetWithGivenDiff.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountsubArrayequalK.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CourseSchedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CowDdistanceApart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CowDistanceApart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectCycleInDirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectCycleInUndirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DevideInteger.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DiameterOfBT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DijkstraNegativeDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DiscountServices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualSumPartition.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EventualSafeStates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorFramwork.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FairnessDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFloorNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindRecurringSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheRunningMedian.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstMissingInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandsOn1_Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashCodevsEquals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfixToPostfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewDesign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InversionCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java17ClassDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaOracleUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KahnsAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnapSackUnbounded.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KnapsackBounded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnightsInChess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KplacesApart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthPermutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LBusingTreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LLD_Design.LLDElevatorDesign.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LastDayToCross.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LeaderBoardIUSingHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MCM.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElementNTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxConsecutiveOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMeetingsOnePerDay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNoOfEventCanBeAttended.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxSubArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSumSquareSubMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxTeamOfKPlayers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumPathSumInMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MedianOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinPathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinPlatformsRequired.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSubsetSumDiff.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSwaps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonitorLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NMeetingsInARoom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NinetyDegreeRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOFIslands.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOfProvinces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Oracle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromicPartition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromicPartitionII.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Passenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PointsProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredictTheWinner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecoverArrayFromGCDArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLocks.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReorderLinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightViewOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RodCuttingProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateNonNegative.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Saving.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestPathDAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestPathUAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestSubArrayGreaterThanK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SnackesAndLadders.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedArrayToBBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedPermutationRank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecialIndex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpiralProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StampedLockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Store.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsequenceMaxSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SudokuSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimedLockingAndInterrupt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TokenBucketRateLimiter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TopoSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToySelection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tstthrws.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnboundedKnapsackMemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UndirectedGraphCycleDetection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueSubtrees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidSudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaveSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findTheSearchInRotatedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generateNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.immuatable_concepts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.levelOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.longestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.max_absoluteDiff.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.os_coding.MonitorLockExample.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.slidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.validSudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/r0s0p1k/Desktop/Rupali_projects/JavaConcepts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LLD_Design.problems.InventoryManagementSystem.model" />
@@ -388,13 +417,13 @@
       <recent name="LLD_Design.Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MCM">
-    <configuration name="DiscountServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD_Design.problems.DiscountServices" />
+  <component name="RunManager" selected="Application.BookAllocation">
+    <configuration name="BookAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.BookAllocation" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD_Design.problems.*" />
+          <option name="PATTERN" value="DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,8 +431,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.dp.mcm.MCM" />
+    <configuration name="LastDayToCross" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.graph.shortestPath.LastDayToCross" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.graph.shortestPath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromicPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.mcm.PalindromicPartition" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
@@ -415,12 +457,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAbsoluteDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ArrayAdvanced.MaxAbsoluteDiff" />
+    <configuration name="PalindromicPartitionII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.dp.mcm.PalindromicPartitionII" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ArrayAdvanced.*" />
+          <option name="PATTERN" value="DSA.dp.mcm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,25 +470,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPlatformsRequired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.greedy.MinPlatformsRequired" />
+    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.backtracking.ValidSudoku" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Array.MinSwaps" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.Array.*" />
+          <option name="PATTERN" value="DSA.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,11 +485,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MCM" />
-        <item itemvalue="Application.MinPlatformsRequired" />
-        <item itemvalue="Application.DiscountServices" />
-        <item itemvalue="Application.MaxAbsoluteDiff" />
-        <item itemvalue="Application.MinSwaps" />
+        <item itemvalue="Application.BookAllocation" />
+        <item itemvalue="Application.PalindromicPartition" />
+        <item itemvalue="Application.PalindromicPartitionII" />
+        <item itemvalue="Application.LastDayToCross" />
+        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769195542560</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="java concepts + LLD">
+      <option name="closed" value="true" />
+      <created>1775181936865</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775181936865</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +677,8 @@
     <MESSAGE value="Commiting somechanges" />
     <MESSAGE value="CouponSystem.java changes" />
     <MESSAGE value="Linkedin  changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linkedin  changes" />
+    <MESSAGE value="java concepts + LLD" />
+    <option name="LAST_COMMIT_MESSAGE" value="java concepts + LLD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,11 +868,6 @@
           <url>file://$PROJECT_DIR$/src/DSA/ArrayProblems/ArrayAdvanced/KthPermutation.java</url>
           <line>8</line>
           <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/CowDistanceApart.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DSA/BST/SortedArrayToBBST.java</url>
@@ -1153,6 +1186,36 @@
           <line>23</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Array/RotateNonNegative.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Array/RotateNonNegative.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/graph/shortestPath/LastDayToCross.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartition.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartitionII.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/dp/mcm/PalindromicPartitionII.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LLD_Design/structural/Decorator/DecoratorDemo.java</url>
           <line>3</line>
@@ -1197,6 +1260,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DSA/BinarySearch/BookAllocation.java</url>
+          <line>39</line>
+          <properties class="DSA.BinarySearch.BookAllocation" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/DSA/StringDemo/GroupAnagrams.java</url>

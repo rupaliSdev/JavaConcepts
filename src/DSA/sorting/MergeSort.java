@@ -8,7 +8,7 @@ public class MergeSort {
         // TODO Auto-generated method stub
         int[] A = {2, 5, 7, 9, 13};
         int[] B = {1, 6, 8, 11, 14};
-        int[] C = Merge(A, B);
+        int[] C = merge(A, B);
 
         System.out.println(Arrays.toString(C));
         int[] k = {5, 2, 8, 7, 13, 23, 12, 9};
@@ -25,11 +25,11 @@ public class MergeSort {
         int mid = (s + e) / 2;
         k = mergeSort(k, s, mid);
         k = mergeSort(k, mid + 1, e);
-        MergetheArray(k, s, mid, e);
+        mergetheArray(k, s, mid, e);
         return k;
     }
 
-    private static int[] Merge(int[] a, int[] b) {
+    private static int[] merge(int[] a, int[] b) {
         // TODO Auto-generated method stub
         int i = 0;
         int j = 0;
@@ -48,7 +48,7 @@ public class MergeSort {
         return c;
     }
 
-    private static int[] MergetheArray(int[] a, int s, int mid, int e) {
+    private static int[] mergetheArray(int[] a, int s, int mid, int e) {
         int i = s;
         int j = mid + 1;
         int k = 0;

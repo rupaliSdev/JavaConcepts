@@ -7,14 +7,10 @@ public class CowDistanceApart {
 
 
         int[] arr = {1, 3, 5, 6, 7, 10, 11, 15, 16, 17, 20, 22};
-        int[] arr1 = {6, 4 ,3 ,16, 20 ,7 ,18 ,10};
+        int[] arr1 = {6, 4, 3, 16, 20, 7, 18, 10};
         int c = 6;
         System.out.println(aggressiveCows(arr1, 5));
-
-
     }
-
-
     public static int aggressiveCows(int[] stalls, int k) {
         Arrays.sort(stalls);
         int low = 1;

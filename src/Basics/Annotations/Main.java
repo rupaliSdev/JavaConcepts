@@ -10,16 +10,17 @@ public class Main {
         Mobile mobObj=new Mobile();
         mobObj.dummyMethod();
     }
+
+    @Repeatable(MyAnnotations.class)
+    static @interface MyAnnotation {
+        String value();
+    }
+
+    @Retention(RetentionPolicy.RUNTIME)
+    @Target(ElementType.TYPE)
+    static @interface MyAnnotations {
+        MyAnnotation[] value();
+    }
 }
 
 
-@Repeatable(MyAnnotations.class)
-@interface MyAnnotation {
-    String value();
-}
-
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-@interface MyAnnotations {
-    MyAnnotation[] value();
-}

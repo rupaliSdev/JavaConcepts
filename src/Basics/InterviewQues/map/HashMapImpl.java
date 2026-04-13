@@ -47,13 +47,15 @@ MAP is an object that maps keys to values”
 So, there must be some mechanism in HashMap to store this key-value pair.
 Everything in Hashmap is stored in a bucket internally (of hash table - underlying DS)
 
+ */
+
 static class ListNode<K,V> implements Map.Entry<K,V> {
         final int hash;
         final K key;
         V value;
-        HashMap.ListNode<K,V> next;
+        ListNode<K,V> next;
 
-        ListNode(int hash, K key, V value, HashMap.ListNode<K,V> next) {
+        ListNode(int hash, K key, V value, ListNode<K,V> next) {
             this.hash = hash;
             this.key = key;
             this.value = value;
@@ -82,7 +84,7 @@ static class ListNode<K,V> implements Map.Entry<K,V> {
                     && Objects.equals(key, e.getKey())
                     && Objects.equals(value, e.getValue());
         }
-    }*/
+    }
 
 
 

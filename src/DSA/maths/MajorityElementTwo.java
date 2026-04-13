@@ -3,7 +3,7 @@ package DSA.maths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MajorityElementNTwo {
+public class MajorityElementTwo {
     public static void main(String[] args) {
         System.out.println(majorityElement(new int[]{3, 1, 3, 3, 2}));
         //System.out.println(CMEThree(new int[]{2, 2, 3, 1, 3, 2, 1, 1}));

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes" />
+    <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="Linkedin  changes">
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch/FindTheClosestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/StringDemo/RabinKarpAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Annotations/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/LPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/StringDemo/reverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/StringDemo/ReverseString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +40,12 @@
     &quot;assignee&quot;: &quot;rupaliSdev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rupaliSdev/JavaConcepts.git&quot;,
-    &quot;accountId&quot;: &quot;9bfb2db2-2309-49eb-93d7-8dedf12afd5f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rupaliSdev/JavaConcepts.git",
+    "accountId": "9bfb2db2-2309-49eb-93d7-8dedf12afd5f"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.11/Contents/Home/lib/src.zip!/java.base/java/lang/SafeVarargs.java" root0="SKIP_INSPECTION" />
   </component>

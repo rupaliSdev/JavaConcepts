@@ -1,6 +1,6 @@
 package DSA.StringDemo;
 
-public class reverseString {
+public class ReverseString {
 
 	public static void main(String[] args) {
 		String str = "hello";

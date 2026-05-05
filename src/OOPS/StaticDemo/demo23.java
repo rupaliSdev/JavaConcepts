@@ -23,66 +23,65 @@ public class demo23 {
 //        System.out.println(x);
 
 */
-        Node x= new Node(1,null);
+        Node x = new Node(1, null);
 
-        Node y= new Node(2,null);
+        Node y = new Node(2, null);
 
-        x.next=y;
+        x.next = y;
 
-        Node z= new Node(3,null);
+        Node z = new Node(3, null);
 
-        y.next=z;
+        y.next = z;
 
-        Node t= new Node(4,null);
+        Node t = new Node(4, null);
 
-        z.next=t;
+        z.next = t;
 
 
-
-        Node head =swapNodes(x);
-        while (head!=null){
+        Node head = swapNodes(x);
+        while (head != null) {
             System.out.println(head.data);
-            head=head.next;
+            head = head.next;
         }
 
     }
 
     private static Node swapNodes(Node x) {
-        Node curr=x; //1
-        Node prev=new Node(0,null);
-        Node head=prev;
+        Node curr = x; //1
+        Node prev = new Node(0, null);
+        Node head = prev;
 
         while (curr.next != null) {
 
-            Node temp=curr.next;//2
-            curr.next=temp.next;//3
-            temp.next=curr;
-            prev.next=temp;
-            prev=curr;
-            if(curr.next!=null){
-                curr=curr.next;
+            Node temp = curr.next;//2
+            curr.next = temp.next;//3
+            temp.next = curr;
+            prev.next = temp;
+            prev = curr;
+            if (curr.next != null) {
+                curr = curr.next;
             }
 
         }
         return head.next;
     }
 
-    public static int removeduplicates(int[] nums){
+    public static int removeduplicates(int[] nums) {
 
 
-        int j=0;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]!=nums[j]){
-              j++;
-              nums[j]=nums[i];
+        int j = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[j]) {
+                j++;
+                nums[j] = nums[i];
             }
         }
-        return j+1;
+        return j + 1;
 
     }
 }
 
-class  Node{
+class Node {
     int data;
     Node next;
 

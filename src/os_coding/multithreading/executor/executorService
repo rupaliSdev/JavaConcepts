@@ -1,0 +1,6 @@
+executor <<interface>>  ---> executor service  <<interface>>
+
+----> ThreadPoolExecutor
+----> ScheduledExecutorService ----> ScheduledThreadPoolExecutor
+----> ForkJoinPool
+

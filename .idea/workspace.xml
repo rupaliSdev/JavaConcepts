@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71045161-5786-4dbe-974d-86df6aadf810" name="Changes" comment="String related questions">
-      <change afterPath="$PROJECT_DIR$/src/Basics/InterviewQues/map/HashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/FixedWindowAlgo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/LeakyBucketRateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowCounterRateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/SlidingWindowLogRateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/RateLimiter/TokenBucketRateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/Twitter/twitter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/gs.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/scheduler.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HLD/typehead.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/StaticDemo/demo23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/StaticDemo/demo23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prefixSum/EquilibriumIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prefixSum/specialIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/inventory_wm.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/inventory_wm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776062591648</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="String related questions">
+      <option name="closed" value="true" />
+      <created>1777963613669</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777963613669</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

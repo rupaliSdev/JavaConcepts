@@ -42,8 +42,12 @@ https://chatgpt.com/c/68effe14-fa18-8323-abbf-790d5ea22f80
 
 https://chatgpt.com/c/68eff591-ffe0-8323-81a3-16971d639336
 
-https://chatgpt.com/c/68efebdd-f870-8320-bafc-754ac9272de4
+
 
 https://www.perplexity.ai/search/go-through-my-walmart-projects-GZ7oRTYJRwG1p7_8l7y69g
 
 https://chatgpt.com/c/68efebdd-f870-8320-bafc-754ac9272de4
+
+https://chatgpt.com/c/69f997ec-3a30-8322-91f5-705db6ab894f
+
+https://chatgpt.com/c/69fbcde5-b5c8-8323-91cd-428d8591d4c2
